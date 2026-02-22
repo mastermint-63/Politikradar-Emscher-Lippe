@@ -433,7 +433,7 @@
 <tr><th>Mo</th><th>Di</th><th>Mi</th><th>Do</th><th>Fr</th><th>Sa</th><th>So</th></tr>
 <tr><td></td><td></td><td></td><td></td><td></td><td></td><td class="kal-leer">1</td></tr>
 <tr><td><a href="#datum-2026-02-02" class="kal-link">2</a></td><td><a href="#datum-2026-02-03" class="kal-link">3</a></td><td><a href="#datum-2026-02-04" class="kal-link">4</a></td><td><a href="#datum-2026-02-05" class="kal-link">5</a></td><td><a href="#datum-2026-02-06" class="kal-link">6</a></td><td class="kal-leer">7</td><td class="kal-leer">8</td></tr>
-<tr><td><a href="#datum-2026-02-09" class="kal-link">9</a></td><td><a href="#datum-2026-02-10" class="kal-link">10</a></td><td><a href="#datum-2026-02-11" class="kal-link">11</a></td><td><a href="#datum-2026-02-12" class="kal-link">12</a></td><td><a href="#datum-2026-02-13" class="kal-link">13</a></td><td class="kal-leer">14</td><td class="kal-leer">15</td></tr>
+<tr><td class="kal-leer">9</td><td><a href="#datum-2026-02-10" class="kal-link">10</a></td><td><a href="#datum-2026-02-11" class="kal-link">11</a></td><td><a href="#datum-2026-02-12" class="kal-link">12</a></td><td><a href="#datum-2026-02-13" class="kal-link">13</a></td><td class="kal-leer">14</td><td class="kal-leer">15</td></tr>
 <tr><td class="kal-leer">16</td><td><a href="#datum-2026-02-17" class="kal-link">17</a></td><td><a href="#datum-2026-02-18" class="kal-link">18</a></td><td><a href="#datum-2026-02-19" class="kal-link">19</a></td><td><a href="#datum-2026-02-20" class="kal-link">20</a></td><td class="kal-leer">21</td><td class="kal-leer">22</td></tr>
 <tr><td><a href="#datum-2026-02-23" class="kal-link">23</a></td><td><a href="#datum-2026-02-24" class="kal-link">24</a></td><td><a href="#datum-2026-02-25" class="kal-link">25</a></td><td><a href="#datum-2026-02-26" class="kal-link">26</a></td><td><a href="#datum-2026-02-27" class="kal-link">27</a></td><td class="kal-leer">28</td><td></td></tr>
 </table>
@@ -459,32 +459,20 @@
             <div class="filter-group">
                 <label class="filter-label">Überregional</label>
                 <select class="kreis-filter" id="filter-ueberregional" onchange="filterTermine()">
-                    <option value="">Überregional</option><option value="Regionalverband Ruhr (RVR)">Regionalverband Ruhr (RVR)</option>
+                    <option value="">Überregional</option><option value="Kreis Recklinghausen">Kreis Recklinghausen</option><option value="Regionalverband Ruhr (RVR)">Regionalverband Ruhr (RVR)</option>
                 </select>
             </div>
             <div class="filter-group">
-                <label class="filter-label">Gelsenkirchen</label>
-                <select class="kreis-filter" id="filter-gelsenkirchen" onchange="filterTermine()">
-                    <option value="">Gelsenkirchen</option><option value="Gelsenkirchen">Gelsenkirchen</option>
-                </select>
-            </div>
-            <div class="filter-group">
-                <label class="filter-label">Bottrop</label>
-                <select class="kreis-filter" id="filter-bottrop" onchange="filterTermine()">
-                    <option value="">Bottrop</option><option value="Bottrop">Bottrop</option>
-                </select>
-            </div>
-            <div class="filter-group">
-                <label class="filter-label">Kreis Recklinghausen</label>
-                <select class="kreis-filter" id="filter-recklinghausen" onchange="filterTermine()">
-                    <option value="">Kreis Recklinghausen</option><option value="Datteln">Datteln</option><option value="Dorsten">Dorsten</option><option value="Gladbeck">Gladbeck</option><option value="Haltern am See">Haltern am See</option><option value="Herten">Herten</option><option value="Kreis Recklinghausen">Kreis Recklinghausen</option><option value="Marl">Marl</option><option value="Oer-Erkenschwick">Oer-Erkenschwick</option><option value="Recklinghausen">Recklinghausen</option><option value="Waltrop">Waltrop</option>
+                <label class="filter-label">Emscher-Lippe-Städte</label>
+                <select class="kreis-filter" id="filter-emscherlippe" onchange="filterTermine()">
+                    <option value="">Emscher-Lippe-Städte</option><option value="Bottrop">Bottrop</option><option value="Datteln">Datteln</option><option value="Dorsten">Dorsten</option><option value="Gelsenkirchen">Gelsenkirchen</option><option value="Haltern am See">Haltern am See</option><option value="Herten">Herten</option><option value="Marl">Marl</option><option value="Oer-Erkenschwick">Oer-Erkenschwick</option><option value="Recklinghausen">Recklinghausen</option><option value="Waltrop">Waltrop</option>
                 </select>
             </div>
             </div>
             <div class="filter-stats">
                 <div class="active-filters" id="active-filters"></div>
                 <div class="stats">
-                    <span id="termine-count">89</span> von 89 Terminen
+                    <span id="termine-count">82</span> von 82 Terminen
                 </div>
             </div>
         </div>
@@ -504,18 +492,6 @@
                         </div>
                         <div class="termin-stadt">Kreis Recklinghausen</div>
                         <div class="termin-ort">Stadthalle Oer-Erkenschwick</div>
-                    </div>
-                </div>
-            
-                <div class="termin" data-stadt="Gladbeck">
-                    <div class="termin-zeit">16:00 Uhr</div>
-                    <div class="termin-info">
-                        <div class="termin-gremium">
-                            <a href="https://gladbeck.gremien.info/meeting?id=ni_2026-9-137" target="_blank">Sitzung des Schulausschusses</a>
-                            <a href="http://localhost:8000/?url=https%3A//gladbeck.gremien.info/meeting%3Fid%3Dni_2026-9-137" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
-                        </div>
-                        <div class="termin-stadt">Gladbeck</div>
-                        <div class="termin-ort">Ratssaal</div>
                     </div>
                 </div>
             
@@ -563,6 +539,18 @@
                     </div>
                 </div>
             
+                <div class="termin" data-stadt="Marl">
+                    <div class="termin-zeit">16:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://marl.gremien.info/meeting?id=2026-2-153" target="_blank">2. Sitzung des Haupt- und Finanzausschusses</a>
+                            <a href="http://localhost:8000/?url=https%3A//marl.gremien.info/meeting%3Fid%3D2026-2-153" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Marl</div>
+                        <div class="termin-ort">Sitzungsraum IV, ehem. insel-Café, Riegelhaus</div>
+                    </div>
+                </div>
+            
                 <div class="termin" data-stadt="Gelsenkirchen">
                     <div class="termin-zeit">16:00 Uhr</div>
                     <div class="termin-info">
@@ -587,27 +575,15 @@
                     </div>
                 </div>
             
-                <div class="termin" data-stadt="Marl">
-                    <div class="termin-zeit">16:00 Uhr</div>
+                <div class="termin" data-stadt="Recklinghausen">
+                    <div class="termin-zeit">17:00 Uhr</div>
                     <div class="termin-info">
                         <div class="termin-gremium">
-                            <a href="https://marl.gremien.info/meeting?id=2026-2-153" target="_blank">2. Sitzung des Haupt- und Finanzausschusses</a>
-                            <a href="http://localhost:8000/?url=https%3A//marl.gremien.info/meeting%3Fid%3D2026-2-153" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                            <a href="https://stadt-recklinghausen.gremien.info/meeting?id=ni_2026-SPORT-89" target="_blank">Sitzung des Sportausschusses</a>
+                            <a href="http://localhost:8000/?url=https%3A//stadt-recklinghausen.gremien.info/meeting%3Fid%3Dni_2026-SPORT-89" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
                         </div>
-                        <div class="termin-stadt">Marl</div>
-                        <div class="termin-ort">Sitzungsraum IV, ehem. insel-Café, Riegelhaus</div>
-                    </div>
-                </div>
-            
-                <div class="termin" data-stadt="Gladbeck">
-                    <div class="termin-zeit">16:08 Uhr</div>
-                    <div class="termin-info">
-                        <div class="termin-gremium">
-                            <a href="https://gladbeck.gremien.info/meeting?id=ni_2026-7-139" target="_blank">Sitzung des Jugendhilfeausschusses</a>
-                            <a href="http://localhost:8000/?url=https%3A//gladbeck.gremien.info/meeting%3Fid%3Dni_2026-7-139" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
-                        </div>
-                        <div class="termin-stadt">Gladbeck</div>
-                        <div class="termin-ort">Ratssaal</div>
+                        <div class="termin-stadt">Recklinghausen</div>
+                        <div class="termin-ort">Raum 103 (Großer Sitzungssaal des Rathauses)</div>
                     </div>
                 </div>
             
@@ -620,18 +596,6 @@
                         </div>
                         <div class="termin-stadt">Dorsten</div>
                         <div class="termin-ort">Rathaus, Großer Sitzungssaal</div>
-                    </div>
-                </div>
-            
-                <div class="termin" data-stadt="Recklinghausen">
-                    <div class="termin-zeit">17:00 Uhr</div>
-                    <div class="termin-info">
-                        <div class="termin-gremium">
-                            <a href="https://stadt-recklinghausen.gremien.info/meeting?id=ni_2026-SPORT-89" target="_blank">Sitzung des Sportausschusses</a>
-                            <a href="http://localhost:8000/?url=https%3A//stadt-recklinghausen.gremien.info/meeting%3Fid%3Dni_2026-SPORT-89" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
-                        </div>
-                        <div class="termin-stadt">Recklinghausen</div>
-                        <div class="termin-ort">Raum 103 (Großer Sitzungssaal des Rathauses)</div>
                     </div>
                 </div>
             
@@ -771,18 +735,6 @@
                     </div>
                 </div>
             
-                <div class="termin" data-stadt="Gladbeck">
-                    <div class="termin-zeit">15:30 Uhr</div>
-                    <div class="termin-info">
-                        <div class="termin-gremium">
-                            <a href="https://gladbeck.gremien.info/meeting?id=2026-10-139" target="_blank">Sitzung des Sportausschusses</a>
-                            <a href="http://localhost:8000/?url=https%3A//gladbeck.gremien.info/meeting%3Fid%3D2026-10-139" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
-                        </div>
-                        <div class="termin-stadt">Gladbeck</div>
-                        <div class="termin-ort">Bildungs- u. Begegnungszentrum, Roßheidestr. 40</div>
-                    </div>
-                </div>
-            
                 <div class="termin" data-stadt="Oer-Erkenschwick">
                     <div class="termin-zeit">16:00 Uhr</div>
                     <div class="termin-info">
@@ -879,26 +831,6 @@
             <div class="zurueck-link"><a href="#kalender">↑ Kalender</a></div>
         </div>
         
-        <div class="datum-gruppe" id="datum-2026-02-09">
-            <div class="datum-header">Mo, 09.02.2026</div>
-            <div class="termine-liste">
-        
-                <div class="termin" data-stadt="Gladbeck">
-                    <div class="termin-zeit">10:00 Uhr</div>
-                    <div class="termin-info">
-                        <div class="termin-gremium">
-                            <a href="https://gladbeck.gremien.info/meeting?id=2026-HFDA-37" target="_blank">Sitzung des Haupt-, Finanz- und Digitalisierungsausschusses</a>
-                            <a href="http://localhost:8000/?url=https%3A//gladbeck.gremien.info/meeting%3Fid%3D2026-HFDA-37" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
-                        </div>
-                        <div class="termin-stadt">Gladbeck</div>
-                        <div class="termin-ort">Ratssaal</div>
-                    </div>
-                </div>
-            
-            </div>
-            <div class="zurueck-link"><a href="#kalender">↑ Kalender</a></div>
-        </div>
-        
         <div class="datum-gruppe" id="datum-2026-02-10">
             <div class="datum-header">Di, 10.02.2026</div>
             <div class="termine-liste">
@@ -915,18 +847,6 @@
                     </div>
                 </div>
             
-                <div class="termin" data-stadt="Gladbeck">
-                    <div class="termin-zeit">15:00 Uhr</div>
-                    <div class="termin-info">
-                        <div class="termin-gremium">
-                            <a href="https://gladbeck.gremien.info/meeting?id=ni_2026-13-140" target="_blank">Sitzung des Rechnungsprüfungsausschusses</a>
-                            <a href="http://localhost:8000/?url=https%3A//gladbeck.gremien.info/meeting%3Fid%3Dni_2026-13-140" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
-                        </div>
-                        <div class="termin-stadt">Gladbeck</div>
-                        <div class="termin-ort">Ratssaal</div>
-                    </div>
-                </div>
-            
                 <div class="termin" data-stadt="Recklinghausen">
                     <div class="termin-zeit">16:00 Uhr</div>
                     <div class="termin-info">
@@ -936,18 +856,6 @@
                         </div>
                         <div class="termin-stadt">Recklinghausen</div>
                         <div class="termin-ort">Raum 103 (Großer Sitzungssaal des Rathauses)</div>
-                    </div>
-                </div>
-            
-                <div class="termin" data-stadt="Gladbeck">
-                    <div class="termin-zeit">16:00 Uhr</div>
-                    <div class="termin-info">
-                        <div class="termin-gremium">
-                            <a href="https://gladbeck.gremien.info/meeting?id=2026-AChanceInt-1" target="_blank">Sitzung des Ausschusses für Chancengerechtigkeit und Integration</a>
-                            <a href="http://localhost:8000/?url=https%3A//gladbeck.gremien.info/meeting%3Fid%3D2026-AChanceInt-1" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
-                        </div>
-                        <div class="termin-stadt">Gladbeck</div>
-                        <div class="termin-ort">Ratssaal</div>
                     </div>
                 </div>
             
@@ -1004,18 +912,6 @@
                         </div>
                         <div class="termin-stadt">Marl</div>
                         <div class="termin-ort">Auswärtiger Tagungsort (siehe pdf-Einladung)</div>
-                    </div>
-                </div>
-            
-                <div class="termin" data-stadt="Gladbeck">
-                    <div class="termin-zeit">16:00 Uhr</div>
-                    <div class="termin-info">
-                        <div class="termin-gremium">
-                            <a href="https://gladbeck.gremien.info/meeting?id=2026-1-142" target="_blank">Sitzung des Rates</a>
-                            <a href="http://localhost:8000/?url=https%3A//gladbeck.gremien.info/meeting%3Fid%3D2026-1-142" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
-                        </div>
-                        <div class="termin-stadt">Gladbeck</div>
-                        <div class="termin-ort">Ratssaal</div>
                     </div>
                 </div>
             
@@ -1103,6 +999,18 @@
                     </div>
                 </div>
             
+                <div class="termin" data-stadt="Waltrop">
+                    <div class="termin-zeit">17:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://waltrop.gremien.info/meeting?id=2026-27-70" target="_blank">1. Sitzung des Ausschusses für Jugendhilfe und Soziales</a>
+                            <a href="http://localhost:8000/?url=https%3A//waltrop.gremien.info/meeting%3Fid%3D2026-27-70" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Waltrop</div>
+                        <div class="termin-ort">Großer Sitzungssaal, Rathaus</div>
+                    </div>
+                </div>
+            
                 <div class="termin" data-stadt="Herten">
                     <div class="termin-zeit">17:00 Uhr</div>
                     <div class="termin-info">
@@ -1127,18 +1035,6 @@
                     </div>
                 </div>
             
-                <div class="termin" data-stadt="Waltrop">
-                    <div class="termin-zeit">17:00 Uhr</div>
-                    <div class="termin-info">
-                        <div class="termin-gremium">
-                            <a href="https://waltrop.gremien.info/meeting?id=2026-27-70" target="_blank">1. Sitzung des Ausschusses für Jugendhilfe und Soziales</a>
-                            <a href="http://localhost:8000/?url=https%3A//waltrop.gremien.info/meeting%3Fid%3D2026-27-70" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
-                        </div>
-                        <div class="termin-stadt">Waltrop</div>
-                        <div class="termin-ort">Großer Sitzungssaal, Rathaus</div>
-                    </div>
-                </div>
-            
             </div>
             <div class="zurueck-link"><a href="#kalender">↑ Kalender</a></div>
         </div>
@@ -1147,6 +1043,18 @@
             <div class="datum-header">Mi, 18.02.2026</div>
             <div class="termine-liste">
         
+                <div class="termin" data-stadt="Recklinghausen">
+                    <div class="termin-zeit">16:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://stadt-recklinghausen.gremien.info/meeting?id=2026-ASB-51" target="_blank">Sitzung des Ausschusses für Schule und Bildung</a>
+                            <a href="http://localhost:8000/?url=https%3A//stadt-recklinghausen.gremien.info/meeting%3Fid%3D2026-ASB-51" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Recklinghausen</div>
+                        <div class="termin-ort">Raum 103 (Großer Sitzungssaal des Rathauses)</div>
+                    </div>
+                </div>
+            
                 <div class="termin" data-stadt="Gelsenkirchen">
                     <div class="termin-zeit">16:00 Uhr</div>
                     <div class="termin-info">
@@ -1168,18 +1076,6 @@
                         </div>
                         <div class="termin-stadt">Gelsenkirchen</div>
                         <div class="termin-ort">GELSENKANAL, Willy-Brandt-Allee 26 (rundes Gebäude) 3. Etage</div>
-                    </div>
-                </div>
-            
-                <div class="termin" data-stadt="Recklinghausen">
-                    <div class="termin-zeit">16:00 Uhr</div>
-                    <div class="termin-info">
-                        <div class="termin-gremium">
-                            <a href="https://stadt-recklinghausen.gremien.info/meeting?id=2026-ASB-51" target="_blank">Sitzung des Ausschusses für Schule und Bildung</a>
-                            <a href="http://localhost:8000/?url=https%3A//stadt-recklinghausen.gremien.info/meeting%3Fid%3D2026-ASB-51" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
-                        </div>
-                        <div class="termin-stadt">Recklinghausen</div>
-                        <div class="termin-ort">Raum 103 (Großer Sitzungssaal des Rathauses)</div>
                     </div>
                 </div>
             
@@ -1251,18 +1147,6 @@
                     </div>
                 </div>
             
-                <div class="termin" data-stadt="Herten">
-                    <div class="termin-zeit">17:00 Uhr</div>
-                    <div class="termin-info">
-                        <div class="termin-gremium">
-                            <a href="https://herten.gremien.info/meeting?id=2026-ASAGI-0" target="_blank">1.Sitzung des Ausschusses für Soziales, Arbeit, Gleichstellung und Inklusion</a>
-                            <a href="http://localhost:8000/?url=https%3A//herten.gremien.info/meeting%3Fid%3D2026-ASAGI-0" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
-                        </div>
-                        <div class="termin-stadt">Herten</div>
-                        <div class="termin-ort">Großer Sitzungssaal</div>
-                    </div>
-                </div>
-            
                 <div class="termin" data-stadt="Waltrop">
                     <div class="termin-zeit">17:00 Uhr</div>
                     <div class="termin-info">
@@ -1272,6 +1156,18 @@
                         </div>
                         <div class="termin-stadt">Waltrop</div>
                         <div class="termin-ort">Großer Sitzungssaal, Rathaus</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Herten">
+                    <div class="termin-zeit">17:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://herten.gremien.info/meeting?id=2026-ASAGI-0" target="_blank">1.Sitzung des Ausschusses für Soziales, Arbeit, Gleichstellung und Inklusion</a>
+                            <a href="http://localhost:8000/?url=https%3A//herten.gremien.info/meeting%3Fid%3D2026-ASAGI-0" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Herten</div>
+                        <div class="termin-ort">Großer Sitzungssaal</div>
                     </div>
                 </div>
             
@@ -1395,6 +1291,18 @@
                     </div>
                 </div>
             
+                <div class="termin" data-stadt="Marl">
+                    <div class="termin-zeit">16:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://marl.gremien.info/meeting?id=2026-ACI-1" target="_blank">1. Sitzung des Ausschusses für Chancengerechtigkeit und Integration</a>
+                            <a href="http://localhost:8000/?url=https%3A//marl.gremien.info/meeting%3Fid%3D2026-ACI-1" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Marl</div>
+                        <div class="termin-ort">Sitzungsraum IV, ehem. insel-Café, Riegelhaus</div>
+                    </div>
+                </div>
+            
                 <div class="termin" data-stadt="Gelsenkirchen">
                     <div class="termin-zeit">16:00 Uhr</div>
                     <div class="termin-info">
@@ -1428,18 +1336,6 @@
                         </div>
                         <div class="termin-stadt">Gelsenkirchen</div>
                         <div class="termin-ort">Sitzungszimmer 1 - Zenica</div>
-                    </div>
-                </div>
-            
-                <div class="termin" data-stadt="Marl">
-                    <div class="termin-zeit">16:00 Uhr</div>
-                    <div class="termin-info">
-                        <div class="termin-gremium">
-                            <a href="https://marl.gremien.info/meeting?id=2026-ACI-1" target="_blank">1. Sitzung des Ausschusses für Chancengerechtigkeit und Integration</a>
-                            <a href="http://localhost:8000/?url=https%3A//marl.gremien.info/meeting%3Fid%3D2026-ACI-1" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
-                        </div>
-                        <div class="termin-stadt">Marl</div>
-                        <div class="termin-ort">Sitzungsraum IV, ehem. insel-Café, Riegelhaus</div>
                     </div>
                 </div>
             
@@ -1487,18 +1383,6 @@
                     </div>
                 </div>
             
-                <div class="termin" data-stadt="Datteln">
-                    <div class="termin-zeit">15:00 Uhr</div>
-                    <div class="termin-info">
-                        <div class="termin-gremium">
-                            <a href="https://datteln.gremien.info/meeting?id=2026-WahlPrA-7" target="_blank">2. Sitzung des Wahlprüfungsausschusses</a>
-                            <a href="http://localhost:8000/?url=https%3A//datteln.gremien.info/meeting%3Fid%3D2026-WahlPrA-7" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
-                        </div>
-                        <div class="termin-stadt">Datteln</div>
-                        <div class="termin-ort">Stadthalle</div>
-                    </div>
-                </div>
-            
                 <div class="termin" data-stadt="Gelsenkirchen">
                     <div class="termin-zeit">15:00 Uhr</div>
                     <div class="termin-info">
@@ -1508,6 +1392,18 @@
                         </div>
                         <div class="termin-stadt">Gelsenkirchen</div>
                         <div class="termin-ort">Hans-Sachs-Haus, Ratssaal</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Datteln">
+                    <div class="termin-zeit">15:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://datteln.gremien.info/meeting?id=2026-WahlPrA-7" target="_blank">2. Sitzung des Wahlprüfungsausschusses</a>
+                            <a href="http://localhost:8000/?url=https%3A//datteln.gremien.info/meeting%3Fid%3D2026-WahlPrA-7" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Datteln</div>
+                        <div class="termin-ort">Stadthalle</div>
                     </div>
                 </div>
             
@@ -1639,18 +1535,6 @@
                     </div>
                 </div>
             
-                <div class="termin" data-stadt="Herten">
-                    <div class="termin-zeit">17:00 Uhr</div>
-                    <div class="termin-info">
-                        <div class="termin-gremium">
-                            <a href="https://herten.gremien.info/meeting?id=2026-HuFA-111" target="_blank">2. Sitzung des Haupt- und Finanzausschusses</a>
-                            <a href="http://localhost:8000/?url=https%3A//herten.gremien.info/meeting%3Fid%3D2026-HuFA-111" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
-                        </div>
-                        <div class="termin-stadt">Herten</div>
-                        <div class="termin-ort">Großer Sitzungssaal</div>
-                    </div>
-                </div>
-            
                 <div class="termin" data-stadt="Marl">
                     <div class="termin-zeit">17:00 Uhr</div>
                     <div class="termin-info">
@@ -1672,6 +1556,18 @@
                         </div>
                         <div class="termin-stadt">Waltrop</div>
                         <div class="termin-ort">Großer Sitzungssaal, Rathaus</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Herten">
+                    <div class="termin-zeit">17:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://herten.gremien.info/meeting?id=2026-HuFA-111" target="_blank">2. Sitzung des Haupt- und Finanzausschusses</a>
+                            <a href="http://localhost:8000/?url=https%3A//herten.gremien.info/meeting%3Fid%3D2026-HuFA-111" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Herten</div>
+                        <div class="termin-ort">Großer Sitzungssaal</div>
                     </div>
                 </div>
             
@@ -1714,8 +1610,8 @@
         </main>
 
         <footer>
-            Generiert am 22.02.2026 um 19:31 Uhr<br>
-            Daten aus 13 Ratsinformationssystemen<br>
+            Generiert am 22.02.2026 um 20:07 Uhr<br>
+            Daten aus 12 Ratsinformationssystemen<br>
             <a href="feed.xml" style="color: var(--accent); text-decoration: none;">&#x25CF; RSS-Feed</a>
         </footer>
     </div>

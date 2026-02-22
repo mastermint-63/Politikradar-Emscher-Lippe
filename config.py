@@ -15,9 +15,7 @@ class SystemTyp(Enum):
 class Kreis(Enum):
     """Kreise und kreisfreie Städte im Emscher-Lippe-Raum."""
     UEBERREGIONAL = "Überregional"
-    GELSENKIRCHEN = "Gelsenkirchen"
-    BOTTROP = "Bottrop"
-    RECKLINGHAUSEN = "Kreis Recklinghausen"
+    EMSCHERLIPPE = "Emscher-Lippe-Städte"
 
 
 @dataclass
@@ -39,27 +37,23 @@ def erkenne_systemtyp(url: str) -> SystemTyp:
 
 
 STAEDTE = [
-    # Überregional (RVR)
+    # Überregional (RVR + Kreisverwaltung)
     Stadt("Regionalverband Ruhr (RVR)", 0, "https://www.ruhrparlament.de", SystemTyp.GREMIENINFO, Kreis.UEBERREGIONAL),
+    Stadt("Kreis Recklinghausen", 620000, "https://kvrecklinghausen.gremien.info", SystemTyp.GREMIENINFO, Kreis.UEBERREGIONAL),
 
-    # Gelsenkirchen (kreisfrei)
-    Stadt("Gelsenkirchen", 261000, "https://ratsinformation.gelsenkirchen.de", SystemTyp.ALLRIS, Kreis.GELSENKIRCHEN),
-
-    # Bottrop (kreisfrei)
-    Stadt("Bottrop", 116000, "https://ratsinfo-bottrop.de", SystemTyp.RATSINFO, Kreis.BOTTROP),
-
-    # Kreis Recklinghausen
-    Stadt("Kreis Recklinghausen", 620000, "https://kvrecklinghausen.gremien.info", SystemTyp.GREMIENINFO, Kreis.RECKLINGHAUSEN),
-    Stadt("Castrop-Rauxel", 73000, "https://castroprauxel.gremien.info", SystemTyp.GREMIENINFO, Kreis.RECKLINGHAUSEN),
-    Stadt("Datteln", 34000, "https://datteln.gremien.info", SystemTyp.GREMIENINFO, Kreis.RECKLINGHAUSEN),
-    Stadt("Dorsten", 75000, "https://dorsten.gremien.info", SystemTyp.GREMIENINFO, Kreis.RECKLINGHAUSEN),
-    Stadt("Gladbeck", 76000, "https://gladbeck.gremien.info", SystemTyp.GREMIENINFO, Kreis.RECKLINGHAUSEN),
-    Stadt("Haltern am See", 37000, "https://haltern.gremien.info", SystemTyp.GREMIENINFO, Kreis.RECKLINGHAUSEN),
-    Stadt("Herten", 61000, "https://herten.gremien.info", SystemTyp.GREMIENINFO, Kreis.RECKLINGHAUSEN),
-    Stadt("Marl", 84000, "https://marl.gremien.info", SystemTyp.GREMIENINFO, Kreis.RECKLINGHAUSEN),
-    Stadt("Oer-Erkenschwick", 29000, "https://oer-erkenschwick.gremien.info", SystemTyp.GREMIENINFO, Kreis.RECKLINGHAUSEN),
-    Stadt("Recklinghausen", 112000, "https://stadt-recklinghausen.gremien.info", SystemTyp.GREMIENINFO, Kreis.RECKLINGHAUSEN),
-    Stadt("Waltrop", 29000, "https://waltrop.gremien.info", SystemTyp.GREMIENINFO, Kreis.RECKLINGHAUSEN),
+    # Emscher-Lippe-Städte
+    Stadt("Bottrop", 116000, "https://ratsinfo-bottrop.de", SystemTyp.RATSINFO, Kreis.EMSCHERLIPPE),
+    Stadt("Castrop-Rauxel", 73000, "https://castroprauxel.gremien.info", SystemTyp.GREMIENINFO, Kreis.EMSCHERLIPPE),
+    Stadt("Datteln", 34000, "https://datteln.gremien.info", SystemTyp.GREMIENINFO, Kreis.EMSCHERLIPPE),
+    Stadt("Dorsten", 75000, "https://dorsten.gremien.info", SystemTyp.GREMIENINFO, Kreis.EMSCHERLIPPE),
+    Stadt("Gelsenkirchen", 261000, "https://ratsinformation.gelsenkirchen.de", SystemTyp.ALLRIS, Kreis.EMSCHERLIPPE),
+    Stadt("Gladbeck", 76000, "https://gladbeck.gremien.info", SystemTyp.GREMIENINFO, Kreis.EMSCHERLIPPE),
+    Stadt("Haltern am See", 37000, "https://haltern.gremien.info", SystemTyp.GREMIENINFO, Kreis.EMSCHERLIPPE),
+    Stadt("Herten", 61000, "https://herten.gremien.info", SystemTyp.GREMIENINFO, Kreis.EMSCHERLIPPE),
+    Stadt("Marl", 84000, "https://marl.gremien.info", SystemTyp.GREMIENINFO, Kreis.EMSCHERLIPPE),
+    Stadt("Oer-Erkenschwick", 29000, "https://oer-erkenschwick.gremien.info", SystemTyp.GREMIENINFO, Kreis.EMSCHERLIPPE),
+    Stadt("Recklinghausen", 112000, "https://stadt-recklinghausen.gremien.info", SystemTyp.GREMIENINFO, Kreis.EMSCHERLIPPE),
+    Stadt("Waltrop", 29000, "https://waltrop.gremien.info", SystemTyp.GREMIENINFO, Kreis.EMSCHERLIPPE),
 ]
 
 

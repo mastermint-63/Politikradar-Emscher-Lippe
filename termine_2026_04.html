@@ -457,21 +457,9 @@
             <div class="filter-dropdowns">
                 
             <div class="filter-group">
-                <label class="filter-label">Gelsenkirchen</label>
-                <select class="kreis-filter" id="filter-gelsenkirchen" onchange="filterTermine()">
-                    <option value="">Gelsenkirchen</option><option value="Gelsenkirchen">Gelsenkirchen</option>
-                </select>
-            </div>
-            <div class="filter-group">
-                <label class="filter-label">Bottrop</label>
-                <select class="kreis-filter" id="filter-bottrop" onchange="filterTermine()">
-                    <option value="">Bottrop</option><option value="Bottrop">Bottrop</option>
-                </select>
-            </div>
-            <div class="filter-group">
-                <label class="filter-label">Kreis Recklinghausen</label>
-                <select class="kreis-filter" id="filter-recklinghausen" onchange="filterTermine()">
-                    <option value="">Kreis Recklinghausen</option><option value="Datteln">Datteln</option><option value="Dorsten">Dorsten</option><option value="Marl">Marl</option><option value="Oer-Erkenschwick">Oer-Erkenschwick</option><option value="Recklinghausen">Recklinghausen</option>
+                <label class="filter-label">Emscher-Lippe-Städte</label>
+                <select class="kreis-filter" id="filter-emscherlippe" onchange="filterTermine()">
+                    <option value="">Emscher-Lippe-Städte</option><option value="Bottrop">Bottrop</option><option value="Datteln">Datteln</option><option value="Dorsten">Dorsten</option><option value="Gelsenkirchen">Gelsenkirchen</option><option value="Marl">Marl</option><option value="Oer-Erkenschwick">Oer-Erkenschwick</option><option value="Recklinghausen">Recklinghausen</option>
                 </select>
             </div>
             </div>
@@ -498,6 +486,18 @@
                         </div>
                         <div class="termin-stadt">Bottrop</div>
                         <div class="termin-ort">Rathaus, 46236 Bottrop, Sitzungszimmer 111</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Marl">
+                    <div class="termin-zeit">16:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://marl.gremien.info/meeting?id=2026-99-2" target="_blank">3. Sitzung des Ausschusses für Kultur, Weiterbildung und Stadtmarketing</a>
+                            <a href="http://localhost:8000/?url=https%3A//marl.gremien.info/meeting%3Fid%3D2026-99-2" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Marl</div>
+                        <div class="termin-ort">Sitzungsraum IV, ehem. insel-Café, Riegelhaus</div>
                     </div>
                 </div>
             
@@ -534,18 +534,6 @@
                         </div>
                         <div class="termin-stadt">Gelsenkirchen</div>
                         <div class="termin-ort">Sitzungszimmer 1 - Zenica</div>
-                    </div>
-                </div>
-            
-                <div class="termin" data-stadt="Marl">
-                    <div class="termin-zeit">16:00 Uhr</div>
-                    <div class="termin-info">
-                        <div class="termin-gremium">
-                            <a href="https://marl.gremien.info/meeting?id=2026-99-2" target="_blank">3. Sitzung des Ausschusses für Kultur, Weiterbildung und Stadtmarketing</a>
-                            <a href="http://localhost:8000/?url=https%3A//marl.gremien.info/meeting%3Fid%3D2026-99-2" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
-                        </div>
-                        <div class="termin-stadt">Marl</div>
-                        <div class="termin-ort">Sitzungsraum IV, ehem. insel-Café, Riegelhaus</div>
                     </div>
                 </div>
             
@@ -641,18 +629,6 @@
                     </div>
                 </div>
             
-                <div class="termin" data-stadt="Datteln">
-                    <div class="termin-zeit">17:00 Uhr</div>
-                    <div class="termin-info">
-                        <div class="termin-gremium">
-                            <a href="https://datteln.gremien.info/meeting?id=2026-HDFA-1" target="_blank">2. Sitzung des Haupt-, Digitalisierungs- und Finanzausschusses</a>
-                            <a href="http://localhost:8000/?url=https%3A//datteln.gremien.info/meeting%3Fid%3D2026-HDFA-1" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
-                        </div>
-                        <div class="termin-stadt">Datteln</div>
-                        <div class="termin-ort">Sitzungssaal Rathaus</div>
-                    </div>
-                </div>
-            
                 <div class="termin" data-stadt="Dorsten">
                     <div class="termin-zeit">17:00 Uhr</div>
                     <div class="termin-info">
@@ -662,6 +638,18 @@
                         </div>
                         <div class="termin-stadt">Dorsten</div>
                         <div class="termin-ort">Rathaus, Großer Sitzungssaal</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Datteln">
+                    <div class="termin-zeit">17:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://datteln.gremien.info/meeting?id=2026-HDFA-1" target="_blank">2. Sitzung des Haupt-, Digitalisierungs- und Finanzausschusses</a>
+                            <a href="http://localhost:8000/?url=https%3A//datteln.gremien.info/meeting%3Fid%3D2026-HDFA-1" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Datteln</div>
+                        <div class="termin-ort">Sitzungssaal Rathaus</div>
                     </div>
                 </div>
             
@@ -697,6 +685,18 @@
                     </div>
                 </div>
             
+                <div class="termin" data-stadt="Marl">
+                    <div class="termin-zeit">16:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://marl.gremien.info/meeting?id=2026-91-38" target="_blank">3. Sitzung des Stadtplanungsausschusses (Wirtschaft, Arbeit, Bauen, Digitalisierung und Verkehrsinfr</a>
+                            <a href="http://localhost:8000/?url=https%3A//marl.gremien.info/meeting%3Fid%3D2026-91-38" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Marl</div>
+                        <div class="termin-ort">Sitzungsraum IV, ehem. insel-Café, Riegelhaus</div>
+                    </div>
+                </div>
+            
                 <div class="termin" data-stadt="Gelsenkirchen">
                     <div class="termin-zeit">16:00 Uhr</div>
                     <div class="termin-info">
@@ -718,18 +718,6 @@
                         </div>
                         <div class="termin-stadt">Gelsenkirchen</div>
                         <div class="termin-ort">Hans-Sachs-Haus, Ratssaal</div>
-                    </div>
-                </div>
-            
-                <div class="termin" data-stadt="Marl">
-                    <div class="termin-zeit">16:00 Uhr</div>
-                    <div class="termin-info">
-                        <div class="termin-gremium">
-                            <a href="https://marl.gremien.info/meeting?id=2026-91-38" target="_blank">3. Sitzung des Stadtplanungsausschusses (Wirtschaft, Arbeit, Bauen, Digitalisierung und Verkehrsinfr</a>
-                            <a href="http://localhost:8000/?url=https%3A//marl.gremien.info/meeting%3Fid%3D2026-91-38" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
-                        </div>
-                        <div class="termin-stadt">Marl</div>
-                        <div class="termin-ort">Sitzungsraum IV, ehem. insel-Café, Riegelhaus</div>
                     </div>
                 </div>
             
@@ -797,6 +785,18 @@
                     </div>
                 </div>
             
+                <div class="termin" data-stadt="Marl">
+                    <div class="termin-zeit">16:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://marl.gremien.info/meeting?id=2026-92-38" target="_blank">3. Sitzung des Umwelt- und Nachhaltigkeitsausschusses (Umwelt, Grünflächen, Klima und Mobilität)</a>
+                            <a href="http://localhost:8000/?url=https%3A//marl.gremien.info/meeting%3Fid%3D2026-92-38" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Marl</div>
+                        <div class="termin-ort">Sitzungsraum IV, ehem. insel-Café, Riegelhaus</div>
+                    </div>
+                </div>
+            
                 <div class="termin" data-stadt="Gelsenkirchen">
                     <div class="termin-zeit">16:00 Uhr</div>
                     <div class="termin-info">
@@ -821,15 +821,15 @@
                     </div>
                 </div>
             
-                <div class="termin" data-stadt="Marl">
-                    <div class="termin-zeit">16:00 Uhr</div>
+                <div class="termin" data-stadt="Dorsten">
+                    <div class="termin-zeit">17:00 Uhr</div>
                     <div class="termin-info">
                         <div class="termin-gremium">
-                            <a href="https://marl.gremien.info/meeting?id=2026-92-38" target="_blank">3. Sitzung des Umwelt- und Nachhaltigkeitsausschusses (Umwelt, Grünflächen, Klima und Mobilität)</a>
-                            <a href="http://localhost:8000/?url=https%3A//marl.gremien.info/meeting%3Fid%3D2026-92-38" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                            <a href="https://dorsten.gremien.info/meeting?id=2026-UPA-191" target="_blank">5. Sitzung des Umwelt- und Planungsausschusses</a>
+                            <a href="http://localhost:8000/?url=https%3A//dorsten.gremien.info/meeting%3Fid%3D2026-UPA-191" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
                         </div>
-                        <div class="termin-stadt">Marl</div>
-                        <div class="termin-ort">Sitzungsraum IV, ehem. insel-Café, Riegelhaus</div>
+                        <div class="termin-stadt">Dorsten</div>
+                        <div class="termin-ort">Rathaus, Großer Sitzungssaal</div>
                     </div>
                 </div>
             
@@ -842,18 +842,6 @@
                         </div>
                         <div class="termin-stadt">Datteln</div>
                         <div class="termin-ort">Sitzungssaal Rathaus</div>
-                    </div>
-                </div>
-            
-                <div class="termin" data-stadt="Dorsten">
-                    <div class="termin-zeit">17:00 Uhr</div>
-                    <div class="termin-info">
-                        <div class="termin-gremium">
-                            <a href="https://dorsten.gremien.info/meeting?id=2026-UPA-191" target="_blank">5. Sitzung des Umwelt- und Planungsausschusses</a>
-                            <a href="http://localhost:8000/?url=https%3A//dorsten.gremien.info/meeting%3Fid%3D2026-UPA-191" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
-                        </div>
-                        <div class="termin-stadt">Dorsten</div>
-                        <div class="termin-ort">Rathaus, Großer Sitzungssaal</div>
                     </div>
                 </div>
             
@@ -889,6 +877,18 @@
                     </div>
                 </div>
             
+                <div class="termin" data-stadt="Marl">
+                    <div class="termin-zeit">16:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://marl.gremien.info/meeting?id=2026-94-38" target="_blank">3. Sitzung des Betriebsausschusses ZBH</a>
+                            <a href="http://localhost:8000/?url=https%3A//marl.gremien.info/meeting%3Fid%3D2026-94-38" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Marl</div>
+                        <div class="termin-ort">Aufenthaltsraum des Zentralen Betriebshofes</div>
+                    </div>
+                </div>
+            
                 <div class="termin" data-stadt="Gelsenkirchen">
                     <div class="termin-zeit">16:00 Uhr</div>
                     <div class="termin-info">
@@ -913,15 +913,15 @@
                     </div>
                 </div>
             
-                <div class="termin" data-stadt="Marl">
-                    <div class="termin-zeit">16:00 Uhr</div>
+                <div class="termin" data-stadt="Dorsten">
+                    <div class="termin-zeit">17:00 Uhr</div>
                     <div class="termin-info">
                         <div class="termin-gremium">
-                            <a href="https://marl.gremien.info/meeting?id=2026-94-38" target="_blank">3. Sitzung des Betriebsausschusses ZBH</a>
-                            <a href="http://localhost:8000/?url=https%3A//marl.gremien.info/meeting%3Fid%3D2026-94-38" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                            <a href="https://dorsten.gremien.info/meeting?id=2026-RAT-213" target="_blank">8. Sitzung des Rates</a>
+                            <a href="http://localhost:8000/?url=https%3A//dorsten.gremien.info/meeting%3Fid%3D2026-RAT-213" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
                         </div>
-                        <div class="termin-stadt">Marl</div>
-                        <div class="termin-ort">Aufenthaltsraum des Zentralen Betriebshofes</div>
+                        <div class="termin-stadt">Dorsten</div>
+                        <div class="termin-ort">Rathaus, Großer Sitzungssaal</div>
                     </div>
                 </div>
             
@@ -934,18 +934,6 @@
                         </div>
                         <div class="termin-stadt">Datteln</div>
                         <div class="termin-ort">Stadthalle</div>
-                    </div>
-                </div>
-            
-                <div class="termin" data-stadt="Dorsten">
-                    <div class="termin-zeit">17:00 Uhr</div>
-                    <div class="termin-info">
-                        <div class="termin-gremium">
-                            <a href="https://dorsten.gremien.info/meeting?id=2026-RAT-213" target="_blank">8. Sitzung des Rates</a>
-                            <a href="http://localhost:8000/?url=https%3A//dorsten.gremien.info/meeting%3Fid%3D2026-RAT-213" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
-                        </div>
-                        <div class="termin-stadt">Dorsten</div>
-                        <div class="termin-ort">Rathaus, Großer Sitzungssaal</div>
                     </div>
                 </div>
             
@@ -966,6 +954,18 @@
                         </div>
                         <div class="termin-stadt">Bottrop</div>
                         <div class="termin-ort">Rathaus, 46236 Bottrop, großer Sitzungssaal</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Marl">
+                    <div class="termin-zeit">16:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://marl.gremien.info/meeting?id=2026-3-62" target="_blank">1. Sitzung des Rechnungsprüfungsausschusses</a>
+                            <a href="http://localhost:8000/?url=https%3A//marl.gremien.info/meeting%3Fid%3D2026-3-62" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Marl</div>
+                        <div class="termin-ort">Sitzungsraum IV, ehem. insel-Café, Riegelhaus</div>
                     </div>
                 </div>
             
@@ -990,18 +990,6 @@
                         </div>
                         <div class="termin-stadt">Gelsenkirchen</div>
                         <div class="termin-ort">Hans-Sachs-Haus, Ratssaal</div>
-                    </div>
-                </div>
-            
-                <div class="termin" data-stadt="Marl">
-                    <div class="termin-zeit">16:00 Uhr</div>
-                    <div class="termin-info">
-                        <div class="termin-gremium">
-                            <a href="https://marl.gremien.info/meeting?id=2026-3-62" target="_blank">1. Sitzung des Rechnungsprüfungsausschusses</a>
-                            <a href="http://localhost:8000/?url=https%3A//marl.gremien.info/meeting%3Fid%3D2026-3-62" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
-                        </div>
-                        <div class="termin-stadt">Marl</div>
-                        <div class="termin-ort">Sitzungsraum IV, ehem. insel-Café, Riegelhaus</div>
                     </div>
                 </div>
             
@@ -1045,6 +1033,18 @@
                     </div>
                 </div>
             
+                <div class="termin" data-stadt="Marl">
+                    <div class="termin-zeit">16:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://marl.gremien.info/meeting?id=2026-2-155" target="_blank">4. Sitzung des Haupt- und Finanzausschusses</a>
+                            <a href="http://localhost:8000/?url=https%3A//marl.gremien.info/meeting%3Fid%3D2026-2-155" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Marl</div>
+                        <div class="termin-ort">Sitzungsraum IV, ehem. insel-Café, Riegelhaus</div>
+                    </div>
+                </div>
+            
                 <div class="termin" data-stadt="Gelsenkirchen">
                     <div class="termin-zeit">16:00 Uhr</div>
                     <div class="termin-info">
@@ -1066,18 +1066,6 @@
                         </div>
                         <div class="termin-stadt">Gelsenkirchen</div>
                         <div class="termin-ort">Sitzungszimmer Cottbus</div>
-                    </div>
-                </div>
-            
-                <div class="termin" data-stadt="Marl">
-                    <div class="termin-zeit">16:00 Uhr</div>
-                    <div class="termin-info">
-                        <div class="termin-gremium">
-                            <a href="https://marl.gremien.info/meeting?id=2026-2-155" target="_blank">4. Sitzung des Haupt- und Finanzausschusses</a>
-                            <a href="http://localhost:8000/?url=https%3A//marl.gremien.info/meeting%3Fid%3D2026-2-155" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
-                        </div>
-                        <div class="termin-stadt">Marl</div>
-                        <div class="termin-ort">Sitzungsraum IV, ehem. insel-Café, Riegelhaus</div>
                     </div>
                 </div>
             
@@ -1133,6 +1121,18 @@
             <div class="datum-header">Do, 30.04.2026</div>
             <div class="termine-liste">
         
+                <div class="termin" data-stadt="Marl">
+                    <div class="termin-zeit">16:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://marl.gremien.info/meeting?id=2026-1-183" target="_blank">6. Sitzung des Rates</a>
+                            <a href="http://localhost:8000/?url=https%3A//marl.gremien.info/meeting%3Fid%3D2026-1-183" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Marl</div>
+                        <div class="termin-ort">Aula der Scharounschule</div>
+                    </div>
+                </div>
+            
                 <div class="termin" data-stadt="Gelsenkirchen">
                     <div class="termin-zeit">16:00 Uhr</div>
                     <div class="termin-info">
@@ -1157,18 +1157,6 @@
                     </div>
                 </div>
             
-                <div class="termin" data-stadt="Marl">
-                    <div class="termin-zeit">16:00 Uhr</div>
-                    <div class="termin-info">
-                        <div class="termin-gremium">
-                            <a href="https://marl.gremien.info/meeting?id=2026-1-183" target="_blank">6. Sitzung des Rates</a>
-                            <a href="http://localhost:8000/?url=https%3A//marl.gremien.info/meeting%3Fid%3D2026-1-183" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
-                        </div>
-                        <div class="termin-stadt">Marl</div>
-                        <div class="termin-ort">Aula der Scharounschule</div>
-                    </div>
-                </div>
-            
             </div>
             <div class="zurueck-link"><a href="#kalender">↑ Kalender</a></div>
         </div>
@@ -1176,7 +1164,7 @@
         </main>
 
         <footer>
-            Generiert am 22.02.2026 um 19:31 Uhr<br>
+            Generiert am 22.02.2026 um 20:07 Uhr<br>
             Daten aus 7 Ratsinformationssystemen<br>
             <a href="feed.xml" style="color: var(--accent); text-decoration: none;">&#x25CF; RSS-Feed</a>
         </footer>

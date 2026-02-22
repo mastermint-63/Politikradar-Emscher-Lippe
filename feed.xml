@@ -5,7 +5,7 @@
     <link>https://el-raete.reporter.ruhr/termine_2026_02.html</link>
     <description>Sitzungstermine aus Ratsinformationssystemen im Emscher-Lippe-Raum</description>
     <language>de-de</language>
-    <lastBuildDate>Sun, 22 Feb 2026 19:31:01 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 22 Feb 2026 20:07:10 +0100</lastBuildDate>
     <atom:link href="https://el-raete.reporter.ruhr/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>3. Sitzung des Kreistags – Kreis Recklinghausen</title>
@@ -13,13 +13,6 @@
       <description>Mo, 02.02.2026, 09:00 Uhr Uhr | Stadthalle Oer-Erkenschwick</description>
       <pubDate>Mon, 02 Feb 2026 09:00:00 +0100</pubDate>
       <guid isPermaLink="false">Kreis Recklinghausen-20260202-09:00 Uhr-3. Sitzung des Kreistags</guid>
-    </item>
-    <item>
-      <title>Sitzung des Schulausschusses – Gladbeck</title>
-      <link>https://gladbeck.gremien.info/meeting?id=ni_2026-9-137</link>
-      <description>Mo, 02.02.2026, 16:00 Uhr Uhr | Ratssaal</description>
-      <pubDate>Mon, 02 Feb 2026 16:00:00 +0100</pubDate>
-      <guid isPermaLink="false">Gladbeck-20260202-16:00 Uhr-Sitzung des Schulausschusses</guid>
     </item>
     <item>
       <title>2. Sitzung des Ausschusses für Stadtentwicklung und Wirtschaftsförderung – Oer-Erkenschwick</title>
@@ -43,6 +36,13 @@
       <guid isPermaLink="false">Oer-Erkenschwick-20260203-16:00 Uhr-2. Sitzung des Ausschusses für</guid>
     </item>
     <item>
+      <title>2. Sitzung des Haupt- und Finanzausschusses – Marl</title>
+      <link>https://marl.gremien.info/meeting?id=2026-2-153</link>
+      <description>Di, 03.02.2026, 16:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
+      <pubDate>Tue, 03 Feb 2026 16:00:00 +0100</pubDate>
+      <guid isPermaLink="false">Marl-20260203-16:00 Uhr-2. Sitzung des Haupt- und Fina</guid>
+    </item>
+    <item>
       <title>Sitzung des Ausschusses für Wirtschaft und Innovation – Gelsenkirchen</title>
       <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000292&amp;refresh=false</link>
       <description>Di, 03.02.2026, 16:00 Uhr Uhr | Sitzungszimmer 1 - Zenica</description>
@@ -57,18 +57,11 @@
       <guid isPermaLink="false">Gelsenkirchen-20260203-16:00 Uhr-Sitzung des Ausschusses für Ki</guid>
     </item>
     <item>
-      <title>2. Sitzung des Haupt- und Finanzausschusses – Marl</title>
-      <link>https://marl.gremien.info/meeting?id=2026-2-153</link>
-      <description>Di, 03.02.2026, 16:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
-      <pubDate>Tue, 03 Feb 2026 16:00:00 +0100</pubDate>
-      <guid isPermaLink="false">Marl-20260203-16:00 Uhr-2. Sitzung des Haupt- und Fina</guid>
-    </item>
-    <item>
-      <title>Sitzung des Jugendhilfeausschusses – Gladbeck</title>
-      <link>https://gladbeck.gremien.info/meeting?id=ni_2026-7-139</link>
-      <description>Di, 03.02.2026, 16:08 Uhr Uhr | Ratssaal</description>
-      <pubDate>Tue, 03 Feb 2026 16:08:00 +0100</pubDate>
-      <guid isPermaLink="false">Gladbeck-20260203-16:08 Uhr-Sitzung des Jugendhilfeausschu</guid>
+      <title>Sitzung des Sportausschusses – Recklinghausen</title>
+      <link>https://stadt-recklinghausen.gremien.info/meeting?id=ni_2026-SPORT-89</link>
+      <description>Di, 03.02.2026, 17:00 Uhr Uhr | Raum 103 (Großer Sitzungssaal des Rathauses)</description>
+      <pubDate>Tue, 03 Feb 2026 17:00:00 +0100</pubDate>
+      <guid isPermaLink="false">Recklinghausen-20260203-17:00 Uhr-Sitzung des Sportausschusses</guid>
     </item>
     <item>
       <title>2. Sitzung des Bauausschusses (HH) – Dorsten</title>
@@ -76,13 +69,6 @@
       <description>Di, 03.02.2026, 17:00 Uhr Uhr | Rathaus, Großer Sitzungssaal</description>
       <pubDate>Tue, 03 Feb 2026 17:00:00 +0100</pubDate>
       <guid isPermaLink="false">Dorsten-20260203-17:00 Uhr-2. Sitzung des Bauausschusses </guid>
-    </item>
-    <item>
-      <title>Sitzung des Sportausschusses – Recklinghausen</title>
-      <link>https://stadt-recklinghausen.gremien.info/meeting?id=ni_2026-SPORT-89</link>
-      <description>Di, 03.02.2026, 17:00 Uhr Uhr | Raum 103 (Großer Sitzungssaal des Rathauses)</description>
-      <pubDate>Tue, 03 Feb 2026 17:00:00 +0100</pubDate>
-      <guid isPermaLink="false">Recklinghausen-20260203-17:00 Uhr-Sitzung des Sportausschusses</guid>
     </item>
     <item>
       <title>Schulausschuss – Bottrop</title>
@@ -155,13 +141,6 @@
       <guid isPermaLink="false">Oer-Erkenschwick-20260205-15:30 Uhr-2. Sitzung des Haupt-, Finanz-</guid>
     </item>
     <item>
-      <title>Sitzung des Sportausschusses – Gladbeck</title>
-      <link>https://gladbeck.gremien.info/meeting?id=2026-10-139</link>
-      <description>Do, 05.02.2026, 15:30 Uhr Uhr | Bildungs- u. Begegnungszentrum, Roßheidestr. 40</description>
-      <pubDate>Thu, 05 Feb 2026 15:30:00 +0100</pubDate>
-      <guid isPermaLink="false">Gladbeck-20260205-15:30 Uhr-Sitzung des Sportausschusses</guid>
-    </item>
-    <item>
       <title>3. Sitzung des Rates – Oer-Erkenschwick</title>
       <link>https://oer-erkenschwick.gremien.info/meeting?id=2026-RAT-106</link>
       <description>Do, 05.02.2026, 16:00 Uhr Uhr | Stadthalle OE</description>
@@ -211,13 +190,6 @@
       <guid isPermaLink="false">Bottrop-20260206-16:00 Uhr-Jugendparlament</guid>
     </item>
     <item>
-      <title>Sitzung des Haupt-, Finanz- und Digitalisierungsausschusses – Gladbeck</title>
-      <link>https://gladbeck.gremien.info/meeting?id=2026-HFDA-37</link>
-      <description>Mo, 09.02.2026, 10:00 Uhr Uhr | Ratssaal</description>
-      <pubDate>Mon, 09 Feb 2026 10:00:00 +0100</pubDate>
-      <guid isPermaLink="false">Gladbeck-20260209-10:00 Uhr-Sitzung des Haupt-, Finanz- un</guid>
-    </item>
-    <item>
       <title>Bezirksvertretung Bottrop-Kirchhellen – Bottrop</title>
       <link>https://ratsinfo-bottrop.de/tops/?__=UGhVM0hpd2NXNFdFcExjZRs38wAas5ZfMTMwsp0A30E</link>
       <description>Di, 10.02.2026, 14:00 Uhr Uhr | Bezirksvertretung Bottrop-Kirchhellen, 46244 Bottrop, Sitzungssaal</description>
@@ -225,25 +197,11 @@
       <guid isPermaLink="false">Bottrop-20260210-14:00 Uhr-Bezirksvertretung Bottrop-Kirc</guid>
     </item>
     <item>
-      <title>Sitzung des Rechnungsprüfungsausschusses – Gladbeck</title>
-      <link>https://gladbeck.gremien.info/meeting?id=ni_2026-13-140</link>
-      <description>Di, 10.02.2026, 15:00 Uhr Uhr | Ratssaal</description>
-      <pubDate>Tue, 10 Feb 2026 15:00:00 +0100</pubDate>
-      <guid isPermaLink="false">Gladbeck-20260210-15:00 Uhr-Sitzung des Rechnungsprüfungsa</guid>
-    </item>
-    <item>
       <title>Sitzung der Ratskommission für Menschen mit Behinderung – Recklinghausen</title>
       <link>https://stadt-recklinghausen.gremien.info/meeting?id=2026-RatskBeh-67</link>
       <description>Di, 10.02.2026, 16:00 Uhr Uhr | Raum 103 (Großer Sitzungssaal des Rathauses)</description>
       <pubDate>Tue, 10 Feb 2026 16:00:00 +0100</pubDate>
       <guid isPermaLink="false">Recklinghausen-20260210-16:00 Uhr-Sitzung der Ratskommission für</guid>
-    </item>
-    <item>
-      <title>Sitzung des Ausschusses für Chancengerechtigkeit und Integration – Gladbeck</title>
-      <link>https://gladbeck.gremien.info/meeting?id=2026-AChanceInt-1</link>
-      <description>Di, 10.02.2026, 16:00 Uhr Uhr | Ratssaal</description>
-      <pubDate>Tue, 10 Feb 2026 16:00:00 +0100</pubDate>
-      <guid isPermaLink="false">Gladbeck-20260210-16:00 Uhr-Sitzung des Ausschusses für Ch</guid>
     </item>
     <item>
       <title>1. Sitzung des Klima-, Umwelt- und Nachhaltigkeitsausschusses – Datteln</title>
@@ -272,13 +230,6 @@
       <description>Mi, 11.02.2026, 16:00 Uhr Uhr | Auswärtiger Tagungsort (siehe pdf-Einladung)</description>
       <pubDate>Wed, 11 Feb 2026 16:00:00 +0100</pubDate>
       <guid isPermaLink="false">Marl-20260211-16:00 Uhr-2. Sitzung des Kinder- und Jug</guid>
-    </item>
-    <item>
-      <title>Sitzung des Rates – Gladbeck</title>
-      <link>https://gladbeck.gremien.info/meeting?id=2026-1-142</link>
-      <description>Mi, 11.02.2026, 16:00 Uhr Uhr | Ratssaal</description>
-      <pubDate>Wed, 11 Feb 2026 16:00:00 +0100</pubDate>
-      <guid isPermaLink="false">Gladbeck-20260211-16:00 Uhr-Sitzung des Rates</guid>
     </item>
     <item>
       <title>1. Sitzung des Haupt-, Digitalisierungs- und Finanzausschusses – Datteln</title>
@@ -316,6 +267,13 @@
       <guid isPermaLink="false">Gelsenkirchen-20260217-16:00 Uhr-Sitzung des Betriebsausschusse</guid>
     </item>
     <item>
+      <title>1. Sitzung des Ausschusses für Jugendhilfe und Soziales – Waltrop</title>
+      <link>https://waltrop.gremien.info/meeting?id=2026-27-70</link>
+      <description>Di, 17.02.2026, 17:00 Uhr Uhr | Großer Sitzungssaal, Rathaus</description>
+      <pubDate>Tue, 17 Feb 2026 17:00:00 +0100</pubDate>
+      <guid isPermaLink="false">Waltrop-20260217-17:00 Uhr-1. Sitzung des Ausschusses für</guid>
+    </item>
+    <item>
       <title>1. Sitzung des Ausschusses für Sicherheit, Feuerschutz und Ordnungswesen – Herten</title>
       <link>https://herten.gremien.info/meeting?id=2026-ASFO-24</link>
       <description>Di, 17.02.2026, 17:00 Uhr Uhr | Großer Sitzungssaal</description>
@@ -330,11 +288,11 @@
       <guid isPermaLink="false">Dorsten-20260217-17:00 Uhr-3. Sitzung des Umwelt- und Pla</guid>
     </item>
     <item>
-      <title>1. Sitzung des Ausschusses für Jugendhilfe und Soziales – Waltrop</title>
-      <link>https://waltrop.gremien.info/meeting?id=2026-27-70</link>
-      <description>Di, 17.02.2026, 17:00 Uhr Uhr | Großer Sitzungssaal, Rathaus</description>
-      <pubDate>Tue, 17 Feb 2026 17:00:00 +0100</pubDate>
-      <guid isPermaLink="false">Waltrop-20260217-17:00 Uhr-1. Sitzung des Ausschusses für</guid>
+      <title>Sitzung des Ausschusses für Schule und Bildung – Recklinghausen</title>
+      <link>https://stadt-recklinghausen.gremien.info/meeting?id=2026-ASB-51</link>
+      <description>Mi, 18.02.2026, 16:00 Uhr Uhr | Raum 103 (Großer Sitzungssaal des Rathauses)</description>
+      <pubDate>Wed, 18 Feb 2026 16:00:00 +0100</pubDate>
+      <guid isPermaLink="false">Recklinghausen-20260218-16:00 Uhr-Sitzung des Ausschusses für Sc</guid>
     </item>
     <item>
       <title>Sitzung des Betriebsausschusses Seniorenhäuser – Gelsenkirchen</title>
@@ -349,13 +307,6 @@
       <description>Mi, 18.02.2026, 16:00 Uhr Uhr | GELSENKANAL, Willy-Brandt-Allee 26 (rundes Gebäude) 3. Etage</description>
       <pubDate>Wed, 18 Feb 2026 16:00:00 +0100</pubDate>
       <guid isPermaLink="false">Gelsenkirchen-20260218-16:00 Uhr-Sitzung des Betriebsausschusse</guid>
-    </item>
-    <item>
-      <title>Sitzung des Ausschusses für Schule und Bildung – Recklinghausen</title>
-      <link>https://stadt-recklinghausen.gremien.info/meeting?id=2026-ASB-51</link>
-      <description>Mi, 18.02.2026, 16:00 Uhr Uhr | Raum 103 (Großer Sitzungssaal des Rathauses)</description>
-      <pubDate>Wed, 18 Feb 2026 16:00:00 +0100</pubDate>
-      <guid isPermaLink="false">Recklinghausen-20260218-16:00 Uhr-Sitzung des Ausschusses für Sc</guid>
     </item>
     <item>
       <title>1. Sitzung  Ausschuss für Stadtplanung, Umwelt und Wirtschaft – Herten</title>
@@ -393,18 +344,18 @@
       <guid isPermaLink="false">Bottrop-20260219-15:00 Uhr-Ausschuss für Stadtplanung und</guid>
     </item>
     <item>
-      <title>1.Sitzung des Ausschusses für Soziales, Arbeit, Gleichstellung und Inklusion – Herten</title>
-      <link>https://herten.gremien.info/meeting?id=2026-ASAGI-0</link>
-      <description>Do, 19.02.2026, 17:00 Uhr Uhr | Großer Sitzungssaal</description>
-      <pubDate>Thu, 19 Feb 2026 17:00:00 +0100</pubDate>
-      <guid isPermaLink="false">Herten-20260219-17:00 Uhr-1.Sitzung des Ausschusses für </guid>
-    </item>
-    <item>
       <title>3. Sitzung des Haupt- und Finanzausschusses – Waltrop</title>
       <link>https://waltrop.gremien.info/meeting?id=2026-2-144</link>
       <description>Do, 19.02.2026, 17:00 Uhr Uhr | Großer Sitzungssaal, Rathaus</description>
       <pubDate>Thu, 19 Feb 2026 17:00:00 +0100</pubDate>
       <guid isPermaLink="false">Waltrop-20260219-17:00 Uhr-3. Sitzung des Haupt- und Fina</guid>
+    </item>
+    <item>
+      <title>1.Sitzung des Ausschusses für Soziales, Arbeit, Gleichstellung und Inklusion – Herten</title>
+      <link>https://herten.gremien.info/meeting?id=2026-ASAGI-0</link>
+      <description>Do, 19.02.2026, 17:00 Uhr Uhr | Großer Sitzungssaal</description>
+      <pubDate>Thu, 19 Feb 2026 17:00:00 +0100</pubDate>
+      <guid isPermaLink="false">Herten-20260219-17:00 Uhr-1.Sitzung des Ausschusses für </guid>
     </item>
     <item>
       <title>1. Sitzung des Unterausschusses Sicherheit, Ordnung, Sauberkeit und Bevölkerungsschutz – Marl</title>
@@ -463,6 +414,13 @@
       <guid isPermaLink="false">Bottrop-20260224-15:00 Uhr-Haupt-, Finanz- und Beschwerde</guid>
     </item>
     <item>
+      <title>1. Sitzung des Ausschusses für Chancengerechtigkeit und Integration – Marl</title>
+      <link>https://marl.gremien.info/meeting?id=2026-ACI-1</link>
+      <description>Di, 24.02.2026, 16:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
+      <pubDate>Tue, 24 Feb 2026 16:00:00 +0100</pubDate>
+      <guid isPermaLink="false">Marl-20260224-16:00 Uhr-1. Sitzung des Ausschusses für</guid>
+    </item>
+    <item>
       <title>Sitzung der Bezirksvertretung Gelsenkirchen-Süd – Gelsenkirchen</title>
       <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000307&amp;refresh=false</link>
       <description>Di, 24.02.2026, 16:00 Uhr Uhr | Hans-Sachs-Haus, Ratssaal</description>
@@ -482,13 +440,6 @@
       <description>Di, 24.02.2026, 16:00 Uhr Uhr | Sitzungszimmer 1 - Zenica</description>
       <pubDate>Tue, 24 Feb 2026 16:00:00 +0100</pubDate>
       <guid isPermaLink="false">Gelsenkirchen-20260224-16:00 Uhr-Sitzung des Beirates für Senio</guid>
-    </item>
-    <item>
-      <title>1. Sitzung des Ausschusses für Chancengerechtigkeit und Integration – Marl</title>
-      <link>https://marl.gremien.info/meeting?id=2026-ACI-1</link>
-      <description>Di, 24.02.2026, 16:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
-      <pubDate>Tue, 24 Feb 2026 16:00:00 +0100</pubDate>
-      <guid isPermaLink="false">Marl-20260224-16:00 Uhr-1. Sitzung des Ausschusses für</guid>
     </item>
     <item>
       <title>1. Sitzung des Ausschusses für Bildung, Kultur und Sport – Herten</title>
@@ -512,18 +463,18 @@
       <guid isPermaLink="false">Gelsenkirchen-20260225-14:00 Uhr-Sitzung des Beirates für Mensc</guid>
     </item>
     <item>
-      <title>2. Sitzung des Wahlprüfungsausschusses – Datteln</title>
-      <link>https://datteln.gremien.info/meeting?id=2026-WahlPrA-7</link>
-      <description>Mi, 25.02.2026, 15:00 Uhr Uhr | Stadthalle</description>
-      <pubDate>Wed, 25 Feb 2026 15:00:00 +0100</pubDate>
-      <guid isPermaLink="false">Datteln-20260225-15:00 Uhr-2. Sitzung des Wahlprüfungsaus</guid>
-    </item>
-    <item>
       <title>Sitzung der Bezirksvertretung Gelsenkirchen-Mitte – Gelsenkirchen</title>
       <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000309&amp;refresh=false</link>
       <description>Mi, 25.02.2026, 15:00 Uhr Uhr | Hans-Sachs-Haus, Ratssaal</description>
       <pubDate>Wed, 25 Feb 2026 15:00:00 +0100</pubDate>
       <guid isPermaLink="false">Gelsenkirchen-20260225-15:00 Uhr-Sitzung der Bezirksvertretung </guid>
+    </item>
+    <item>
+      <title>2. Sitzung des Wahlprüfungsausschusses – Datteln</title>
+      <link>https://datteln.gremien.info/meeting?id=2026-WahlPrA-7</link>
+      <description>Mi, 25.02.2026, 15:00 Uhr Uhr | Stadthalle</description>
+      <pubDate>Wed, 25 Feb 2026 15:00:00 +0100</pubDate>
+      <guid isPermaLink="false">Datteln-20260225-15:00 Uhr-2. Sitzung des Wahlprüfungsaus</guid>
     </item>
     <item>
       <title>Sitzung der Bezirksvertretung Gelsenkirchen-Ost – Gelsenkirchen</title>
@@ -596,13 +547,6 @@
       <guid isPermaLink="false">Gelsenkirchen-20260226-16:00 Uhr-Sitzung des Ausschusses für Ch</guid>
     </item>
     <item>
-      <title>2. Sitzung des Haupt- und Finanzausschusses – Herten</title>
-      <link>https://herten.gremien.info/meeting?id=2026-HuFA-111</link>
-      <description>Do, 26.02.2026, 17:00 Uhr Uhr | Großer Sitzungssaal</description>
-      <pubDate>Thu, 26 Feb 2026 17:00:00 +0100</pubDate>
-      <guid isPermaLink="false">Herten-20260226-17:00 Uhr-2. Sitzung des Haupt- und Fina</guid>
-    </item>
-    <item>
       <title>2. Sitzung der Lenkungsgruppe Rathaussanierung – Marl</title>
       <link>https://marl.gremien.info/meeting?id=2026-89-38</link>
       <description>Do, 26.02.2026, 17:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
@@ -615,6 +559,13 @@
       <description>Do, 26.02.2026, 17:00 Uhr Uhr | Großer Sitzungssaal, Rathaus</description>
       <pubDate>Thu, 26 Feb 2026 17:00:00 +0100</pubDate>
       <guid isPermaLink="false">Waltrop-20260226-17:00 Uhr-3. Sitzung des Rates</guid>
+    </item>
+    <item>
+      <title>2. Sitzung des Haupt- und Finanzausschusses – Herten</title>
+      <link>https://herten.gremien.info/meeting?id=2026-HuFA-111</link>
+      <description>Do, 26.02.2026, 17:00 Uhr Uhr | Großer Sitzungssaal</description>
+      <pubDate>Thu, 26 Feb 2026 17:00:00 +0100</pubDate>
+      <guid isPermaLink="false">Herten-20260226-17:00 Uhr-2. Sitzung des Haupt- und Fina</guid>
     </item>
     <item>
       <title>2. Sitzung des Ausschusses für Generationen und Soziales – Haltern am See</title>
