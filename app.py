@@ -1,0 +1,970 @@
+#!/usr/bin/env python3
+"""
+Ratstermine Dashboard - Sitzungstermine aus dem Emscher-Lippe-Raum
+Sammelt Termine von allen Ratsinformationssystemen und generiert ein HTML-Dashboard.
+
+Verwendung:
+    python3 app.py              # Generiert aktuellen + 2 weitere Monate
+    python3 app.py 2026 2       # Generiert ab Februar 2026 (3 Monate)
+    python3 app.py 2026 2 6     # Generiert 6 Monate ab Februar 2026
+"""
+
+import os
+import webbrowser
+import calendar
+from datetime import datetime
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from urllib.parse import quote
+
+from email.utils import format_datetime
+from zoneinfo import ZoneInfo
+
+from config import STAEDTE, SystemTyp, Kreis, get_staedte_nach_typ
+from scraper import SessionNetScraper, RatsinfoScraper, AllrisScraper, GremienInfoScraper, Termin
+
+
+def dateiname_fuer_monat(jahr: int, monat: int) -> str:
+    """Generiert den Dateinamen für einen Monat."""
+    return f"termine_{jahr}_{monat:02d}.html"
+
+
+def hole_alle_termine(jahr: int, monat: int) -> tuple[list[Termin], list[str]]:
+    """Holt Termine von allen unterstützten Städten parallel.
+
+    Returns:
+        Tuple aus (Termine-Liste, Liste fehlgeschlagener Städtenamen)
+    """
+    termine = []
+    fehler_staedte = []
+    scraper_aufgaben = []
+
+    # SessionNet-Städte
+    for stadt in get_staedte_nach_typ(SystemTyp.SESSIONNET):
+        scraper_aufgaben.append((SessionNetScraper(stadt.name, stadt.url), jahr, monat))
+
+    # Ratsinfomanagement-Städte
+    for stadt in get_staedte_nach_typ(SystemTyp.RATSINFO):
+        scraper_aufgaben.append((RatsinfoScraper(stadt.name, stadt.url), jahr, monat))
+
+    # ALLRIS-Städte
+    for stadt in get_staedte_nach_typ(SystemTyp.ALLRIS):
+        scraper_aufgaben.append((AllrisScraper(stadt.name, stadt.url), jahr, monat))
+
+    # GremienInfo-Städte (more!rubin auf gremien.info)
+    for stadt in get_staedte_nach_typ(SystemTyp.GREMIENINFO):
+        scraper_aufgaben.append((GremienInfoScraper(stadt.name, stadt.url), jahr, monat))
+
+    # Parallel abrufen
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        futures = {
+            executor.submit(scraper.hole_termine, j, m): scraper
+            for scraper, j, m in scraper_aufgaben
+        }
+
+        for future in as_completed(futures):
+            scraper = futures[future]
+            try:
+                result = future.result()
+                termine.extend(result)
+                if result:
+                    print(f"  {scraper.stadt_name}: {len(result)} Termine")
+            except Exception as e:
+                print(f"  Fehler bei {scraper.stadt_name}: {e}")
+                fehler_staedte.append(scraper.stadt_name)
+
+    # Nach Datum sortieren
+    termine.sort()
+    return termine, fehler_staedte
+
+
+def generiere_kalender(jahr: int, monat: int, tage_mit_terminen: set[int]) -> str:
+    """Generiert ein Kalenderblatt als HTML-Tabelle."""
+    cal = calendar.Calendar(firstweekday=0)  # Montag = 0
+    wochen = cal.monthdayscalendar(jahr, monat)
+
+    html = '<table class="kalender" id="kalender">\n'
+    html += '<tr>'
+    for tag_name in ['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So']:
+        html += f'<th>{tag_name}</th>'
+    html += '</tr>\n'
+
+    for woche in wochen:
+        html += '<tr>'
+        for tag in woche:
+            if tag == 0:
+                html += '<td></td>'
+            elif tag in tage_mit_terminen:
+                datum_key = f"{jahr}-{monat:02d}-{tag:02d}"
+                html += f'<td><a href="#datum-{datum_key}" class="kal-link">{tag}</a></td>'
+            else:
+                html += f'<td class="kal-leer">{tag}</td>'
+        html += '</tr>\n'
+
+    html += '</table>'
+    return html
+
+
+def generiere_html(termine: list[Termin], jahr: int, monat: int,
+                   verfuegbare_monate: list[tuple[int, int]]) -> str:
+    """Generiert das HTML-Dashboard.
+
+    Args:
+        termine: Liste der Termine
+        jahr: Aktuelles Jahr
+        monat: Aktueller Monat
+        verfuegbare_monate: Liste von (jahr, monat) Tupeln für die Navigation
+    """
+    monatsnamen = [
+        '', 'Januar', 'Februar', 'März', 'April', 'Mai', 'Juni',
+        'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'
+    ]
+
+    # Termine nach Datum gruppieren
+    termine_nach_datum = {}
+    for t in termine:
+        datum_key = t.datum.strftime('%Y-%m-%d')
+        if datum_key not in termine_nach_datum:
+            termine_nach_datum[datum_key] = []
+        termine_nach_datum[datum_key].append(t)
+
+    # Alle Städte für Filter sammeln
+    alle_staedte = sorted(set(t.stadt for t in termine))
+
+    # Kreiszuordnung erstellen (für Städte mit Terminen)
+    stadt_zu_kreis = {s.name: s.kreis for s in STAEDTE}
+    kreis_staedte = {kreis: [] for kreis in Kreis}
+    for stadt in alle_staedte:
+        kreis = stadt_zu_kreis.get(stadt)
+        if kreis:
+            kreis_staedte[kreis].append(stadt)
+
+    # Termine-HTML generieren
+    termine_html = ""
+    for datum_key in sorted(termine_nach_datum.keys()):
+        tage_termine = termine_nach_datum[datum_key]
+        datum_obj = datetime.strptime(datum_key, '%Y-%m-%d')
+        datum_formatiert = tage_termine[0].datum_formatiert()
+
+        termine_html += f'''
+        <div class="datum-gruppe" id="datum-{datum_key}">
+            <div class="datum-header">{datum_formatiert}</div>
+            <div class="termine-liste">
+        '''
+
+        for t in sorted(tage_termine, key=lambda x: x.uhrzeit):
+            abgesagt_class = ' abgesagt' if '[ABGESAGT]' in t.gremium else ''
+            gremium_clean = t.gremium.replace('[ABGESAGT]', '').strip()
+
+            # KI-Analyse-Button nur bei Terminen mit Link
+            ki_button = ''
+            if t.link and t.link.strip():
+                # URL für KI-Tool (lokal für Testing)
+                ki_url = f"http://localhost:8000/?url={quote(t.link)}"
+                ki_button = f'<a href="{ki_url}" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>'
+
+            termine_html += f'''
+                <div class="termin{abgesagt_class}" data-stadt="{t.stadt}">
+                    <div class="termin-zeit">{t.uhrzeit}</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="{t.link}" target="_blank">{gremium_clean}</a>
+                            {ki_button}
+                        </div>
+                        <div class="termin-stadt">{t.stadt}</div>
+                        {f'<div class="termin-ort">{t.ort}</div>' if t.ort else ''}
+                    </div>
+                </div>
+            '''
+
+        termine_html += '''
+            </div>
+            <div class="zurueck-link"><a href="#kalender">↑ Kalender</a></div>
+        </div>
+        '''
+
+    # Filter-Optionen pro Kreis generieren
+    def generiere_dropdown(label: str, staedte: list[str], dropdown_id: str) -> str:
+        """Generiert ein einzelnes Filter-Dropdown."""
+        options = f'<option value="">{label}</option>'
+        for stadt in sorted(staedte):
+            options += f'<option value="{stadt}">{stadt}</option>'
+        return f'''
+            <div class="filter-group">
+                <label class="filter-label">{label}</label>
+                <select class="kreis-filter" id="{dropdown_id}" onchange="filterTermine()">
+                    {options}
+                </select>
+            </div>'''
+
+    # Dropdowns pro Kreis generieren
+    filter_dropdowns = ""
+    for kreis in Kreis:
+        staedte_im_kreis = kreis_staedte.get(kreis, [])
+        if staedte_im_kreis:
+            label = kreis.value
+            dropdown_id = f"filter-{kreis.name.lower()}"
+            filter_dropdowns += generiere_dropdown(label, staedte_im_kreis, dropdown_id)
+
+    # Monatsnavigation
+    prev_monat = monat - 1 if monat > 1 else 12
+    prev_jahr = jahr if monat > 1 else jahr - 1
+    next_monat = monat + 1 if monat < 12 else 1
+    next_jahr = jahr if monat < 12 else jahr + 1
+
+    # Prüfen ob vorheriger/nächster Monat verfügbar ist
+    prev_verfuegbar = (prev_jahr, prev_monat) in verfuegbare_monate
+    next_verfuegbar = (next_jahr, next_monat) in verfuegbare_monate
+
+    prev_link = dateiname_fuer_monat(prev_jahr, prev_monat) if prev_verfuegbar else "#"
+    next_link = dateiname_fuer_monat(next_jahr, next_monat) if next_verfuegbar else "#"
+
+    prev_class = "" if prev_verfuegbar else " disabled"
+    next_class = "" if next_verfuegbar else " disabled"
+
+    # Kalenderblatt generieren
+    tage_mit_terminen = set(int(k.split('-')[2]) for k in termine_nach_datum.keys())
+    kalender_html = generiere_kalender(jahr, monat, tage_mit_terminen)
+
+    html = f'''<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratstermine {monatsnamen[monat]} {jahr}</title>
+    <link rel="alternate" type="application/rss+xml" title="Politikradar Emscher-Lippe" href="feed.xml">
+    <style>
+        :root {{
+            --bg-color: #f5f5f7;
+            --card-bg: #ffffff;
+            --text-color: #1d1d1f;
+            --text-secondary: #86868b;
+            --border-color: #d2d2d7;
+            --accent-color: #0066cc;
+            --hover-color: #f0f0f5;
+        }}
+
+        @media (prefers-color-scheme: dark) {{
+            :root {{
+                --bg-color: #1d1d1f;
+                --card-bg: #2d2d2f;
+                --text-color: #f5f5f7;
+                --text-secondary: #a1a1a6;
+                --border-color: #424245;
+                --accent-color: #2997ff;
+                --hover-color: #3a3a3c;
+            }}
+        }}
+
+        * {{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }}
+
+        body {{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.5;
+            padding: 20px;
+        }}
+
+        .container {{
+            max-width: 900px;
+            margin: 0 auto;
+        }}
+
+        header {{
+            text-align: center;
+            margin-bottom: 30px;
+        }}
+
+        h1 {{
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }}
+
+        .nav {{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }}
+
+        .nav-btn {{
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--accent-color);
+            padding: 8px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            text-decoration: none;
+        }}
+
+        .nav-btn:hover {{
+            background: var(--hover-color);
+        }}
+
+        .nav-btn.disabled {{
+            opacity: 0.3;
+            pointer-events: none;
+            cursor: default;
+        }}
+
+        .monat-titel {{
+            font-size: 1.2rem;
+            font-weight: 500;
+        }}
+
+        .filter-container {{
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            transition: box-shadow 0.2s;
+        }}
+
+        @media (prefers-color-scheme: dark) {{
+            .filter-container {{
+                background: rgba(45, 45, 47, 0.5);
+            }}
+        }}
+
+        .filter-container.is-sticky {{
+            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+            border-radius: 0 0 10px 10px;
+        }}
+
+        .filter-header {{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 5px;
+        }}
+
+        .filter-header h3 {{
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-color);
+        }}
+
+        .filter-reset {{
+            background: none;
+            border: none;
+            color: var(--accent-color);
+            font-size: 13px;
+            cursor: pointer;
+            padding: 4px 8px;
+        }}
+
+        .filter-reset:hover {{
+            text-decoration: underline;
+        }}
+
+        .filter-search {{
+            position: relative;
+            margin-bottom: 10px;
+        }}
+
+        .filter-search input {{
+            width: 100%;
+            padding: 10px 40px 10px 15px;
+            font-size: 14px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            background: var(--bg-color);
+            color: var(--text-color);
+            transition: border-color 0.2s;
+        }}
+
+        .filter-search input:focus {{
+            outline: none;
+            border-color: var(--accent-color);
+        }}
+
+        .filter-search .search-icon {{
+            position: absolute;
+            right: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 18px;
+            opacity: 0.5;
+            pointer-events: none;
+        }}
+
+        .filter-dropdowns {{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }}
+
+        .filter-group {{
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            flex: 1;
+            min-width: 140px;
+        }}
+
+        .filter-label {{
+            font-size: 11px;
+            font-weight: 500;
+            color: var(--text-secondary);
+        }}
+
+        .kreis-filter {{
+            width: 100%;
+            padding: 6px 8px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            background: var(--bg-color);
+            color: var(--text-color);
+            font-size: 13px;
+        }}
+
+        .filter-stats {{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 10px;
+            border-top: 1px solid var(--border-color);
+            margin-top: 5px;
+        }}
+
+        .stats {{
+            font-size: 13px;
+            color: var(--text-secondary);
+        }}
+
+        .active-filters {{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }}
+
+        .filter-tag {{
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 3px 8px;
+            background: var(--accent-color);
+            color: white;
+            border-radius: 12px;
+            font-size: 12px;
+        }}
+
+        .filter-tag button {{
+            background: none;
+            border: none;
+            color: white;
+            cursor: pointer;
+            font-size: 14px;
+            line-height: 1;
+            padding: 0;
+            margin-left: 2px;
+        }}
+
+        .datum-gruppe {{
+            margin-bottom: 20px;
+        }}
+
+        .datum-header {{
+            font-weight: 600;
+            font-size: 1rem;
+            padding: 10px 15px;
+            background: var(--accent-color);
+            color: white;
+            border-radius: 10px 10px 0 0;
+        }}
+
+        .termine-liste {{
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-top: none;
+            border-radius: 0 0 10px 10px;
+        }}
+
+        .termin {{
+            display: flex;
+            padding: 12px 15px;
+            border-bottom: 1px solid var(--border-color);
+            transition: background 0.2s;
+        }}
+
+        .termin:last-child {{
+            border-bottom: none;
+        }}
+
+        .termin:hover {{
+            background: var(--hover-color);
+        }}
+
+        .termin.abgesagt {{
+            opacity: 0.5;
+            text-decoration: line-through;
+        }}
+
+        .termin-zeit {{
+            width: 80px;
+            font-weight: 500;
+            color: var(--accent-color);
+            flex-shrink: 0;
+        }}
+
+        .termin-info {{
+            flex: 1;
+        }}
+
+        .termin-gremium {{
+            font-weight: 500;
+            margin-bottom: 2px;
+        }}
+
+        .termin-gremium a {{
+            color: var(--text-color);
+            text-decoration: none;
+        }}
+
+        .termin-gremium a:hover {{
+            color: var(--accent-color);
+            text-decoration: underline;
+        }}
+
+        .ki-btn {{
+            margin-left: 8px;
+            text-decoration: none;
+            font-size: 0.9em;
+            opacity: 0.6;
+            transition: opacity 0.2s, transform 0.2s;
+            display: inline-block;
+        }}
+
+        .ki-btn:hover {{
+            opacity: 1;
+            transform: scale(1.2);
+            text-decoration: none;
+        }}
+
+        .termin-stadt {{
+            font-size: 13px;
+            color: var(--text-secondary);
+        }}
+
+        .termin-ort {{
+            font-size: 12px;
+            color: var(--text-secondary);
+            font-style: italic;
+        }}
+
+        .kalender {{
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto 25px;
+            border-collapse: collapse;
+            text-align: center;
+        }}
+
+        .kalender th {{
+            padding: 6px;
+            font-size: 13px;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }}
+
+        .kalender td {{
+            padding: 6px;
+            font-size: 14px;
+            border-radius: 6px;
+        }}
+
+        .kalender .kal-leer {{
+            color: var(--text-secondary);
+            opacity: 0.5;
+        }}
+
+        .kalender .kal-link {{
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            line-height: 32px;
+            border-radius: 50%;
+            background: var(--accent-color);
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+        }}
+
+        .kalender .kal-link:hover {{
+            opacity: 0.8;
+        }}
+
+        .zurueck-link {{
+            text-align: right;
+            padding: 6px 15px;
+            font-size: 13px;
+        }}
+
+        .zurueck-link a {{
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 500;
+        }}
+
+        .zurueck-link a:hover {{
+            color: var(--accent-color);
+        }}
+
+        .keine-termine {{
+            text-align: center;
+            padding: 40px;
+            color: var(--text-secondary);
+        }}
+
+        .hidden {{
+            display: none !important;
+        }}
+
+        footer {{
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            color: var(--text-secondary);
+            font-size: 12px;
+        }}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Politikradar Emscher-Lippe</h1>
+            <div class="nav">
+                <a href="{prev_link}" class="nav-btn{prev_class}">&larr; {monatsnamen[prev_monat]}</a>
+                <span class="monat-titel">{monatsnamen[monat]} {jahr}</span>
+                <a href="{next_link}" class="nav-btn{next_class}">{monatsnamen[next_monat]} &rarr;</a>
+            </div>
+        </header>
+
+        {kalender_html}
+
+        <div class="filter-container">
+            <div class="filter-header">
+                <h3>Filter nach Kommune</h3>
+                <button class="filter-reset" onclick="resetFilter()">Alle zurücksetzen</button>
+            </div>
+
+            <!-- Suchfeld -->
+            <div class="filter-search">
+                <input type="text"
+                       id="search-input"
+                       placeholder="Schnellsuche: Stadt eingeben (z.B. Greven, Münster...)"
+                       oninput="searchTermine()"
+                       autocomplete="off">
+                <span class="search-icon">🔍</span>
+            </div>
+
+            <div class="filter-dropdowns">
+                {filter_dropdowns}
+            </div>
+            <div class="filter-stats">
+                <div class="active-filters" id="active-filters"></div>
+                <div class="stats">
+                    <span id="termine-count">{len(termine)}</span> von {len(termine)} Terminen
+                </div>
+            </div>
+        </div>
+
+        <main id="termine-container">
+            {termine_html if termine else '<div class="keine-termine">Keine Termine gefunden</div>'}
+        </main>
+
+        <footer>
+            Generiert am {datetime.now().strftime('%d.%m.%Y um %H:%M Uhr')}<br>
+            Daten aus {len(alle_staedte)} Ratsinformationssystemen<br>
+            <a href="feed.xml" style="color: var(--accent); text-decoration: none;">&#x25CF; RSS-Feed</a>
+        </footer>
+    </div>
+
+    <script>
+        function filterTermine() {{
+            // Alle ausgewählten Städte aus allen Dropdowns sammeln
+            const selects = document.querySelectorAll('.kreis-filter');
+            const gewaehlteStaedte = [];
+
+            selects.forEach(select => {{
+                if (select.value) {{
+                    gewaehlteStaedte.push(select.value);
+                }}
+            }});
+
+            // Termine filtern
+            const termine = document.querySelectorAll('.termin');
+            let sichtbar = 0;
+
+            termine.forEach(t => {{
+                const zeigen = gewaehlteStaedte.length === 0 ||
+                               gewaehlteStaedte.includes(t.dataset.stadt);
+                t.classList.toggle('hidden', !zeigen);
+                if (zeigen) sichtbar++;
+            }});
+
+            document.getElementById('termine-count').textContent = sichtbar;
+
+            // Leere Datum-Gruppen ausblenden
+            document.querySelectorAll('.datum-gruppe').forEach(g => {{
+                const sichtbareTermine = g.querySelectorAll('.termin:not(.hidden)');
+                g.classList.toggle('hidden', sichtbareTermine.length === 0);
+            }});
+
+            // Aktive Filter als Tags anzeigen
+            updateFilterTags(gewaehlteStaedte);
+        }}
+
+        function updateFilterTags(staedte) {{
+            const container = document.getElementById('active-filters');
+            if (staedte.length === 0) {{
+                container.innerHTML = '';
+                return;
+            }}
+            container.innerHTML = staedte.map(stadt =>
+                `<span class="filter-tag">${{stadt}}<button onclick="removeFilter('${{stadt}}')">&times;</button></span>`
+            ).join('');
+        }}
+
+        function removeFilter(stadt) {{
+            // Finde das Dropdown mit dieser Stadt und setze es zurück
+            document.querySelectorAll('.kreis-filter').forEach(select => {{
+                if (select.value === stadt) {{
+                    select.value = '';
+                }}
+            }});
+            filterTermine();
+        }}
+
+        function resetFilter() {{
+            document.querySelectorAll('.kreis-filter').forEach(select => {{
+                select.value = '';
+            }});
+            document.getElementById('search-input').value = '';
+            filterTermine();
+        }}
+
+        function searchTermine() {{
+            const searchTerm = document.getElementById('search-input').value.toLowerCase().trim();
+
+            // Wenn Suchfeld leer ist, nutze normale Dropdown-Filter
+            if (searchTerm === '') {{
+                filterTermine();
+                return;
+            }}
+
+            // Alle Dropdowns zurücksetzen wenn gesucht wird
+            document.querySelectorAll('.kreis-filter').forEach(select => {{
+                select.value = '';
+            }});
+
+            // Filter nach Suchbegriff
+            const allTermine = document.querySelectorAll('.termin');
+            let visibleCount = 0;
+
+            allTermine.forEach(termin => {{
+                const stadt = termin.getAttribute('data-stadt').toLowerCase();
+
+                if (stadt.includes(searchTerm)) {{
+                    termin.style.display = '';
+                    visibleCount++;
+                }} else {{
+                    termin.style.display = 'none';
+                }}
+            }});
+
+            // Datum-Gruppen ausblenden, wenn alle Termine darin versteckt sind
+            document.querySelectorAll('.datum-gruppe').forEach(gruppe => {{
+                const sichtbareTermine = gruppe.querySelectorAll('.termin:not([style*="display: none"])');
+                if (sichtbareTermine.length === 0) {{
+                    gruppe.style.display = 'none';
+                }} else {{
+                    gruppe.style.display = '';
+                }}
+            }});
+
+            // Zähler aktualisieren
+            const totalCount = allTermine.length;
+            document.getElementById('termine-count').textContent = visibleCount;
+
+            // Active Filter anzeigen (Suchbegriff als Tag)
+            const container = document.getElementById('active-filters');
+            if (searchTerm) {{
+                container.innerHTML = `<span class="filter-tag">Suche: ${{searchTerm}}<button onclick="document.getElementById('search-input').value=''; filterTermine();">&times;</button></span>`;
+            }} else {{
+                container.innerHTML = '';
+            }}
+        }}
+
+        // Sticky-Shadow für Filterleiste
+        const filterContainer = document.querySelector('.filter-container');
+        const observer = new IntersectionObserver(
+            ([e]) => filterContainer.classList.toggle('is-sticky', e.intersectionRatio < 1),
+            {{ threshold: [1] }}
+        );
+        observer.observe(filterContainer);
+
+        // Zum heutigen oder nächsten Datum mit Terminen springen (nur wenn kein Anker in der URL)
+        if (!window.location.hash) {{
+            const heute = new Date();
+            heute.setHours(0, 0, 0, 0);
+            const gruppen = Array.from(document.querySelectorAll('.datum-gruppe'))
+                .map(el => ({{ el, datum: new Date(el.id.replace('datum-', '')) }}))
+                .filter(x => x.datum >= heute)
+                .sort((a, b) => a.datum - b.datum);
+            if (gruppen.length > 0) {{
+                const ziel = gruppen[0].el;
+                const offset = filterContainer.offsetHeight + 12;
+                const top = ziel.getBoundingClientRect().top + window.scrollY - offset;
+                window.scrollTo({{ top, behavior: 'smooth' }});
+            }}
+        }}
+    </script>
+</body>
+</html>'''
+
+    return html
+
+
+def generiere_rss(alle_termine: list[Termin], jahr: int, monat: int) -> str:
+    """Generiert einen RSS-Feed aus allen Terminen eines Monats."""
+    monatsnamen = [
+        '', 'Januar', 'Februar', 'März', 'April', 'Mai', 'Juni',
+        'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'
+    ]
+    tz = ZoneInfo("Europe/Berlin")
+    build_date = format_datetime(datetime.now(tz))
+
+    items = ""
+    for t in alle_termine:
+        datum_mit_tz = t.datum.replace(tzinfo=tz)
+        pub_date = format_datetime(datum_mit_tz)
+        gremium_clean = t.gremium.replace('[ABGESAGT]', '').strip()
+        abgesagt_prefix = "[ABGESAGT] " if '[ABGESAGT]' in t.gremium else ""
+        title = f"{abgesagt_prefix}{gremium_clean} – {t.stadt}"
+        beschreibung = f"{t.datum_formatiert()}, {t.uhrzeit} Uhr"
+        if t.ort:
+            beschreibung += f" | {t.ort}"
+        # XML-Escaping
+        for char, esc in [('&', '&amp;'), ('<', '&lt;'), ('>', '&gt;'), ('"', '&quot;')]:
+            title = title.replace(char, esc)
+            beschreibung = beschreibung.replace(char, esc)
+        link_esc = t.link.replace('&', '&amp;')
+
+        items += f"""    <item>
+      <title>{title}</title>
+      <link>{link_esc}</link>
+      <description>{beschreibung}</description>
+      <pubDate>{pub_date}</pubDate>
+      <guid isPermaLink="false">{t.stadt}-{t.datum.strftime('%Y%m%d')}-{t.uhrzeit}-{gremium_clean[:30].replace('&', '&amp;')}</guid>
+    </item>
+"""
+
+    return f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Politikradar Emscher-Lippe – {monatsnamen[monat]} {jahr}</title>
+    <link>https://el-raete.reporter.ruhr/{dateiname_fuer_monat(jahr, monat)}</link>
+    <description>Sitzungstermine aus Ratsinformationssystemen im Emscher-Lippe-Raum</description>
+    <language>de-de</language>
+    <lastBuildDate>{build_date}</lastBuildDate>
+    <atom:link href="https://el-raete.reporter.ruhr/feed.xml" rel="self" type="application/rss+xml"/>
+{items}  </channel>
+</rss>"""
+
+
+def berechne_monate(start_jahr: int, start_monat: int, anzahl: int) -> list[tuple[int, int]]:
+    """Berechnet eine Liste von (jahr, monat) Tupeln."""
+    monate = []
+    jahr, monat = start_jahr, start_monat
+    for _ in range(anzahl):
+        monate.append((jahr, monat))
+        monat += 1
+        if monat > 12:
+            monat = 1
+            jahr += 1
+    return monate
+
+
+def main():
+    """Hauptfunktion."""
+    import sys
+
+    # --no-browser Flag prüfen
+    no_browser = '--no-browser' in sys.argv
+    args = [a for a in sys.argv[1:] if not a.startswith('--')]
+
+    # Parameter: Jahr, Monat, Anzahl Monate (optional)
+    jetzt = datetime.now()
+    jahr = int(args[0]) if len(args) > 0 else jetzt.year
+    monat = int(args[1]) if len(args) > 1 else jetzt.month
+    anzahl_monate = int(args[2]) if len(args) > 2 else 3
+
+    # Liste der zu generierenden Monate
+    monate_liste = berechne_monate(jahr, monat, anzahl_monate)
+
+    print(f"Generiere {anzahl_monate} Monate ab {monat}/{jahr}...")
+    print("=" * 50)
+
+    basis_pfad = os.path.dirname(__file__)
+    erster_dateiname = None
+    alle_fehler = []
+
+    for idx, (j, m) in enumerate(monate_liste):
+        monatsnamen = ['', 'Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun',
+                       'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez']
+        print(f"\n[{idx+1}/{anzahl_monate}] {monatsnamen[m]} {j}:")
+
+        termine, fehler_staedte = hole_alle_termine(j, m)
+        alle_fehler.extend(fehler_staedte)
+        print(f"  → {len(termine)} Termine gefunden")
+
+        # HTML generieren
+        html = generiere_html(termine, j, m, monate_liste)
+
+        # Datei speichern
+        dateiname = dateiname_fuer_monat(j, m)
+        ausgabe_pfad = os.path.join(basis_pfad, dateiname)
+        with open(ausgabe_pfad, 'w', encoding='utf-8') as f:
+            f.write(html)
+
+        # RSS-Feed für den aktuellen Monat generieren
+        if idx == 0:
+            erster_dateiname = ausgabe_pfad
+            rss = generiere_rss(termine, j, m)
+            rss_pfad = os.path.join(basis_pfad, 'feed.xml')
+            with open(rss_pfad, 'w', encoding='utf-8') as f:
+                f.write(rss)
+            print(f"  → RSS-Feed: feed.xml ({len(termine)} Einträge)")
+
+    print("\n" + "=" * 50)
+    print(f"Fertig! {anzahl_monate} Dateien generiert.")
+
+    # Fehlerbericht ausgeben
+    if alle_fehler:
+        eindeutige_fehler = sorted(set(alle_fehler))
+        print(f"\nFEHLER: {len(eindeutige_fehler)} Städte nicht erreichbar: {', '.join(eindeutige_fehler)}")
+
+    # Ersten Monat im Browser öffnen (außer bei --no-browser)
+    if erster_dateiname and not no_browser:
+        webbrowser.open(f'file://{erster_dateiname}')
+
+
+if __name__ == '__main__':
+    main()
