@@ -37,8 +37,9 @@ def erkenne_systemtyp(url: str) -> SystemTyp:
 
 
 STAEDTE = [
-    # Überregional (RVR + Kreisverwaltung)
+    # Überregional (RVR + VRR + Kreisverwaltung)
     Stadt("Regionalverband Ruhr (RVR)", 0, "https://www.ruhrparlament.de", SystemTyp.GREMIENINFO, Kreis.UEBERREGIONAL),
+    Stadt("Verkehrsverbund Rhein-Ruhr (VRR)", 0, "https://zvis.vrr.de/bi/si0046.asp", SystemTyp.SESSIONNET, Kreis.UEBERREGIONAL),
     Stadt("Kreis Recklinghausen", 620000, "https://kvrecklinghausen.gremien.info", SystemTyp.GREMIENINFO, Kreis.UEBERREGIONAL),
 
     # Emscher-Lippe-Städte
