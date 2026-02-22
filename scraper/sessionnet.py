@@ -1,8 +1,12 @@
 """Scraper für SessionNet-Systeme (si0046.asp/php)."""
 
 import re
+import warnings
 import requests
+import urllib3
 from datetime import datetime
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 from bs4 import BeautifulSoup
 from .base import BaseScraper, Termin
 
@@ -30,7 +34,7 @@ class SessionNetScraper(BaseScraper):
         """Holt alle Termine für einen bestimmten Monat."""
         url = f"{self.termine_url}?__cjahr={jahr}&__cmonat={monat}"
 
-        response = requests.get(url, headers=self.HEADERS, timeout=15)
+        response = requests.get(url, headers=self.HEADERS, timeout=15, verify=False)
         response.raise_for_status()
         response.encoding = 'utf-8'
 

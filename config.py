@@ -40,7 +40,7 @@ def erkenne_systemtyp(url: str) -> SystemTyp:
 
 STAEDTE = [
     # Überregional (RVR)
-    Stadt("Regionalverband Ruhr (RVR)", 0, "https://ris.rvr.ruhr/si0046.asp", SystemTyp.SESSIONNET, Kreis.UEBERREGIONAL),
+    Stadt("Regionalverband Ruhr (RVR)", 0, "https://www.ruhrparlament.de", SystemTyp.GREMIENINFO, Kreis.UEBERREGIONAL),
 
     # Gelsenkirchen (kreisfrei)
     Stadt("Gelsenkirchen", 261000, "https://ratsinformation.gelsenkirchen.de", SystemTyp.ALLRIS, Kreis.GELSENKIRCHEN),
