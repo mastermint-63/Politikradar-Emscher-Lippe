@@ -1,0 +1,1368 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratstermine Mai 2026</title>
+    <link rel="alternate" type="application/rss+xml" title="Politikradar Emscher-Lippe" href="feed.xml">
+    <style>
+        :root {
+            --bg-color: #f5f5f7;
+            --card-bg: #ffffff;
+            --text-color: #1d1d1f;
+            --text-secondary: #86868b;
+            --border-color: #d2d2d7;
+            --accent-color: #0066cc;
+            --hover-color: #f0f0f5;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #1d1d1f;
+                --card-bg: #2d2d2f;
+                --text-color: #f5f5f7;
+                --text-secondary: #a1a1a6;
+                --border-color: #424245;
+                --accent-color: #2997ff;
+                --hover-color: #3a3a3c;
+            }
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.5;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .nav-btn {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--accent-color);
+            padding: 8px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            text-decoration: none;
+        }
+
+        .nav-btn:hover {
+            background: var(--hover-color);
+        }
+
+        .nav-btn.disabled {
+            opacity: 0.3;
+            pointer-events: none;
+            cursor: default;
+        }
+
+        .monat-titel {
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+
+        .filter-container {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            transition: box-shadow 0.2s;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .filter-container {
+                background: rgba(45, 45, 47, 0.5);
+            }
+        }
+
+        .filter-container.is-sticky {
+            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+            border-radius: 0 0 10px 10px;
+        }
+
+        .filter-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+
+        .filter-header h3 {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-color);
+        }
+
+        .filter-reset {
+            background: none;
+            border: none;
+            color: var(--accent-color);
+            font-size: 13px;
+            cursor: pointer;
+            padding: 4px 8px;
+        }
+
+        .filter-reset:hover {
+            text-decoration: underline;
+        }
+
+        .filter-search {
+            position: relative;
+            margin-bottom: 10px;
+        }
+
+        .filter-search input {
+            width: 100%;
+            padding: 10px 40px 10px 15px;
+            font-size: 14px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            background: var(--bg-color);
+            color: var(--text-color);
+            transition: border-color 0.2s;
+        }
+
+        .filter-search input:focus {
+            outline: none;
+            border-color: var(--accent-color);
+        }
+
+        .filter-search .search-icon {
+            position: absolute;
+            right: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 18px;
+            opacity: 0.5;
+            pointer-events: none;
+        }
+
+        .filter-dropdowns {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            flex: 1;
+            min-width: 140px;
+        }
+
+        .filter-label {
+            font-size: 11px;
+            font-weight: 500;
+            color: var(--text-secondary);
+        }
+
+        .kreis-filter {
+            width: 100%;
+            padding: 6px 8px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            background: var(--bg-color);
+            color: var(--text-color);
+            font-size: 13px;
+        }
+
+        .filter-stats {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 10px;
+            border-top: 1px solid var(--border-color);
+            margin-top: 5px;
+        }
+
+        .stats {
+            font-size: 13px;
+            color: var(--text-secondary);
+        }
+
+        .active-filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .filter-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 3px 8px;
+            background: var(--accent-color);
+            color: white;
+            border-radius: 12px;
+            font-size: 12px;
+        }
+
+        .filter-tag button {
+            background: none;
+            border: none;
+            color: white;
+            cursor: pointer;
+            font-size: 14px;
+            line-height: 1;
+            padding: 0;
+            margin-left: 2px;
+        }
+
+        .datum-gruppe {
+            margin-bottom: 20px;
+        }
+
+        .datum-header {
+            font-weight: 600;
+            font-size: 1rem;
+            padding: 10px 15px;
+            background: var(--accent-color);
+            color: white;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .termine-liste {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-top: none;
+            border-radius: 0 0 10px 10px;
+        }
+
+        .termin {
+            display: flex;
+            padding: 12px 15px;
+            border-bottom: 1px solid var(--border-color);
+            transition: background 0.2s;
+        }
+
+        .termin:last-child {
+            border-bottom: none;
+        }
+
+        .termin:hover {
+            background: var(--hover-color);
+        }
+
+        .termin.abgesagt {
+            opacity: 0.5;
+            text-decoration: line-through;
+        }
+
+        .termin-zeit {
+            width: 80px;
+            font-weight: 500;
+            color: var(--accent-color);
+            flex-shrink: 0;
+        }
+
+        .termin-info {
+            flex: 1;
+        }
+
+        .termin-gremium {
+            font-weight: 500;
+            margin-bottom: 2px;
+        }
+
+        .termin-gremium a {
+            color: var(--text-color);
+            text-decoration: none;
+        }
+
+        .termin-gremium a:hover {
+            color: var(--accent-color);
+            text-decoration: underline;
+        }
+
+        .ki-btn {
+            margin-left: 8px;
+            text-decoration: none;
+            font-size: 0.9em;
+            opacity: 0.6;
+            transition: opacity 0.2s, transform 0.2s;
+            display: inline-block;
+        }
+
+        .ki-btn:hover {
+            opacity: 1;
+            transform: scale(1.2);
+            text-decoration: none;
+        }
+
+        .termin-stadt {
+            font-size: 13px;
+            color: var(--text-secondary);
+        }
+
+        .termin-ort {
+            font-size: 12px;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        .kalender {
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto 25px;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        .kalender th {
+            padding: 6px;
+            font-size: 13px;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        .kalender td {
+            padding: 6px;
+            font-size: 14px;
+            border-radius: 6px;
+        }
+
+        .kalender .kal-leer {
+            color: var(--text-secondary);
+            opacity: 0.5;
+        }
+
+        .kalender .kal-link {
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            line-height: 32px;
+            border-radius: 50%;
+            background: var(--accent-color);
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .kalender .kal-link:hover {
+            opacity: 0.8;
+        }
+
+        .zurueck-link {
+            text-align: right;
+            padding: 6px 15px;
+            font-size: 13px;
+        }
+
+        .zurueck-link a {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .zurueck-link a:hover {
+            color: var(--accent-color);
+        }
+
+        .keine-termine {
+            text-align: center;
+            padding: 40px;
+            color: var(--text-secondary);
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            color: var(--text-secondary);
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Politikradar Emscher-Lippe</h1>
+            <div class="nav">
+                <a href="termine_2026_04.html" class="nav-btn">&larr; April</a>
+                <span class="monat-titel">Mai 2026</span>
+                <a href="#" class="nav-btn disabled">Juni &rarr;</a>
+            </div>
+        </header>
+
+        <table class="kalender" id="kalender">
+<tr><th>Mo</th><th>Di</th><th>Mi</th><th>Do</th><th>Fr</th><th>Sa</th><th>So</th></tr>
+<tr><td></td><td></td><td></td><td></td><td class="kal-leer">1</td><td class="kal-leer">2</td><td class="kal-leer">3</td></tr>
+<tr><td class="kal-leer">4</td><td><a href="#datum-2026-05-05" class="kal-link">5</a></td><td><a href="#datum-2026-05-06" class="kal-link">6</a></td><td><a href="#datum-2026-05-07" class="kal-link">7</a></td><td class="kal-leer">8</td><td class="kal-leer">9</td><td class="kal-leer">10</td></tr>
+<tr><td><a href="#datum-2026-05-11" class="kal-link">11</a></td><td><a href="#datum-2026-05-12" class="kal-link">12</a></td><td><a href="#datum-2026-05-13" class="kal-link">13</a></td><td class="kal-leer">14</td><td class="kal-leer">15</td><td class="kal-leer">16</td><td class="kal-leer">17</td></tr>
+<tr><td><a href="#datum-2026-05-18" class="kal-link">18</a></td><td><a href="#datum-2026-05-19" class="kal-link">19</a></td><td><a href="#datum-2026-05-20" class="kal-link">20</a></td><td><a href="#datum-2026-05-21" class="kal-link">21</a></td><td><a href="#datum-2026-05-22" class="kal-link">22</a></td><td class="kal-leer">23</td><td class="kal-leer">24</td></tr>
+<tr><td class="kal-leer">25</td><td class="kal-leer">26</td><td><a href="#datum-2026-05-27" class="kal-link">27</a></td><td><a href="#datum-2026-05-28" class="kal-link">28</a></td><td><a href="#datum-2026-05-29" class="kal-link">29</a></td><td class="kal-leer">30</td><td class="kal-leer">31</td></tr>
+</table>
+
+        <div class="filter-container">
+            <div class="filter-header">
+                <h3>Filter nach Kommune</h3>
+                <button class="filter-reset" onclick="resetFilter()">Alle zurücksetzen</button>
+            </div>
+
+            <!-- Suchfeld -->
+            <div class="filter-search">
+                <input type="text"
+                       id="search-input"
+                       placeholder="Schnellsuche: Stadt eingeben (z.B. Greven, Münster...)"
+                       oninput="searchTermine()"
+                       autocomplete="off">
+                <span class="search-icon">🔍</span>
+            </div>
+
+            <div class="filter-dropdowns">
+                
+            <div class="filter-group">
+                <label class="filter-label">Überregional</label>
+                <select class="kreis-filter" id="filter-ueberregional" onchange="filterTermine()">
+                    <option value="">Überregional</option><option value="Kreis Recklinghausen">Kreis Recklinghausen</option><option value="Regionalverband Ruhr (RVR)">Regionalverband Ruhr (RVR)</option><option value="Verkehrsverbund Rhein-Ruhr (VRR)">Verkehrsverbund Rhein-Ruhr (VRR)</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label class="filter-label">Emscher-Lippe-Städte</label>
+                <select class="kreis-filter" id="filter-emscherlippe" onchange="filterTermine()">
+                    <option value="">Emscher-Lippe-Städte</option><option value="Bottrop">Bottrop</option><option value="Castrop-Rauxel">Castrop-Rauxel</option><option value="Dorsten">Dorsten</option><option value="Gelsenkirchen">Gelsenkirchen</option><option value="Marl">Marl</option><option value="Oer-Erkenschwick">Oer-Erkenschwick</option><option value="Recklinghausen">Recklinghausen</option><option value="Waltrop">Waltrop</option>
+                </select>
+            </div>
+            </div>
+            <div class="filter-stats">
+                <div class="active-filters" id="active-filters"></div>
+                <div class="stats">
+                    <span id="termine-count">52</span> von 52 Terminen
+                </div>
+            </div>
+        </div>
+
+        <main id="termine-container">
+            
+        <div class="datum-gruppe" id="datum-2026-05-05">
+            <div class="datum-header">Di, 05.05.2026</div>
+            <div class="termine-liste">
+        
+                <div class="termin" data-stadt="Bottrop">
+                    <div class="termin-zeit">13:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://ratsinfo-bottrop.de/tops/?__=UGhVM0hpd2NXNFdFcExjZYjTuiolSG4N4CWyB9mztic" target="_blank">Rat der Stadt</a>
+                            <a href="http://localhost:8000/?url=https%3A//ratsinfo-bottrop.de/tops/%3F__%3DUGhVM0hpd2NXNFdFcExjZYjTuiolSG4N4CWyB9mztic" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Bottrop</div>
+                        <div class="termin-ort">Rathaus, 46236 Bottrop, großer Sitzungssaal</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Gelsenkirchen">
+                    <div class="termin-zeit">16:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://ratsinformation.gelsenkirchen.de/si010" target="_blank">Sitzung des Ausschusses für Kinder, Jugend und Familien</a>
+                            <a href="http://localhost:8000/?url=https%3A//ratsinformation.gelsenkirchen.de/si010" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Gelsenkirchen</div>
+                        <div class="termin-ort">Hans-Sachs-Haus, Ratssaal</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Gelsenkirchen">
+                    <div class="termin-zeit">16:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://ratsinformation.gelsenkirchen.de/si010" target="_blank">Sitzung des Ausschusses für Wirtschaft und Innovation</a>
+                            <a href="http://localhost:8000/?url=https%3A//ratsinformation.gelsenkirchen.de/si010" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Gelsenkirchen</div>
+                        <div class="termin-ort">Sitzungszimmer 1 - Zenica</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Dorsten">
+                    <div class="termin-zeit">17:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://dorsten.gremien.info/meeting?id=2026-ACI-2" target="_blank">2. Sitzung Ausschuss für Chancengerechtigkeit und Integration</a>
+                            <a href="http://localhost:8000/?url=https%3A//dorsten.gremien.info/meeting%3Fid%3D2026-ACI-2" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Dorsten</div>
+                        <div class="termin-ort">Rathaus, Großer Sitzungssaal</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Waltrop">
+                    <div class="termin-zeit">17:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://waltrop.gremien.info/meeting?id=2026-3-32" target="_blank">1. Sitzung des Rechnungsprüfungsausschusses</a>
+                            <a href="http://localhost:8000/?url=https%3A//waltrop.gremien.info/meeting%3Fid%3D2026-3-32" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Waltrop</div>
+                        <div class="termin-ort">Großer Sitzungssaal, Rathaus</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Castrop-Rauxel">
+                    <div class="termin-zeit">18:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://castroprauxel.gremien.info/meeting?id=2026-ACI-1" target="_blank">Sitzung des Ausschusses für Chancengerechtigkeit und Integration</a>
+                            <a href="http://localhost:8000/?url=https%3A//castroprauxel.gremien.info/meeting%3Fid%3D2026-ACI-1" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Castrop-Rauxel</div>
+                        <div class="termin-ort">Ratssaal, Europaplatz 1, 44575 Castrop-Rauxel</div>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="zurueck-link"><a href="#kalender">↑ Kalender</a></div>
+        </div>
+        
+        <div class="datum-gruppe" id="datum-2026-05-06">
+            <div class="datum-header">Mi, 06.05.2026</div>
+            <div class="termine-liste">
+        
+                <div class="termin" data-stadt="Bottrop">
+                    <div class="termin-zeit">14:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://ratsinfo-bottrop.de/tops/?__=UGhVM0hpd2NXNFdFcExjZTw04MupAb8Ss9OGGMd20sU" target="_blank">Jugendhilfeausschuss</a>
+                            <a href="http://localhost:8000/?url=https%3A//ratsinfo-bottrop.de/tops/%3F__%3DUGhVM0hpd2NXNFdFcExjZTw04MupAb8Ss9OGGMd20sU" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Bottrop</div>
+                        <div class="termin-ort">Rathaus, 46236 Bottrop, großer Sitzungssaal</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Gelsenkirchen">
+                    <div class="termin-zeit">16:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://ratsinformation.gelsenkirchen.de/si010" target="_blank">Sitzung des Betriebsausschusses GELSENDIENSTE</a>
+                            <a href="http://localhost:8000/?url=https%3A//ratsinformation.gelsenkirchen.de/si010" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Gelsenkirchen</div>
+                        <div class="termin-ort">Konferenzraum im Betriebsgebäude GELSENDIENSTE</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Gelsenkirchen">
+                    <div class="termin-zeit">16:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://ratsinformation.gelsenkirchen.de/si010" target="_blank">Sitzung des Ausschusses für Sportentwicklung</a>
+                            <a href="http://localhost:8000/?url=https%3A//ratsinformation.gelsenkirchen.de/si010" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Gelsenkirchen</div>
+                        <div class="termin-ort">Hans-Sachs-Haus, Ratssaal</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Castrop-Rauxel">
+                    <div class="termin-zeit">17:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://castroprauxel.gremien.info/meeting?id=2026-AuWi-59" target="_blank">Sitzung des Ausschusses für Wirtschaftsentwicklung und Digitalisierung</a>
+                            <a href="http://localhost:8000/?url=https%3A//castroprauxel.gremien.info/meeting%3Fid%3D2026-AuWi-59" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Castrop-Rauxel</div>
+                        <div class="termin-ort">Sitzungsort wird noch bekanntgegeben</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Castrop-Rauxel">
+                    <div class="termin-zeit">17:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://castroprauxel.gremien.info/meeting?id=2026-AKUM-1" target="_blank">Sitzung Ausschuss für Klima, Umwelt und Mobilität</a>
+                            <a href="http://localhost:8000/?url=https%3A//castroprauxel.gremien.info/meeting%3Fid%3D2026-AKUM-1" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Castrop-Rauxel</div>
+                        <div class="termin-ort">Ratssaal, Europaplatz 1, 44575 Castrop-Rauxel</div>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="zurueck-link"><a href="#kalender">↑ Kalender</a></div>
+        </div>
+        
+        <div class="datum-gruppe" id="datum-2026-05-07">
+            <div class="datum-header">Do, 07.05.2026</div>
+            <div class="termine-liste">
+        
+                <div class="termin" data-stadt="Bottrop">
+                    <div class="termin-zeit">14:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://ratsinfo-bottrop.de/tops/?__=UGhVM0hpd2NXNFdFcExjZTS5Kf6LHeAyI8ZVIioJbG0" target="_blank">Betriebsausschuss Bottroper Sport- und Bäderbetrieb</a>
+                            <a href="http://localhost:8000/?url=https%3A//ratsinfo-bottrop.de/tops/%3F__%3DUGhVM0hpd2NXNFdFcExjZTS5Kf6LHeAyI8ZVIioJbG0" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Bottrop</div>
+                        <div class="termin-ort">Jahnstadion, 46236 Bottrop, Multifunktionsraum</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Kreis Recklinghausen">
+                    <div class="termin-zeit">14:30 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://kvrecklinghausen.gremien.info/meeting?id=2026-LBR-113" target="_blank">2. Sitzung des Naturschutzbeirates</a>
+                            <a href="http://localhost:8000/?url=https%3A//kvrecklinghausen.gremien.info/meeting%3Fid%3D2026-LBR-113" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Kreis Recklinghausen</div>
+                        <div class="termin-ort">Extern</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Gelsenkirchen">
+                    <div class="termin-zeit">15:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://ratsinformation.gelsenkirchen.de/si010" target="_blank">Sitzung des Betriebsausschusses Gelsenkirchener Kommunale Datenzentrale Emscher-Lippe</a>
+                            <a href="http://localhost:8000/?url=https%3A//ratsinformation.gelsenkirchen.de/si010" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Gelsenkirchen</div>
+                        <div class="termin-ort">Hans-Sachs-Haus, Ratssaal</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Gelsenkirchen">
+                    <div class="termin-zeit">16:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://ratsinformation.gelsenkirchen.de/si010" target="_blank">Sitzung des Haupt-, Finanz-, Beteiligungs-, Personal-, Digitalisierungs- und Gleichberechtigungsauss</a>
+                            <a href="http://localhost:8000/?url=https%3A//ratsinformation.gelsenkirchen.de/si010" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Gelsenkirchen</div>
+                        <div class="termin-ort">Hans-Sachs-Haus, Ratssaal</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Dorsten">
+                    <div class="termin-zeit">17:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://dorsten.gremien.info/meeting?id=2026-JHA-91" target="_blank">4. Sitzung des Jugendhilfeausschusses</a>
+                            <a href="http://localhost:8000/?url=https%3A//dorsten.gremien.info/meeting%3Fid%3D2026-JHA-91" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Dorsten</div>
+                        <div class="termin-ort">Rathaus, Großer Sitzungssaal</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Castrop-Rauxel">
+                    <div class="termin-zeit">17:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://castroprauxel.gremien.info/meeting?id=2026-AGID-10" target="_blank">Sitzung des Ausschuss für Generationen, Inklusion und Diversität</a>
+                            <a href="http://localhost:8000/?url=https%3A//castroprauxel.gremien.info/meeting%3Fid%3D2026-AGID-10" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Castrop-Rauxel</div>
+                        <div class="termin-ort">Ratssaal, Europaplatz 1, 44575 Castrop-Rauxel</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Waltrop">
+                    <div class="termin-zeit">17:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://waltrop.gremien.info/meeting?id=2026-2-146" target="_blank">5. Sitzung des Haupt- und Finanzausschusses</a>
+                            <a href="http://localhost:8000/?url=https%3A//waltrop.gremien.info/meeting%3Fid%3D2026-2-146" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Waltrop</div>
+                        <div class="termin-ort">Großer Sitzungssaal, Rathaus</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Castrop-Rauxel">
+                    <div class="termin-zeit">17:30 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://castroprauxel.gremien.info/meeting?id=2026-ABES-10" target="_blank">Sitzung des Ausschuss für Bürgeranliegen, Ehrenamt und Sport</a>
+                            <a href="http://localhost:8000/?url=https%3A//castroprauxel.gremien.info/meeting%3Fid%3D2026-ABES-10" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Castrop-Rauxel</div>
+                        <div class="termin-ort">außerhalb des Rathauses, Info siehe Bekanntmachung</div>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="zurueck-link"><a href="#kalender">↑ Kalender</a></div>
+        </div>
+        
+        <div class="datum-gruppe" id="datum-2026-05-11">
+            <div class="datum-header">Mo, 11.05.2026</div>
+            <div class="termine-liste">
+        
+                <div class="termin" data-stadt="Recklinghausen">
+                    <div class="termin-zeit">17:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://stadt-recklinghausen.gremien.info/meeting?id=2026-RAT-132" target="_blank">Sitzung des Rates</a>
+                            <a href="http://localhost:8000/?url=https%3A//stadt-recklinghausen.gremien.info/meeting%3Fid%3D2026-RAT-132" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Recklinghausen</div>
+                        <div class="termin-ort">Raum 103 (Großer Sitzungssaal des Rathauses)</div>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="zurueck-link"><a href="#kalender">↑ Kalender</a></div>
+        </div>
+        
+        <div class="datum-gruppe" id="datum-2026-05-12">
+            <div class="datum-header">Di, 12.05.2026</div>
+            <div class="termine-liste">
+        
+                <div class="termin" data-stadt="Recklinghausen">
+                    <div class="termin-zeit">16:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://stadt-recklinghausen.gremien.info/meeting?id=2026-RATFRAUEN-85" target="_blank">Sitzung der Ratskommission für Gleichstellungs- u. Frauenfragen</a>
+                            <a href="http://localhost:8000/?url=https%3A//stadt-recklinghausen.gremien.info/meeting%3Fid%3D2026-RATFRAUEN-85" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Recklinghausen</div>
+                        <div class="termin-ort">Raum 103 (Großer Sitzungssaal des Rathauses)</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Castrop-Rauxel">
+                    <div class="termin-zeit">17:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://castroprauxel.gremien.info/meeting?id=2026-B3-127" target="_blank">Sitzung des Betriebsausschusses 3 (Planen, Bauen und Wohnen)</a>
+                            <a href="http://localhost:8000/?url=https%3A//castroprauxel.gremien.info/meeting%3Fid%3D2026-B3-127" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Castrop-Rauxel</div>
+                        <div class="termin-ort">Ratssaal, Europaplatz 1, 44575 Castrop-Rauxel</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Waltrop">
+                    <div class="termin-zeit">17:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://waltrop.gremien.info/meeting?id=2026-1-154" target="_blank">5. Sitzung des Rates</a>
+                            <a href="http://localhost:8000/?url=https%3A//waltrop.gremien.info/meeting%3Fid%3D2026-1-154" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Waltrop</div>
+                        <div class="termin-ort">Großer Sitzungssaal, Rathaus</div>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="zurueck-link"><a href="#kalender">↑ Kalender</a></div>
+        </div>
+        
+        <div class="datum-gruppe" id="datum-2026-05-13">
+            <div class="datum-header">Mi, 13.05.2026</div>
+            <div class="termine-liste">
+        
+                <div class="termin" data-stadt="Castrop-Rauxel">
+                    <div class="termin-zeit">17:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://castroprauxel.gremien.info/meeting?id=2026-B1-132" target="_blank">Sitzung des Betriebsausschusses 1 (Kultur, Ordnung, Ausländerwesen und Feuerwehr)</a>
+                            <a href="http://localhost:8000/?url=https%3A//castroprauxel.gremien.info/meeting%3Fid%3D2026-B1-132" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Castrop-Rauxel</div>
+                        <div class="termin-ort">Sitzungsraum 3, Europaplatz 1,44575 Castrop-Rauxel</div>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="zurueck-link"><a href="#kalender">↑ Kalender</a></div>
+        </div>
+        
+        <div class="datum-gruppe" id="datum-2026-05-18">
+            <div class="datum-header">Mo, 18.05.2026</div>
+            <div class="termine-liste">
+        
+                <div class="termin" data-stadt="Kreis Recklinghausen">
+                    <div class="termin-zeit">16:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://kvrecklinghausen.gremien.info/meeting?id=2026-ABGS-3" target="_blank">2. Sitzung des Ausschusses für Arbeit, Bildung, Gesundheit und Soziales</a>
+                            <a href="http://localhost:8000/?url=https%3A//kvrecklinghausen.gremien.info/meeting%3Fid%3D2026-ABGS-3" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Kreis Recklinghausen</div>
+                        <div class="termin-ort">Extern</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Oer-Erkenschwick">
+                    <div class="termin-zeit">17:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://oer-erkenschwick.gremien.info/meeting?id=2026-SteWi-91" target="_blank">4. Sitzung des Ausschusses für Stadtentwicklung und Wirtschaftsförderung</a>
+                            <a href="http://localhost:8000/?url=https%3A//oer-erkenschwick.gremien.info/meeting%3Fid%3D2026-SteWi-91" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Oer-Erkenschwick</div>
+                        <div class="termin-ort">Stadthalle OE</div>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="zurueck-link"><a href="#kalender">↑ Kalender</a></div>
+        </div>
+        
+        <div class="datum-gruppe" id="datum-2026-05-19">
+            <div class="datum-header">Di, 19.05.2026</div>
+            <div class="termine-liste">
+        
+                <div class="termin" data-stadt="Kreis Recklinghausen">
+                    <div class="termin-zeit">09:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://kvrecklinghausen.gremien.info/meeting?id=2026-AW-2" target="_blank">2. Sitzung des Ausschusses für Wirtschaft</a>
+                            <a href="http://localhost:8000/?url=https%3A//kvrecklinghausen.gremien.info/meeting%3Fid%3D2026-AW-2" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Kreis Recklinghausen</div>
+                        <div class="termin-ort">Stadthalle Oer-Erkenschwick</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Kreis Recklinghausen">
+                    <div class="termin-zeit">16:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://kvrecklinghausen.gremien.info/meeting?id=2026-APD-2" target="_blank">2. Sitzung des Ausschusses für Personal und Digitalisierung</a>
+                            <a href="http://localhost:8000/?url=https%3A//kvrecklinghausen.gremien.info/meeting%3Fid%3D2026-APD-2" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Kreis Recklinghausen</div>
+                        <div class="termin-ort">Stadthalle Oer-Erkenschwick</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Oer-Erkenschwick">
+                    <div class="termin-zeit">16:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://oer-erkenschwick.gremien.info/meeting?id=2026-SKSS-85" target="_blank">4. Sitzung des Ausschusses für Schule, Kultur, Sport und Soziales</a>
+                            <a href="http://localhost:8000/?url=https%3A//oer-erkenschwick.gremien.info/meeting%3Fid%3D2026-SKSS-85" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Oer-Erkenschwick</div>
+                        <div class="termin-ort">Stadthalle OE</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Gelsenkirchen">
+                    <div class="termin-zeit">16:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://ratsinformation.gelsenkirchen.de/si010" target="_blank">Sitzung des Betriebsausschusses Gelsenkirchener Kindertagesbetreuung</a>
+                            <a href="http://localhost:8000/?url=https%3A//ratsinformation.gelsenkirchen.de/si010" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Gelsenkirchen</div>
+                        <div class="termin-ort">noch nicht bekannt</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Recklinghausen">
+                    <div class="termin-zeit">16:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://stadt-recklinghausen.gremien.info/meeting?id=2026-RatskBeh-68" target="_blank">Sitzung der Ratskommission für Menschen mit Behinderung</a>
+                            <a href="http://localhost:8000/?url=https%3A//stadt-recklinghausen.gremien.info/meeting%3Fid%3D2026-RatskBeh-68" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Recklinghausen</div>
+                        <div class="termin-ort">Raum 103 (Großer Sitzungssaal des Rathauses)</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Castrop-Rauxel">
+                    <div class="termin-zeit">17:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://castroprauxel.gremien.info/meeting?id=2026-B2-130" target="_blank">Sitzung des Betriebsausschusses 2 (Familie, Jugend, Soziales und Bildung)</a>
+                            <a href="http://localhost:8000/?url=https%3A//castroprauxel.gremien.info/meeting%3Fid%3D2026-B2-130" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Castrop-Rauxel</div>
+                        <div class="termin-ort">außerhalb des Rathauses, Info siehe Bekanntmachung</div>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="zurueck-link"><a href="#kalender">↑ Kalender</a></div>
+        </div>
+        
+        <div class="datum-gruppe" id="datum-2026-05-20">
+            <div class="datum-header">Mi, 20.05.2026</div>
+            <div class="termine-liste">
+        
+                <div class="termin" data-stadt="Kreis Recklinghausen">
+                    <div class="termin-zeit">09:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://kvrecklinghausen.gremien.info/meeting?id=2026-ALBM-2" target="_blank">2. Sitzung des Ausschusses für Landwirtschaft, Bauen und Mobilität</a>
+                            <a href="http://localhost:8000/?url=https%3A//kvrecklinghausen.gremien.info/meeting%3Fid%3D2026-ALBM-2" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Kreis Recklinghausen</div>
+                        <div class="termin-ort">Stadthalle Oer-Erkenschwick</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Oer-Erkenschwick">
+                    <div class="termin-zeit">16:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://oer-erkenschwick.gremien.info/meeting?id=2026-JHA-87" target="_blank">3. Sitzung des Jugendhilfeausschusses</a>
+                            <a href="http://localhost:8000/?url=https%3A//oer-erkenschwick.gremien.info/meeting%3Fid%3D2026-JHA-87" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Oer-Erkenschwick</div>
+                        <div class="termin-ort">Besprechungszimmer I</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Gelsenkirchen">
+                    <div class="termin-zeit">16:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://ratsinformation.gelsenkirchen.de/si010" target="_blank">Sitzung des Betriebsausschusses GELSENKANAL</a>
+                            <a href="http://localhost:8000/?url=https%3A//ratsinformation.gelsenkirchen.de/si010" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Gelsenkirchen</div>
+                        <div class="termin-ort">Gelsenwasser (altes Verwaltungsgebäude), großer Sitzungssaal, 6. Etage</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Gelsenkirchen">
+                    <div class="termin-zeit">16:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://ratsinformation.gelsenkirchen.de/si010" target="_blank">Sitzung des Betriebsausschusses Seniorenhäuser</a>
+                            <a href="http://localhost:8000/?url=https%3A//ratsinformation.gelsenkirchen.de/si010" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Gelsenkirchen</div>
+                        <div class="termin-ort">noch nicht bekannt</div>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="zurueck-link"><a href="#kalender">↑ Kalender</a></div>
+        </div>
+        
+        <div class="datum-gruppe" id="datum-2026-05-21">
+            <div class="datum-header">Do, 21.05.2026</div>
+            <div class="termine-liste">
+        
+                <div class="termin" data-stadt="Oer-Erkenschwick">
+                    <div class="termin-zeit">10:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://oer-erkenschwick.gremien.info/meeting?id=2026-SB-29" target="_blank">25. Sitzung des Seniorenbeirates</a>
+                            <a href="http://localhost:8000/?url=https%3A//oer-erkenschwick.gremien.info/meeting%3Fid%3D2026-SB-29" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Oer-Erkenschwick</div>
+                        <div class="termin-ort">Heimatkundehaus, Haardstr. 32</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Bottrop">
+                    <div class="termin-zeit">14:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://ratsinfo-bottrop.de/tops/?__=UGhVM0hpd2NXNFdFcExjZZVLy83SEisrp14HYgQCkmw" target="_blank">Beirat für Menschen mit Behinderung</a>
+                            <a href="http://localhost:8000/?url=https%3A//ratsinfo-bottrop.de/tops/%3F__%3DUGhVM0hpd2NXNFdFcExjZZVLy83SEisrp14HYgQCkmw" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Bottrop</div>
+                        <div class="termin-ort">Rathaus, 46236 Bottrop, Sitzungszimmer 111</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Oer-Erkenschwick">
+                    <div class="termin-zeit">14:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://oer-erkenschwick.gremien.info/meeting?id=2026-HuF-78" target="_blank">4. Sitzung des Haupt-, Finanz- und Personalausschusses</a>
+                            <a href="http://localhost:8000/?url=https%3A//oer-erkenschwick.gremien.info/meeting%3Fid%3D2026-HuF-78" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Oer-Erkenschwick</div>
+                        <div class="termin-ort">Stadthalle OE</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Oer-Erkenschwick">
+                    <div class="termin-zeit">15:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://oer-erkenschwick.gremien.info/meeting?id=2026-RAT-108" target="_blank">5. Sitzung des Rates</a>
+                            <a href="http://localhost:8000/?url=https%3A//oer-erkenschwick.gremien.info/meeting%3Fid%3D2026-RAT-108" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Oer-Erkenschwick</div>
+                        <div class="termin-ort">Stadthalle OE</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Gelsenkirchen">
+                    <div class="termin-zeit">15:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://ratsinformation.gelsenkirchen.de/si010" target="_blank">Sitzung des Rates der Stadt</a>
+                            <a href="http://localhost:8000/?url=https%3A//ratsinformation.gelsenkirchen.de/si010" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Gelsenkirchen</div>
+                        <div class="termin-ort">Hans-Sachs-Haus, Ratssaal</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Castrop-Rauxel">
+                    <div class="termin-zeit">16:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://castroprauxel.gremien.info/meeting?id=2026-HFA-137" target="_blank">Sitzung des Haupt- und Finanzausschusses</a>
+                            <a href="http://localhost:8000/?url=https%3A//castroprauxel.gremien.info/meeting%3Fid%3D2026-HFA-137" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Castrop-Rauxel</div>
+                        <div class="termin-ort">Ratssaal, Europaplatz 1, 44575 Castrop-Rauxel</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Recklinghausen">
+                    <div class="termin-zeit">16:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://stadt-recklinghausen.gremien.info/meeting?id=2026-WLBG-27" target="_blank">Sitzung des Ausschusses für Wirtschaftsförderung, Liegenschaften, Beteiligungen und Gebäudewirtschaf</a>
+                            <a href="http://localhost:8000/?url=https%3A//stadt-recklinghausen.gremien.info/meeting%3Fid%3D2026-WLBG-27" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Recklinghausen</div>
+                        <div class="termin-ort">Raum 103 (Großer Sitzungssaal des Rathauses)</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Dorsten">
+                    <div class="termin-zeit">17:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://dorsten.gremien.info/meeting?id=2026-ASW-32" target="_blank">4. Sitzung des Ausschusses für Schule und Weiterbildung</a>
+                            <a href="http://localhost:8000/?url=https%3A//dorsten.gremien.info/meeting%3Fid%3D2026-ASW-32" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Dorsten</div>
+                        <div class="termin-ort">Rathaus, Großer Sitzungssaal</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Castrop-Rauxel">
+                    <div class="termin-zeit">17:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://castroprauxel.gremien.info/meeting?id=2026-RAT-162" target="_blank">Sitzung des Rates der Stadt</a>
+                            <a href="http://localhost:8000/?url=https%3A//castroprauxel.gremien.info/meeting%3Fid%3D2026-RAT-162" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Castrop-Rauxel</div>
+                        <div class="termin-ort">Ratssaal, Europaplatz 1, 44575 Castrop-Rauxel</div>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="zurueck-link"><a href="#kalender">↑ Kalender</a></div>
+        </div>
+        
+        <div class="datum-gruppe" id="datum-2026-05-22">
+            <div class="datum-header">Fr, 22.05.2026</div>
+            <div class="termine-liste">
+        
+                <div class="termin" data-stadt="Kreis Recklinghausen">
+                    <div class="termin-zeit">09:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://kvrecklinghausen.gremien.info/meeting?id=2026-AKNU-19" target="_blank">2. Sitzung des Ausschusses für Klima, Nachhaltigkeit und Umwelt</a>
+                            <a href="http://localhost:8000/?url=https%3A//kvrecklinghausen.gremien.info/meeting%3Fid%3D2026-AKNU-19" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Kreis Recklinghausen</div>
+                        <div class="termin-ort">Stadthalle Oer-Erkenschwick</div>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="zurueck-link"><a href="#kalender">↑ Kalender</a></div>
+        </div>
+        
+        <div class="datum-gruppe" id="datum-2026-05-27">
+            <div class="datum-header">Mi, 27.05.2026</div>
+            <div class="termine-liste">
+        
+                <div class="termin" data-stadt="Regionalverband Ruhr (RVR)">
+                    <div class="termin-zeit">10:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://rvr-online.gremien.info/meeting?id=2026-RPA-43" target="_blank">1. Sitzung des Rechnungsprüfungsausschusses</a>
+                            <a href="http://localhost:8000/?url=https%3A//rvr-online.gremien.info/meeting%3Fid%3D2026-RPA-43" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Regionalverband Ruhr (RVR)</div>
+                        <div class="termin-ort">Plenarsaal</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Verkehrsverbund Rhein-Ruhr (VRR)">
+                    <div class="termin-zeit">12:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://zvis.vrr.de/bi/si0046.asp?__cjahr=2026&__cmonat=5" target="_blank">(27.05.2026 bis 28.05.2026)nicht öffentliche Sitzung des Unternehmensbeirates der VRR AöR (Workshop)</a>
+                            <a href="http://localhost:8000/?url=https%3A//zvis.vrr.de/bi/si0046.asp%3F__cjahr%3D2026%26__cmonat%3D5" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Verkehrsverbund Rhein-Ruhr (VRR)</div>
+                        
+                    </div>
+                </div>
+            
+            </div>
+            <div class="zurueck-link"><a href="#kalender">↑ Kalender</a></div>
+        </div>
+        
+        <div class="datum-gruppe" id="datum-2026-05-28">
+            <div class="datum-header">Do, 28.05.2026</div>
+            <div class="termine-liste">
+        
+                <div class="termin" data-stadt="Marl">
+                    <div class="termin-zeit">10:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://marl.gremien.info/meeting?id=2026-16-147" target="_blank">4. Sitzung des Seniorenbeirates</a>
+                            <a href="http://localhost:8000/?url=https%3A//marl.gremien.info/meeting%3Fid%3D2026-16-147" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Marl</div>
+                        <div class="termin-ort">Sitzungsraum IV, ehem. insel-Café, Riegelhaus</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Recklinghausen">
+                    <div class="termin-zeit">16:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://stadt-recklinghausen.gremien.info/meeting?id=2026-ASB-53" target="_blank">Sitzung des Ausschusses für Schule und Bildung</a>
+                            <a href="http://localhost:8000/?url=https%3A//stadt-recklinghausen.gremien.info/meeting%3Fid%3D2026-ASB-53" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Recklinghausen</div>
+                        <div class="termin-ort">Raum 103 (Großer Sitzungssaal des Rathauses)</div>
+                    </div>
+                </div>
+            
+                <div class="termin" data-stadt="Marl">
+                    <div class="termin-zeit">17:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://marl.gremien.info/meeting?id=2026-89-39" target="_blank">3. Sitzung der Lenkungsgruppe Rathaussanierung</a>
+                            <a href="http://localhost:8000/?url=https%3A//marl.gremien.info/meeting%3Fid%3D2026-89-39" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Marl</div>
+                        <div class="termin-ort">Sitzungsraum IV, ehem. insel-Café, Riegelhaus</div>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="zurueck-link"><a href="#kalender">↑ Kalender</a></div>
+        </div>
+        
+        <div class="datum-gruppe" id="datum-2026-05-29">
+            <div class="datum-header">Fr, 29.05.2026</div>
+            <div class="termine-liste">
+        
+                <div class="termin" data-stadt="Bottrop">
+                    <div class="termin-zeit">15:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://ratsinfo-bottrop.de/tops/?__=UGhVM0hpd2NXNFdFcExjZVsF9NbOZhFxvwKc2ehymtk" target="_blank">Jugendparlament</a>
+                            <a href="http://localhost:8000/?url=https%3A//ratsinfo-bottrop.de/tops/%3F__%3DUGhVM0hpd2NXNFdFcExjZVsF9NbOZhFxvwKc2ehymtk" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>
+                        </div>
+                        <div class="termin-stadt">Bottrop</div>
+                        <div class="termin-ort">Rathaus, 46236 Bottrop, Sitzungszimmer 111</div>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="zurueck-link"><a href="#kalender">↑ Kalender</a></div>
+        </div>
+        
+        </main>
+
+        <footer>
+            Generiert am 01.03.2026 um 06:33 Uhr<br>
+            Daten aus 11 Ratsinformationssystemen<br>
+            <a href="feed.xml" style="color: var(--accent); text-decoration: none;">&#x25CF; RSS-Feed</a>
+        </footer>
+    </div>
+
+    <script>
+        function filterTermine() {
+            // Alle ausgewählten Städte aus allen Dropdowns sammeln
+            const selects = document.querySelectorAll('.kreis-filter');
+            const gewaehlteStaedte = [];
+
+            selects.forEach(select => {
+                if (select.value) {
+                    gewaehlteStaedte.push(select.value);
+                }
+            });
+
+            // Termine filtern
+            const termine = document.querySelectorAll('.termin');
+            let sichtbar = 0;
+
+            termine.forEach(t => {
+                const zeigen = gewaehlteStaedte.length === 0 ||
+                               gewaehlteStaedte.includes(t.dataset.stadt);
+                t.classList.toggle('hidden', !zeigen);
+                if (zeigen) sichtbar++;
+            });
+
+            document.getElementById('termine-count').textContent = sichtbar;
+
+            // Leere Datum-Gruppen ausblenden
+            document.querySelectorAll('.datum-gruppe').forEach(g => {
+                const sichtbareTermine = g.querySelectorAll('.termin:not(.hidden)');
+                g.classList.toggle('hidden', sichtbareTermine.length === 0);
+            });
+
+            // Aktive Filter als Tags anzeigen
+            updateFilterTags(gewaehlteStaedte);
+        }
+
+        function updateFilterTags(staedte) {
+            const container = document.getElementById('active-filters');
+            if (staedte.length === 0) {
+                container.innerHTML = '';
+                return;
+            }
+            container.innerHTML = staedte.map(stadt =>
+                `<span class="filter-tag">${stadt}<button onclick="removeFilter('${stadt}')">&times;</button></span>`
+            ).join('');
+        }
+
+        function removeFilter(stadt) {
+            // Finde das Dropdown mit dieser Stadt und setze es zurück
+            document.querySelectorAll('.kreis-filter').forEach(select => {
+                if (select.value === stadt) {
+                    select.value = '';
+                }
+            });
+            filterTermine();
+        }
+
+        function resetFilter() {
+            document.querySelectorAll('.kreis-filter').forEach(select => {
+                select.value = '';
+            });
+            document.getElementById('search-input').value = '';
+            filterTermine();
+        }
+
+        function searchTermine() {
+            const searchTerm = document.getElementById('search-input').value.toLowerCase().trim();
+
+            // Wenn Suchfeld leer ist, nutze normale Dropdown-Filter
+            if (searchTerm === '') {
+                filterTermine();
+                return;
+            }
+
+            // Alle Dropdowns zurücksetzen wenn gesucht wird
+            document.querySelectorAll('.kreis-filter').forEach(select => {
+                select.value = '';
+            });
+
+            // Filter nach Suchbegriff
+            const allTermine = document.querySelectorAll('.termin');
+            let visibleCount = 0;
+
+            allTermine.forEach(termin => {
+                const stadt = termin.getAttribute('data-stadt').toLowerCase();
+
+                if (stadt.includes(searchTerm)) {
+                    termin.style.display = '';
+                    visibleCount++;
+                } else {
+                    termin.style.display = 'none';
+                }
+            });
+
+            // Datum-Gruppen ausblenden, wenn alle Termine darin versteckt sind
+            document.querySelectorAll('.datum-gruppe').forEach(gruppe => {
+                const sichtbareTermine = gruppe.querySelectorAll('.termin:not([style*="display: none"])');
+                if (sichtbareTermine.length === 0) {
+                    gruppe.style.display = 'none';
+                } else {
+                    gruppe.style.display = '';
+                }
+            });
+
+            // Zähler aktualisieren
+            const totalCount = allTermine.length;
+            document.getElementById('termine-count').textContent = visibleCount;
+
+            // Active Filter anzeigen (Suchbegriff als Tag)
+            const container = document.getElementById('active-filters');
+            if (searchTerm) {
+                container.innerHTML = `<span class="filter-tag">Suche: ${searchTerm}<button onclick="document.getElementById('search-input').value=''; filterTermine();">&times;</button></span>`;
+            } else {
+                container.innerHTML = '';
+            }
+        }
+
+        // Sticky-Shadow für Filterleiste
+        const filterContainer = document.querySelector('.filter-container');
+        const observer = new IntersectionObserver(
+            ([e]) => filterContainer.classList.toggle('is-sticky', e.intersectionRatio < 1),
+            { threshold: [1] }
+        );
+        observer.observe(filterContainer);
+
+        // Zum heutigen oder nächsten Datum mit Terminen springen (nur wenn kein Anker in der URL)
+        if (!window.location.hash) {
+            const heute = new Date();
+            heute.setHours(0, 0, 0, 0);
+            const gruppen = Array.from(document.querySelectorAll('.datum-gruppe'))
+                .map(el => ({ el, datum: new Date(el.id.replace('datum-', '')) }))
+                .filter(x => x.datum >= heute)
+                .sort((a, b) => a.datum - b.datum);
+            if (gruppen.length > 0) {
+                const ziel = gruppen[0].el;
+                const offset = filterContainer.offsetHeight + 12;
+                const top = ziel.getBoundingClientRect().top + window.scrollY - offset;
+                window.scrollTo({ top, behavior: 'smooth' });
+            }
+        }
+    </script>
+</body>
+</html>
