@@ -158,8 +158,7 @@ def generiere_html(termine: list[Termin], jahr: int, monat: int,
             # KI-Analyse-Button nur bei Terminen mit Link
             ki_button = ''
             if t.link and t.link.strip():
-                # URL für KI-Tool (lokal für Testing)
-                ki_url = f"http://localhost:8000/?url={quote(t.link)}"
+                ki_url = f"https://ratsinfo-lesen.reporter.ruhr/?url={quote(t.link)}"
                 ki_button = f'<a href="{ki_url}" class="ki-btn" title="Dokumente mit KI analysieren" target="_blank">🔍</a>'
 
             termine_html += f'''
@@ -944,7 +943,7 @@ def main():
         with open(ausgabe_pfad, 'w', encoding='utf-8') as f:
             f.write(html)
 
-        # RSS-Feed für den aktuellen Monat generieren
+        # RSS-Feed und index.html für den aktuellen Monat generieren
         if idx == 0:
             erster_dateiname = ausgabe_pfad
             rss = generiere_rss(termine, j, m)
@@ -952,6 +951,25 @@ def main():
             with open(rss_pfad, 'w', encoding='utf-8') as f:
                 f.write(rss)
             print(f"  → RSS-Feed: feed.xml ({len(termine)} Einträge)")
+
+            # index.html auf aktuellen Monat aktualisieren
+            ziel = dateiname_fuer_monat(j, m)
+            index_html = f"""<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="0; url={ziel}">
+  <title>Politikradar Emscher-Lippe</title>
+</head>
+<body>
+  <p>Weiterleitung zu <a href="{ziel}">{ziel}</a></p>
+</body>
+</html>
+"""
+            index_pfad = os.path.join(basis_pfad, 'index.html')
+            with open(index_pfad, 'w', encoding='utf-8') as f:
+                f.write(index_html)
+            print(f"  → index.html → {ziel}")
 
     print("\n" + "=" * 50)
     print(f"Fertig! {anzahl_monate} Dateien generiert.")
