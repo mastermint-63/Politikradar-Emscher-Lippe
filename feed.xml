@@ -5,7 +5,7 @@
     <link>https://el-raete.reporter.ruhr/termine_2026_04.html</link>
     <description>Sitzungstermine aus Ratsinformationssystemen im Emscher-Lippe-Raum</description>
     <language>de-de</language>
-    <lastBuildDate>Sun, 26 Apr 2026 06:30:06 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 06:30:06 +0200</lastBuildDate>
     <atom:link href="https://el-raete.reporter.ruhr/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>nicht öffentliche Sitzung der AfD-Fraktion in der Verbandsversammlung des Zweckverbandes VRR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
@@ -71,18 +71,18 @@
       <guid isPermaLink="false">Bottrop-20260414-13:00 Uhr-Bezirksvertretung Bottrop-Mitt</guid>
     </item>
     <item>
-      <title>3. Sitzung des Ausschusses für Kultur, Weiterbildung und Stadtmarketing – Marl</title>
-      <link>https://marl.gremien.info/meeting?id=ni_2026-99-2</link>
-      <description>Di, 14.04.2026, 16:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
-      <pubDate>Tue, 14 Apr 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Marl-20260414-16:00 Uhr-3. Sitzung des Ausschusses für</guid>
-    </item>
-    <item>
       <title>Sitzung des Ausschusses für Stadtentwicklung, Umwelt, Klima und Artenschutz – Recklinghausen</title>
       <link>https://stadt-recklinghausen.gremien.info/meeting?id=2026-STUKA-3</link>
       <description>Di, 14.04.2026, 16:00 Uhr Uhr | Raum 103 (Großer Sitzungssaal des Rathauses)</description>
       <pubDate>Tue, 14 Apr 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Recklinghausen-20260414-16:00 Uhr-Sitzung des Ausschusses für St</guid>
+    </item>
+    <item>
+      <title>3. Sitzung des Ausschusses für Kultur, Weiterbildung und Stadtmarketing – Marl</title>
+      <link>https://marl.gremien.info/meeting?id=ni_2026-99-2</link>
+      <description>Di, 14.04.2026, 16:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
+      <pubDate>Tue, 14 Apr 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Marl-20260414-16:00 Uhr-3. Sitzung des Ausschusses für</guid>
     </item>
     <item>
       <title>Sitzung der Bezirksvertretung Gelsenkirchen-West – Gelsenkirchen</title>
@@ -449,18 +449,18 @@
       <guid isPermaLink="false">Recklinghausen-20260427-16:00 Uhr-Sitzung des Haupt- und Finanza</guid>
     </item>
     <item>
-      <title>Haupt-, Finanz- und Beschwerdeausschuss – Bottrop</title>
-      <link>https://ratsinfo-bottrop.de/tops/?__=UGhVM0hpd2NXNFdFcExjZShrBM0yikifdWHG5ldZOLE</link>
-      <description>Di, 28.04.2026, 14:00 Uhr Uhr | Rathaus, 46236 Bottrop, Sitzungszimmer 111</description>
-      <pubDate>Tue, 28 Apr 2026 14:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Bottrop-20260428-14:00 Uhr-Haupt-, Finanz- und Beschwerde</guid>
-    </item>
-    <item>
       <title>2. Sitzung des Wahlausschusses – Oer-Erkenschwick</title>
       <link>https://oer-erkenschwick.gremien.info/meeting?id=2026-WA-21</link>
       <description>Di, 28.04.2026, 14:00 Uhr Uhr | Besprechungszimmer I</description>
       <pubDate>Tue, 28 Apr 2026 14:00:00 +0200</pubDate>
       <guid isPermaLink="false">Oer-Erkenschwick-20260428-14:00 Uhr-2. Sitzung des Wahlausschusses</guid>
+    </item>
+    <item>
+      <title>Haupt-, Finanz- und Beschwerdeausschuss – Bottrop</title>
+      <link>https://ratsinfo-bottrop.de/tops/?__=UGhVM0hpd2NXNFdFcExjZShrBM0yikifdWHG5ldZOLE</link>
+      <description>Di, 28.04.2026, 14:00 Uhr Uhr | Rathaus, 46236 Bottrop, Sitzungszimmer 111</description>
+      <pubDate>Tue, 28 Apr 2026 14:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Bottrop-20260428-14:00 Uhr-Haupt-, Finanz- und Beschwerde</guid>
     </item>
     <item>
       <title>4. Sitzung des Haupt- und Finanzausschusses – Marl</title>
