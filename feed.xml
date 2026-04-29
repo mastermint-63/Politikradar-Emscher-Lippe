@@ -5,7 +5,7 @@
     <link>https://el-raete.reporter.ruhr/termine_2026_04.html</link>
     <description>Sitzungstermine aus Ratsinformationssystemen im Emscher-Lippe-Raum</description>
     <language>de-de</language>
-    <lastBuildDate>Tue, 28 Apr 2026 06:30:07 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 06:30:05 +0200</lastBuildDate>
     <atom:link href="https://el-raete.reporter.ruhr/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>nicht öffentliche Sitzung der AfD-Fraktion in der Verbandsversammlung des Zweckverbandes VRR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
@@ -85,18 +85,18 @@
       <guid isPermaLink="false">Gelsenkirchen-20260414-16:00 Uhr-Sitzung der Bezirksvertretung </guid>
     </item>
     <item>
-      <title>Sitzung des Ausschusses für Stadtentwicklung, Umwelt, Klima und Artenschutz – Recklinghausen</title>
-      <link>https://stadt-recklinghausen.gremien.info/meeting?id=2026-STUKA-3</link>
-      <description>Di, 14.04.2026, 16:00 Uhr Uhr | Raum 103 (Großer Sitzungssaal des Rathauses)</description>
-      <pubDate>Tue, 14 Apr 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Recklinghausen-20260414-16:00 Uhr-Sitzung des Ausschusses für St</guid>
-    </item>
-    <item>
       <title>3. Sitzung des Ausschusses für Kultur, Weiterbildung und Stadtmarketing – Marl</title>
       <link>https://marl.gremien.info/meeting?id=ni_2026-99-2</link>
       <description>Di, 14.04.2026, 16:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
       <pubDate>Tue, 14 Apr 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Marl-20260414-16:00 Uhr-3. Sitzung des Ausschusses für</guid>
+    </item>
+    <item>
+      <title>Sitzung des Ausschusses für Stadtentwicklung, Umwelt, Klima und Artenschutz – Recklinghausen</title>
+      <link>https://stadt-recklinghausen.gremien.info/meeting?id=2026-STUKA-3</link>
+      <description>Di, 14.04.2026, 16:00 Uhr Uhr | Raum 103 (Großer Sitzungssaal des Rathauses)</description>
+      <pubDate>Tue, 14 Apr 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Recklinghausen-20260414-16:00 Uhr-Sitzung des Ausschusses für St</guid>
     </item>
     <item>
       <title>Sitzung des Beirates für Senioren – Gelsenkirchen</title>
@@ -422,7 +422,7 @@
     </item>
     <item>
       <title>1. Sitzung Kommission zur Förderung der öffentlichen Sicherheit und Sauberkeit – Dorsten</title>
-      <link>https://dorsten.gremien.info/meeting?id=2026-KommFOeS-10</link>
+      <link>https://dorsten.gremien.info/meeting?id=ni_2026-KommFOeS-10</link>
       <description>Do, 23.04.2026, 17:00 Uhr Uhr | Rathaus, Großer Sitzungssaal</description>
       <pubDate>Thu, 23 Apr 2026 17:00:00 +0200</pubDate>
       <guid isPermaLink="false">Dorsten-20260423-17:00 Uhr-1. Sitzung Kommission zur Förd</guid>
@@ -456,18 +456,18 @@
       <guid isPermaLink="false">Verkehrsverbund Rhein-Ruhr (VRR)-20260428-19:00 Uhr-nicht öffentliche Sitzung der </guid>
     </item>
     <item>
-      <title>Haupt-, Finanz- und Beschwerdeausschuss – Bottrop</title>
-      <link>https://ratsinfo-bottrop.de/tops/?__=UGhVM0hpd2NXNFdFcExjZShrBM0yikifdWHG5ldZOLE</link>
-      <description>Di, 28.04.2026, 14:00 Uhr Uhr | Rathaus, 46236 Bottrop, Sitzungszimmer 111</description>
-      <pubDate>Tue, 28 Apr 2026 14:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Bottrop-20260428-14:00 Uhr-Haupt-, Finanz- und Beschwerde</guid>
-    </item>
-    <item>
       <title>2. Sitzung des Wahlausschusses – Oer-Erkenschwick</title>
       <link>https://oer-erkenschwick.gremien.info/meeting?id=2026-WA-21</link>
       <description>Di, 28.04.2026, 14:00 Uhr Uhr | Besprechungszimmer I</description>
       <pubDate>Tue, 28 Apr 2026 14:00:00 +0200</pubDate>
       <guid isPermaLink="false">Oer-Erkenschwick-20260428-14:00 Uhr-2. Sitzung des Wahlausschusses</guid>
+    </item>
+    <item>
+      <title>Haupt-, Finanz- und Beschwerdeausschuss – Bottrop</title>
+      <link>https://ratsinfo-bottrop.de/tops/?__=UGhVM0hpd2NXNFdFcExjZShrBM0yikifdWHG5ldZOLE</link>
+      <description>Di, 28.04.2026, 14:00 Uhr Uhr | Rathaus, 46236 Bottrop, Sitzungszimmer 111</description>
+      <pubDate>Tue, 28 Apr 2026 14:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Bottrop-20260428-14:00 Uhr-Haupt-, Finanz- und Beschwerde</guid>
     </item>
     <item>
       <title>Sitzung des Ausschusses für Ordnung, Prävention und Verbraucherschutz – Gelsenkirchen</title>
@@ -491,18 +491,18 @@
       <guid isPermaLink="false">Marl-20260428-16:00 Uhr-4. Sitzung des Haupt- und Fina</guid>
     </item>
     <item>
-      <title>4. Sitzung des Bauausschusses - abgesagt – Dorsten</title>
-      <link>https://dorsten.gremien.info/meeting?id=2026-Bau-166</link>
-      <description>Di, 28.04.2026, 17:00 Uhr Uhr | Rathaus, Großer Sitzungssaal</description>
-      <pubDate>Tue, 28 Apr 2026 17:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Dorsten-20260428-17:00 Uhr-4. Sitzung des Bauausschusses </guid>
-    </item>
-    <item>
       <title>Sitzung des Ausschusses für Umwelt, Nachhaltigkeit und Klimaschutz – Gelsenkirchen</title>
       <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000766&amp;refresh=false</link>
       <description>Di, 28.04.2026, 17:00 Uhr Uhr | Sitzungszimmer Cottbus</description>
       <pubDate>Tue, 28 Apr 2026 17:00:00 +0200</pubDate>
       <guid isPermaLink="false">Gelsenkirchen-20260428-17:00 Uhr-Sitzung des Ausschusses für Um</guid>
+    </item>
+    <item>
+      <title>4. Sitzung des Bauausschusses - abgesagt – Dorsten</title>
+      <link>https://dorsten.gremien.info/meeting?id=2026-Bau-166</link>
+      <description>Di, 28.04.2026, 17:00 Uhr Uhr | Rathaus, Großer Sitzungssaal</description>
+      <pubDate>Tue, 28 Apr 2026 17:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Dorsten-20260428-17:00 Uhr-4. Sitzung des Bauausschusses </guid>
     </item>
     <item>
       <title>Sitzung des Ausschusses für Kultur und urbane Szene – Gelsenkirchen</title>
