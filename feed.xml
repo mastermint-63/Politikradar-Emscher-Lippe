@@ -5,7 +5,7 @@
     <link>https://el-raete.reporter.ruhr/termine_2026_06.html</link>
     <description>Sitzungstermine aus Ratsinformationssystemen im Emscher-Lippe-Raum</description>
     <language>de-de</language>
-    <lastBuildDate>Sat, 06 Jun 2026 06:30:06 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2026 06:30:00 +0200</lastBuildDate>
     <atom:link href="https://el-raete.reporter.ruhr/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Sitzung des Ausschusses für Stadtentwicklung, Umwelt, Klima und Artenschutz – Recklinghausen</title>
@@ -169,18 +169,18 @@
       <guid isPermaLink="false">Herten-20260609-17:00 Uhr-2. Sitzung des Ausschusses für</guid>
     </item>
     <item>
-      <title>Sitzung des Beirates für Menschen mit Behinderungen – Gelsenkirchen</title>
-      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000376&amp;refresh=false</link>
-      <description>Mi, 10.06.2026, 14:00 Uhr Uhr | Sitzungszimmer 1 - Zenica</description>
-      <pubDate>Wed, 10 Jun 2026 14:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Gelsenkirchen-20260610-14:00 Uhr-Sitzung des Beirates für Mensc</guid>
-    </item>
-    <item>
       <title>Schulausschuss – Bottrop</title>
       <link>https://ratsinfo-bottrop.de/tops/?__=UGhVM0hpd2NXNFdFcExjZXzCqRpityHNd-Z3lS2kWZQ</link>
       <description>Mi, 10.06.2026, 14:00 Uhr Uhr | Rathaus, 46236 Bottrop, großer Sitzungssaal</description>
       <pubDate>Wed, 10 Jun 2026 14:00:00 +0200</pubDate>
       <guid isPermaLink="false">Bottrop-20260610-14:00 Uhr-Schulausschuss</guid>
+    </item>
+    <item>
+      <title>Sitzung des Beirates für Menschen mit Behinderungen – Gelsenkirchen</title>
+      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000376&amp;refresh=false</link>
+      <description>Mi, 10.06.2026, 14:00 Uhr Uhr | Sitzungszimmer 1 - Zenica</description>
+      <pubDate>Wed, 10 Jun 2026 14:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Gelsenkirchen-20260610-14:00 Uhr-Sitzung des Beirates für Mensc</guid>
     </item>
     <item>
       <title>Sitzung der Bezirksvertretung Gelsenkirchen-Mitte – Gelsenkirchen</title>
