@@ -5,7 +5,7 @@
     <link>https://el-raete.reporter.ruhr/termine_2026_06.html</link>
     <description>Sitzungstermine aus Ratsinformationssystemen im Emscher-Lippe-Raum</description>
     <language>de-de</language>
-    <lastBuildDate>Mon, 08 Jun 2026 06:30:01 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 06:30:06 +0200</lastBuildDate>
     <atom:link href="https://el-raete.reporter.ruhr/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Sitzung des Ausschusses für Stadtentwicklung, Umwelt, Klima und Artenschutz – Recklinghausen</title>
@@ -72,7 +72,7 @@
     </item>
     <item>
       <title>2. Sitzung des Kreisausschusses – Kreis Recklinghausen</title>
-      <link>https://kvrecklinghausen.gremien.info/meeting?id=2026-KA-237</link>
+      <link>https://kvrecklinghausen.gremien.info/meeting?id=ni_2026-KA-237</link>
       <description>Mo, 08.06.2026, 09:00 Uhr Uhr | Stadthalle Oer-Erkenschwick</description>
       <pubDate>Mon, 08 Jun 2026 09:00:00 +0200</pubDate>
       <guid isPermaLink="false">Kreis Recklinghausen-20260608-09:00 Uhr-2. Sitzung des Kreisausschusse</guid>
@@ -267,18 +267,18 @@
       <guid isPermaLink="false">Marl-20260611-16:00 Uhr-5. Sitzung des Kinder- und Jug</guid>
     </item>
     <item>
-      <title>2. Sitzung des Ausschusses für Schule, Kultur, Sport und Ehrenamt – Waltrop</title>
-      <link>https://waltrop.gremien.info/meeting?id=2026-4-100</link>
-      <description>Do, 11.06.2026, 17:00 Uhr Uhr | Großer Sitzungssaal, Rathaus</description>
-      <pubDate>Thu, 11 Jun 2026 17:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Waltrop-20260611-17:00 Uhr-2. Sitzung des Ausschusses für</guid>
-    </item>
-    <item>
       <title>2. Sitzung Ausschuss  für Stadtplanung, Umwelt und Wirtschaft – Herten</title>
       <link>https://herten.gremien.info/meeting?id=2026-ASUW-1</link>
       <description>Do, 11.06.2026, 17:00 Uhr Uhr | Großer Sitzungssaal</description>
       <pubDate>Thu, 11 Jun 2026 17:00:00 +0200</pubDate>
       <guid isPermaLink="false">Herten-20260611-17:00 Uhr-2. Sitzung Ausschuss  für Stad</guid>
+    </item>
+    <item>
+      <title>2. Sitzung des Ausschusses für Schule, Kultur, Sport und Ehrenamt – Waltrop</title>
+      <link>https://waltrop.gremien.info/meeting?id=2026-4-100</link>
+      <description>Do, 11.06.2026, 17:00 Uhr Uhr | Großer Sitzungssaal, Rathaus</description>
+      <pubDate>Thu, 11 Jun 2026 17:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Waltrop-20260611-17:00 Uhr-2. Sitzung des Ausschusses für</guid>
     </item>
     <item>
       <title>nicht öffentliche Sitzung des Präsidiums des Verwaltungsrates der VRR AöR (Tarif) – Verkehrsverbund Rhein-Ruhr (VRR)</title>
@@ -302,6 +302,20 @@
       <guid isPermaLink="false">Bottrop-20260612-14:00 Uhr-Kulturausschuss</guid>
     </item>
     <item>
+      <title>nicht öffentliche Sitzung der AfD-Fraktion in der Verbandsversammlung des Zweckverbandes VRR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
+      <link>https://zvis.vrr.de/bi/si0046.asp?__cjahr=2026&amp;__cmonat=6</link>
+      <description>Sa, 13.06.2026, 19:00 Uhr Uhr</description>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Verkehrsverbund Rhein-Ruhr (VRR)-20260613-19:00 Uhr-nicht öffentliche Sitzung der </guid>
+    </item>
+    <item>
+      <title>nicht öffentliche Sitzung der AfD-Fraktion in der Verbandsversammlung des Zweckverbandes VRR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
+      <link>https://zvis.vrr.de/bi/si0046.asp?__cjahr=2026&amp;__cmonat=6</link>
+      <description>So, 14.06.2026, 19:00 Uhr Uhr</description>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Verkehrsverbund Rhein-Ruhr (VRR)-20260614-19:00 Uhr-nicht öffentliche Sitzung der </guid>
+    </item>
+    <item>
       <title>4. Sitzung des Kreistags – Kreis Recklinghausen</title>
       <link>https://kvrecklinghausen.gremien.info/meeting?id=2026-KT-234</link>
       <description>Mo, 15.06.2026, 09:00 Uhr Uhr | Stadthalle Oer-Erkenschwick</description>
@@ -323,18 +337,18 @@
       <guid isPermaLink="false">Recklinghausen-20260615-16:00 Uhr-Sitzung des Ausschusses für Ku</guid>
     </item>
     <item>
-      <title>2. Sitzung des Seniorenbeirates – Waltrop</title>
-      <link>https://waltrop.gremien.info/meeting?id=2026-SenBei-54</link>
-      <description>Mo, 15.06.2026, 17:00 Uhr Uhr | Großer Sitzungssaal, Rathaus</description>
-      <pubDate>Mon, 15 Jun 2026 17:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Waltrop-20260615-17:00 Uhr-2. Sitzung des Seniorenbeirate</guid>
-    </item>
-    <item>
       <title>2. Sitzung des Ausschusses für Soziales, Arbeit, Gleichstellung und Inklusion – Herten</title>
       <link>https://herten.gremien.info/meeting?id=2026-ASAGI-1</link>
       <description>Mo, 15.06.2026, 17:00 Uhr Uhr | Großer Sitzungssaal</description>
       <pubDate>Mon, 15 Jun 2026 17:00:00 +0200</pubDate>
       <guid isPermaLink="false">Herten-20260615-17:00 Uhr-2. Sitzung des Ausschusses für</guid>
+    </item>
+    <item>
+      <title>2. Sitzung des Seniorenbeirates – Waltrop</title>
+      <link>https://waltrop.gremien.info/meeting?id=2026-SenBei-54</link>
+      <description>Mo, 15.06.2026, 17:00 Uhr Uhr | Großer Sitzungssaal, Rathaus</description>
+      <pubDate>Mon, 15 Jun 2026 17:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Waltrop-20260615-17:00 Uhr-2. Sitzung des Seniorenbeirate</guid>
     </item>
     <item>
       <title>1. Sitzung des Seniorenbeirates – Oer-Erkenschwick</title>
@@ -393,18 +407,18 @@
       <guid isPermaLink="false">Dorsten-20260616-17:00 Uhr-6. Sitzung des Umwelt- und Pla</guid>
     </item>
     <item>
-      <title>2. Sitzung des Ausschusses für Umwelt, Klima und Mobilität – Waltrop</title>
-      <link>https://waltrop.gremien.info/meeting?id=2026-22-20</link>
-      <description>Di, 16.06.2026, 17:00 Uhr Uhr | Großer Sitzungssaal, Rathaus</description>
-      <pubDate>Tue, 16 Jun 2026 17:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Waltrop-20260616-17:00 Uhr-2. Sitzung des Ausschusses für</guid>
-    </item>
-    <item>
       <title>2. Sitzung des Ausschusses für Bildung, Kultur und Sport – Herten</title>
       <link>https://herten.gremien.info/meeting?id=2026-ABKS-28</link>
       <description>Di, 16.06.2026, 17:00 Uhr Uhr | Großer Sitzungssaal</description>
       <pubDate>Tue, 16 Jun 2026 17:00:00 +0200</pubDate>
       <guid isPermaLink="false">Herten-20260616-17:00 Uhr-2. Sitzung des Ausschusses für</guid>
+    </item>
+    <item>
+      <title>2. Sitzung des Ausschusses für Umwelt, Klima und Mobilität – Waltrop</title>
+      <link>https://waltrop.gremien.info/meeting?id=2026-22-20</link>
+      <description>Di, 16.06.2026, 17:00 Uhr Uhr | Großer Sitzungssaal, Rathaus</description>
+      <pubDate>Tue, 16 Jun 2026 17:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Waltrop-20260616-17:00 Uhr-2. Sitzung des Ausschusses für</guid>
     </item>
     <item>
       <title>2. Sitzung des Ausschusses für Planung und Mobilität – Regionalverband Ruhr (RVR)</title>
@@ -533,18 +547,18 @@
       <guid isPermaLink="false">Datteln-20260618-17:00 Uhr-3. Sitzung des Bildungs-, Spor</guid>
     </item>
     <item>
-      <title>3. Sitzung des Ausschusses für Jugendhilfe und Soziales – Waltrop</title>
-      <link>https://waltrop.gremien.info/meeting?id=2026-27-72</link>
-      <description>Do, 18.06.2026, 17:00 Uhr Uhr | Großer Sitzungssaal, Rathaus</description>
-      <pubDate>Thu, 18 Jun 2026 17:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Waltrop-20260618-17:00 Uhr-3. Sitzung des Ausschusses für</guid>
-    </item>
-    <item>
       <title>3. Sitzung des Haupt- und Finanzausschusses – Herten</title>
       <link>https://herten.gremien.info/meeting?id=2026-HuFA-112</link>
       <description>Do, 18.06.2026, 17:00 Uhr Uhr | Großer Sitzungssaal</description>
       <pubDate>Thu, 18 Jun 2026 17:00:00 +0200</pubDate>
       <guid isPermaLink="false">Herten-20260618-17:00 Uhr-3. Sitzung des Haupt- und Fina</guid>
+    </item>
+    <item>
+      <title>3. Sitzung des Ausschusses für Jugendhilfe und Soziales – Waltrop</title>
+      <link>https://waltrop.gremien.info/meeting?id=2026-27-72</link>
+      <description>Do, 18.06.2026, 17:00 Uhr Uhr | Großer Sitzungssaal, Rathaus</description>
+      <pubDate>Thu, 18 Jun 2026 17:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Waltrop-20260618-17:00 Uhr-3. Sitzung des Ausschusses für</guid>
     </item>
     <item>
       <title>3. Sitzung des Ausschusses für Generationen und Soziales – Haltern am See</title>
@@ -689,7 +703,7 @@
     <item>
       <title>Sitzung des Ausschusses für Kultur und urbane Szene – Gelsenkirchen</title>
       <link>https://ratsinformation.gelsenkirchen.de/si010</link>
-      <description>Mi, 24.06.2026, 16:00 Uhr Uhr | Hans-Sachs-Haus, Ratssaal</description>
+      <description>Mi, 24.06.2026, 16:00 Uhr Uhr | Sonstiger Sitzungsort</description>
       <pubDate>Wed, 24 Jun 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Gelsenkirchen-20260624-16:00 Uhr-Sitzung des Ausschusses für Ku</guid>
     </item>
@@ -759,7 +773,7 @@
     <item>
       <title>Sitzung des Ausschusses für Bildung – Gelsenkirchen</title>
       <link>https://ratsinformation.gelsenkirchen.de/si010</link>
-      <description>Do, 25.06.2026, 16:00 Uhr Uhr | noch nicht bekannt</description>
+      <description>Do, 25.06.2026, 16:00 Uhr Uhr | Ratssaal</description>
       <pubDate>Thu, 25 Jun 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Gelsenkirchen-20260625-16:00 Uhr-Sitzung des Ausschusses für Bi</guid>
     </item>
