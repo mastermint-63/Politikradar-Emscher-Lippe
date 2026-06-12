@@ -5,7 +5,7 @@
     <link>https://el-raete.reporter.ruhr/termine_2026_06.html</link>
     <description>Sitzungstermine aus Ratsinformationssystemen im Emscher-Lippe-Raum</description>
     <language>de-de</language>
-    <lastBuildDate>Thu, 11 Jun 2026 06:30:06 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 06:30:03 +0200</lastBuildDate>
     <atom:link href="https://el-raete.reporter.ruhr/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Sitzung des Ausschusses für Stadtentwicklung, Umwelt, Klima und Artenschutz – Recklinghausen</title>
@@ -20,6 +20,13 @@
       <description>Di, 02.06.2026, 15:00 Uhr Uhr | Bürgerhaus Herten</description>
       <pubDate>Tue, 02 Jun 2026 15:00:00 +0200</pubDate>
       <guid isPermaLink="false">Herten-20260602-15:00 Uhr-2. Sitzung Seniorenbeirat</guid>
+    </item>
+    <item>
+      <title>Sitzung der SPD-Bezirksfraktion West – Gelsenkirchen</title>
+      <link>https://ratsinformation.gelsenkirchen.de/si010</link>
+      <description>Di, 02.06.2026, 16:00 Uhr Uhr</description>
+      <pubDate>Tue, 02 Jun 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Gelsenkirchen-20260602-16:00 Uhr-Sitzung der SPD-Bezirksfraktio</guid>
     </item>
     <item>
       <title>1. Sitzung des Rechnungsprüfungsausschusses – Dorsten</title>
@@ -127,18 +134,18 @@
       <guid isPermaLink="false">Recklinghausen-20260609-16:00 Uhr-entfällt - Sitzung des Betrieb</guid>
     </item>
     <item>
-      <title>Sitzung der Bezirksvertretung Gelsenkirchen-Süd – Gelsenkirchen</title>
-      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000361&amp;refresh=false</link>
-      <description>Di, 09.06.2026, 16:00 Uhr Uhr | Wissenschaftspark</description>
-      <pubDate>Tue, 09 Jun 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Gelsenkirchen-20260609-16:00 Uhr-Sitzung der Bezirksvertretung </guid>
-    </item>
-    <item>
       <title>Sitzung der Bezirksvertretung Gelsenkirchen-West – Gelsenkirchen</title>
       <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000357&amp;refresh=false</link>
       <description>Di, 09.06.2026, 16:00 Uhr Uhr | Rittersaal Schloss Horst</description>
       <pubDate>Tue, 09 Jun 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Gelsenkirchen-20260609-16:00 Uhr-Sitzung der Bezirksvertretung </guid>
+    </item>
+    <item>
+      <title>Sitzung der Bezirksvertretung Gelsenkirchen-Süd – Gelsenkirchen</title>
+      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000361&amp;refresh=false</link>
+      <description>Di, 09.06.2026, 16:03 Uhr Uhr | Wissenschaftspark</description>
+      <pubDate>Tue, 09 Jun 2026 16:03:00 +0200</pubDate>
+      <guid isPermaLink="false">Gelsenkirchen-20260609-16:03 Uhr-Sitzung der Bezirksvertretung </guid>
     </item>
     <item>
       <title>Sitzung des Beirates für Senioren – Gelsenkirchen</title>
@@ -149,7 +156,7 @@
     </item>
     <item>
       <title>3. Sitzung des Ausschusses für Kinder, Jugend und Familie – Datteln</title>
-      <link>https://datteln.gremien.info/meeting?id=2026-KJFA-25</link>
+      <link>https://datteln.gremien.info/meeting?id=ni_2026-KJFA-25</link>
       <description>Di, 09.06.2026, 17:00 Uhr Uhr | Sitzungssaal Rathaus</description>
       <pubDate>Tue, 09 Jun 2026 17:00:00 +0200</pubDate>
       <guid isPermaLink="false">Datteln-20260609-17:00 Uhr-3. Sitzung des Ausschusses für</guid>
@@ -253,18 +260,18 @@
       <guid isPermaLink="false">Marl-20260611-16:00 Uhr-5. Sitzung des Kinder- und Jug</guid>
     </item>
     <item>
-      <title>Sitzung der Bezirksvertretung Gelsenkirchen-Nord – Gelsenkirchen</title>
-      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000381&amp;refresh=false</link>
-      <description>Do, 11.06.2026, 16:00 Uhr Uhr | Sitzungszimmer Cottbus</description>
-      <pubDate>Thu, 11 Jun 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Gelsenkirchen-20260611-16:00 Uhr-Sitzung der Bezirksvertretung </guid>
-    </item>
-    <item>
       <title>Sitzung des Ausschusses für Chancengerechtigkeit und Integration – Gelsenkirchen</title>
       <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000382&amp;refresh=false</link>
       <description>Do, 11.06.2026, 16:00 Uhr Uhr | Hans-Sachs-Haus, Ratssaal</description>
       <pubDate>Thu, 11 Jun 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Gelsenkirchen-20260611-16:00 Uhr-Sitzung des Ausschusses für Ch</guid>
+    </item>
+    <item>
+      <title>Sitzung der Bezirksvertretung Gelsenkirchen-Nord – Gelsenkirchen</title>
+      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000381&amp;refresh=false</link>
+      <description>Do, 11.06.2026, 16:00 Uhr Uhr | Sitzungszimmer Cottbus</description>
+      <pubDate>Thu, 11 Jun 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Gelsenkirchen-20260611-16:00 Uhr-Sitzung der Bezirksvertretung </guid>
     </item>
     <item>
       <title>2. Sitzung Ausschuss  für Stadtplanung, Umwelt und Wirtschaft – Herten</title>
@@ -591,7 +598,7 @@
     <item>
       <title>2. Sitzung des Betriebsausschusses – Dorsten</title>
       <link>https://dorsten.gremien.info/meeting?id=2026-Betr-73</link>
-      <description>Mo, 22.06.2026, 16:00 Uhr Uhr | sonstiger Raum</description>
+      <description>Mo, 22.06.2026, 16:00 Uhr Uhr | Besprechungsraum Kommunaler Servicebetrieb Dorsten</description>
       <pubDate>Mon, 22 Jun 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Dorsten-20260622-16:00 Uhr-2. Sitzung des Betriebsausschu</guid>
     </item>
@@ -617,13 +624,6 @@
       <guid isPermaLink="false">Dorsten-20260622-17:00 Uhr-2. Sitzung des Beirates für Ku</guid>
     </item>
     <item>
-      <title>nicht öffentliche Sitzung der AfD-Fraktion in der Verbandsversammlung des Zweckverbandes VRR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
-      <link>https://zvis.vrr.de/bi/si0046.asp?__cjahr=2026&amp;__cmonat=6</link>
-      <description>Di, 23.06.2026, 09:00 Uhr Uhr</description>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Verkehrsverbund Rhein-Ruhr (VRR)-20260623-09:00 Uhr-nicht öffentliche Sitzung der </guid>
-    </item>
-    <item>
       <title>Bezirksvertretung Bottrop-Mitte – Bottrop</title>
       <link>https://ratsinfo-bottrop.de/tops/?__=UGhVM0hpd2NXNFdFcExjZRweYooDc6A-TvH4yBM4gfY</link>
       <description>Di, 23.06.2026, 13:00 Uhr Uhr | Rathaus, 46236 Bottrop, Sitzungszimmer 111</description>
@@ -639,14 +639,14 @@
     </item>
     <item>
       <title>Sitzung des Ausschusses für Umwelt, Nachhaltigkeit und Klimaschutz – Gelsenkirchen</title>
-      <link>https://ratsinformation.gelsenkirchen.de/si010</link>
+      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000389&amp;refresh=false</link>
       <description>Di, 23.06.2026, 16:00 Uhr Uhr | Sitzungszimmer Cottbus</description>
       <pubDate>Tue, 23 Jun 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Gelsenkirchen-20260623-16:00 Uhr-Sitzung des Ausschusses für Um</guid>
     </item>
     <item>
       <title>Sitzung des Ausschusses für Ordnung, Prävention und Verbraucherschutz – Gelsenkirchen</title>
-      <link>https://ratsinformation.gelsenkirchen.de/si010</link>
+      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000390&amp;refresh=false</link>
       <description>Di, 23.06.2026, 16:00 Uhr Uhr | Hans-Sachs-Haus, Ratssaal</description>
       <pubDate>Tue, 23 Jun 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Gelsenkirchen-20260623-16:00 Uhr-Sitzung des Ausschusses für Or</guid>
@@ -764,7 +764,7 @@
       <guid isPermaLink="false">Gelsenkirchen-20260625-16:00 Uhr-Sitzung des Ausschusses für Ga</guid>
     </item>
     <item>
-      <title>Sitzung des Ausschusses für Bildung - Teil B – Gelsenkirchen</title>
+      <title>Sitzung des Ausschusses für Bildung – Gelsenkirchen</title>
       <link>https://ratsinformation.gelsenkirchen.de/si010</link>
       <description>Do, 25.06.2026, 16:00 Uhr Uhr | Ratssaal</description>
       <pubDate>Thu, 25 Jun 2026 16:00:00 +0200</pubDate>
