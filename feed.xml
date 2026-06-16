@@ -5,7 +5,7 @@
     <link>https://el-raete.reporter.ruhr/termine_2026_06.html</link>
     <description>Sitzungstermine aus Ratsinformationssystemen im Emscher-Lippe-Raum</description>
     <language>de-de</language>
-    <lastBuildDate>Mon, 15 Jun 2026 06:30:03 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 06:30:04 +0200</lastBuildDate>
     <atom:link href="https://el-raete.reporter.ruhr/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Sitzung des Ausschusses für Stadtentwicklung, Umwelt, Klima und Artenschutz – Recklinghausen</title>
@@ -127,18 +127,18 @@
       <guid isPermaLink="false">Gladbeck-20260609-16:00 Uhr-Sitzung des Kulturausschusses</guid>
     </item>
     <item>
-      <title>entfällt - Sitzung des Betriebsausschusses KSR – Recklinghausen</title>
-      <link>https://stadt-recklinghausen.gremien.info/meeting?id=2026-BAKSR-24</link>
-      <description>Di, 09.06.2026, 16:00 Uhr Uhr | Zentraler Betriebshof, EG, Raum Remise 33</description>
-      <pubDate>Tue, 09 Jun 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Recklinghausen-20260609-16:00 Uhr-entfällt - Sitzung des Betrieb</guid>
-    </item>
-    <item>
       <title>Sitzung der Bezirksvertretung Gelsenkirchen-West – Gelsenkirchen</title>
       <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000357&amp;refresh=false</link>
       <description>Di, 09.06.2026, 16:00 Uhr Uhr | Rittersaal Schloss Horst</description>
       <pubDate>Tue, 09 Jun 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Gelsenkirchen-20260609-16:00 Uhr-Sitzung der Bezirksvertretung </guid>
+    </item>
+    <item>
+      <title>entfällt - Sitzung des Betriebsausschusses KSR – Recklinghausen</title>
+      <link>https://stadt-recklinghausen.gremien.info/meeting?id=2026-BAKSR-24</link>
+      <description>Di, 09.06.2026, 16:00 Uhr Uhr | Zentraler Betriebshof, EG, Raum Remise 33</description>
+      <pubDate>Tue, 09 Jun 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Recklinghausen-20260609-16:00 Uhr-entfällt - Sitzung des Betrieb</guid>
     </item>
     <item>
       <title>Sitzung der Bezirksvertretung Gelsenkirchen-Süd – Gelsenkirchen</title>
@@ -176,18 +176,18 @@
       <guid isPermaLink="false">Herten-20260609-17:00 Uhr-2. Sitzung des Ausschusses für</guid>
     </item>
     <item>
-      <title>Schulausschuss – Bottrop</title>
-      <link>https://ratsinfo-bottrop.de/tops/?__=UGhVM0hpd2NXNFdFcExjZXzCqRpityHNd-Z3lS2kWZQ</link>
-      <description>Mi, 10.06.2026, 14:00 Uhr Uhr | Rathaus, 46236 Bottrop, großer Sitzungssaal</description>
-      <pubDate>Wed, 10 Jun 2026 14:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Bottrop-20260610-14:00 Uhr-Schulausschuss</guid>
-    </item>
-    <item>
       <title>Sitzung des Beirates für Menschen mit Behinderungen – Gelsenkirchen</title>
       <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000376&amp;refresh=false</link>
       <description>Mi, 10.06.2026, 14:00 Uhr Uhr | Sitzungszimmer 1 - Zenica</description>
       <pubDate>Wed, 10 Jun 2026 14:00:00 +0200</pubDate>
       <guid isPermaLink="false">Gelsenkirchen-20260610-14:00 Uhr-Sitzung des Beirates für Mensc</guid>
+    </item>
+    <item>
+      <title>Schulausschuss – Bottrop</title>
+      <link>https://ratsinfo-bottrop.de/tops/?__=UGhVM0hpd2NXNFdFcExjZXzCqRpityHNd-Z3lS2kWZQ</link>
+      <description>Mi, 10.06.2026, 14:00 Uhr Uhr | Rathaus, 46236 Bottrop, großer Sitzungssaal</description>
+      <pubDate>Wed, 10 Jun 2026 14:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Bottrop-20260610-14:00 Uhr-Schulausschuss</guid>
     </item>
     <item>
       <title>Sitzung der Bezirksvertretung Gelsenkirchen-Mitte – Gelsenkirchen</title>
@@ -253,13 +253,6 @@
       <guid isPermaLink="false">Gladbeck-20260611-16:00 Uhr-Sitzung des Ausschusses für St</guid>
     </item>
     <item>
-      <title>5. Sitzung des Kinder- und Jugendhilfeausschusses – Marl</title>
-      <link>https://marl.gremien.info/meeting?id=2026-74-128</link>
-      <description>Do, 11.06.2026, 16:00 Uhr Uhr | Auswärtiger Tagungsort (siehe pdf-Einladung)</description>
-      <pubDate>Thu, 11 Jun 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Marl-20260611-16:00 Uhr-5. Sitzung des Kinder- und Jug</guid>
-    </item>
-    <item>
       <title>Sitzung des Ausschusses für Chancengerechtigkeit und Integration – Gelsenkirchen</title>
       <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000382&amp;refresh=false</link>
       <description>Do, 11.06.2026, 16:00 Uhr Uhr | Hans-Sachs-Haus, Ratssaal</description>
@@ -272,6 +265,13 @@
       <description>Do, 11.06.2026, 16:00 Uhr Uhr | Sitzungszimmer Cottbus</description>
       <pubDate>Thu, 11 Jun 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Gelsenkirchen-20260611-16:00 Uhr-Sitzung der Bezirksvertretung </guid>
+    </item>
+    <item>
+      <title>5. Sitzung des Kinder- und Jugendhilfeausschusses – Marl</title>
+      <link>https://marl.gremien.info/meeting?id=2026-74-128</link>
+      <description>Do, 11.06.2026, 16:00 Uhr Uhr | Auswärtiger Tagungsort (siehe pdf-Einladung)</description>
+      <pubDate>Thu, 11 Jun 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Marl-20260611-16:00 Uhr-5. Sitzung des Kinder- und Jug</guid>
     </item>
     <item>
       <title>2. Sitzung Ausschuss  für Stadtplanung, Umwelt und Wirtschaft – Herten</title>
@@ -304,9 +304,9 @@
     <item>
       <title>Kulturausschuss – Bottrop</title>
       <link>https://ratsinfo-bottrop.de/tops/?__=UGhVM0hpd2NXNFdFcExjZQJexo3_kp-MX_reuFalX-c</link>
-      <description>Fr, 12.06.2026, 14:00 Uhr Uhr | Rathaus, 46236 Bottrop, Sitzungszimmer 111</description>
-      <pubDate>Fri, 12 Jun 2026 14:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Bottrop-20260612-14:00 Uhr-Kulturausschuss</guid>
+      <description>Fr, 12.06.2026, 14:05 Uhr Uhr | Rathaus, 46236 Bottrop, Sitzungszimmer 111</description>
+      <pubDate>Fri, 12 Jun 2026 14:05:00 +0200</pubDate>
+      <guid isPermaLink="false">Bottrop-20260612-14:05 Uhr-Kulturausschuss</guid>
     </item>
     <item>
       <title>nicht öffentliche Sitzung der AfD-Fraktion in der Verbandsversammlung des Zweckverbandes VRR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
@@ -372,13 +372,6 @@
       <guid isPermaLink="false">Gladbeck-20260616-16:00 Uhr-Sitzung des Ausschusses für Um</guid>
     </item>
     <item>
-      <title>4. Sitzung des Ausschusses für Kultur, Weiterbildung und Stadtmarketing – Marl</title>
-      <link>https://marl.gremien.info/meeting?id=2026-99-3</link>
-      <description>Di, 16.06.2026, 16:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
-      <pubDate>Tue, 16 Jun 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Marl-20260616-16:00 Uhr-4. Sitzung des Ausschusses für</guid>
-    </item>
-    <item>
       <title>Sitzung des Ausschusses für Bau und Liegenschaften – Gelsenkirchen</title>
       <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000383&amp;refresh=false</link>
       <description>Di, 16.06.2026, 16:00 Uhr Uhr | Sitzungszimmer Cottbus</description>
@@ -391,6 +384,13 @@
       <description>Di, 16.06.2026, 16:00 Uhr Uhr | Hans-Sachs-Haus, Ratssaal</description>
       <pubDate>Tue, 16 Jun 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Gelsenkirchen-20260616-16:00 Uhr-Sitzung des Rechnungsprüfungsa</guid>
+    </item>
+    <item>
+      <title>4. Sitzung des Ausschusses für Kultur, Weiterbildung und Stadtmarketing – Marl</title>
+      <link>https://marl.gremien.info/meeting?id=2026-99-3</link>
+      <description>Di, 16.06.2026, 16:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
+      <pubDate>Tue, 16 Jun 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Marl-20260616-16:00 Uhr-4. Sitzung des Ausschusses für</guid>
     </item>
     <item>
       <title>3. Sitzung des Klima-, Umwelt- und Nachhaltigkeitsausschusses – Datteln</title>
@@ -421,6 +421,13 @@
       <guid isPermaLink="false">Waltrop-20260616-17:00 Uhr-2. Sitzung des Ausschusses für</guid>
     </item>
     <item>
+      <title>nicht öffentliche Sitzung der AfD-Fraktion in der Verbandsversammlung des Zweckverbandes VRR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
+      <link>https://zvis.vrr.de/bi/si0046.asp?__cjahr=2026&amp;__cmonat=6</link>
+      <description>Mi, 17.06.2026, 12:00 Uhr Uhr</description>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Verkehrsverbund Rhein-Ruhr (VRR)-20260617-12:00 Uhr-nicht öffentliche Sitzung der </guid>
+    </item>
+    <item>
       <title>2. Sitzung des Ausschusses für Planung und Mobilität – Regionalverband Ruhr (RVR)</title>
       <link>https://rvr-online.gremien.info/meeting?id=2026-APM-1</link>
       <description>Mi, 17.06.2026, 10:00 Uhr Uhr | Plenarsaal</description>
@@ -435,13 +442,6 @@
       <guid isPermaLink="false">Bottrop-20260617-14:00 Uhr-Ausschuss für Chancengerechtig</guid>
     </item>
     <item>
-      <title>4. Sitzung des Ausschusses für Schule und Sport – Marl</title>
-      <link>https://marl.gremien.info/meeting?id=2026-77-119</link>
-      <description>Mi, 17.06.2026, 16:00 Uhr Uhr | Auswärtiger Tagungsort (siehe pdf-Einladung)</description>
-      <pubDate>Wed, 17 Jun 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Marl-20260617-16:00 Uhr-4. Sitzung des Ausschusses für</guid>
-    </item>
-    <item>
       <title>Sitzung des Ausschusses für Soziales und Arbeit – Gelsenkirchen</title>
       <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000385&amp;refresh=false</link>
       <description>Mi, 17.06.2026, 16:00 Uhr Uhr | Hans-Sachs-Haus, Ratssaal</description>
@@ -454,6 +454,13 @@
       <description>Mi, 17.06.2026, 16:00 Uhr Uhr | Sitzungszimmer Cottbus</description>
       <pubDate>Wed, 17 Jun 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Gelsenkirchen-20260617-16:00 Uhr-Sitzung des Stadtentwicklungs-</guid>
+    </item>
+    <item>
+      <title>4. Sitzung des Ausschusses für Schule und Sport – Marl</title>
+      <link>https://marl.gremien.info/meeting?id=2026-77-119</link>
+      <description>Mi, 17.06.2026, 16:00 Uhr Uhr | Auswärtiger Tagungsort (siehe pdf-Einladung)</description>
+      <pubDate>Wed, 17 Jun 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Marl-20260617-16:00 Uhr-4. Sitzung des Ausschusses für</guid>
     </item>
     <item>
       <title>74. Sitzung des Verwaltungsrates Ver- und Entsorgungsbetrieb AöR – Waltrop</title>
@@ -519,13 +526,6 @@
       <guid isPermaLink="false">Gladbeck-20260618-16:00 Uhr-Sitzung des Wirtschaftsförderu</guid>
     </item>
     <item>
-      <title>4. Sitzung des Stadtplanungsausschusses (Wirtschaft, Arbeit, Bauen, Digitalisierung und Verkehrsinfr – Marl</title>
-      <link>https://marl.gremien.info/meeting?id=2026-91-39</link>
-      <description>Do, 18.06.2026, 16:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
-      <pubDate>Thu, 18 Jun 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Marl-20260618-16:00 Uhr-4. Sitzung des Stadtplanungsau</guid>
-    </item>
-    <item>
       <title>Sitzung des Ausschusses für Verkehr und Mobilitätsentwicklung – Gelsenkirchen</title>
       <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000387&amp;refresh=false</link>
       <description>Do, 18.06.2026, 16:00 Uhr Uhr | Sitzungszimmer Cottbus</description>
@@ -538,6 +538,13 @@
       <description>Do, 18.06.2026, 16:00 Uhr Uhr | Hans-Sachs-Haus, Ratssaal</description>
       <pubDate>Thu, 18 Jun 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Gelsenkirchen-20260618-16:00 Uhr-Sitzung des Ausschusses für Ge</guid>
+    </item>
+    <item>
+      <title>4. Sitzung des Stadtplanungsausschusses (Wirtschaft, Arbeit, Bauen, Digitalisierung und Verkehrsinfr – Marl</title>
+      <link>https://marl.gremien.info/meeting?id=2026-91-39</link>
+      <description>Do, 18.06.2026, 16:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
+      <pubDate>Thu, 18 Jun 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Marl-20260618-16:00 Uhr-4. Sitzung des Stadtplanungsau</guid>
     </item>
     <item>
       <title>3. Sitzung des Bildungs-, Sport- und Kulturausschusses – Datteln</title>
@@ -568,6 +575,13 @@
       <guid isPermaLink="false">Haltern am See-20260618-17:30 Uhr-3. Sitzung des Ausschusses für</guid>
     </item>
     <item>
+      <title>nicht öffentliche Sitzung der AfD-Fraktion in der Verbandsversammlung des Zweckverbandes VRR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
+      <link>https://zvis.vrr.de/bi/si0046.asp?__cjahr=2026&amp;__cmonat=6</link>
+      <description>Fr, 19.06.2026, 19:00 Uhr Uhr</description>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Verkehrsverbund Rhein-Ruhr (VRR)-20260619-19:00 Uhr-nicht öffentliche Sitzung der </guid>
+    </item>
+    <item>
       <title>2. Sitzung des Ausschusses für Umwelt, Klima und Liegenschaften – Regionalverband Ruhr (RVR)</title>
       <link>https://rvr-online.gremien.info/meeting?id=2026-AUKL-1</link>
       <description>Fr, 19.06.2026, 10:00 Uhr Uhr | Externe Sitzung</description>
@@ -580,6 +594,13 @@
       <description>Fr, 19.06.2026, 14:00 Uhr Uhr | Rathaus, 46236 Bottrop, großer Sitzungssaal</description>
       <pubDate>Fri, 19 Jun 2026 14:00:00 +0200</pubDate>
       <guid isPermaLink="false">Bottrop-20260619-14:00 Uhr-Jugendhilfeausschuss</guid>
+    </item>
+    <item>
+      <title>nicht öffentliche Sitzung der AfD-Fraktion in der Verbandsversammlung des Zweckverbandes VRR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
+      <link>https://zvis.vrr.de/bi/si0046.asp?__cjahr=2026&amp;__cmonat=6</link>
+      <description>So, 21.06.2026, 19:00 Uhr Uhr</description>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Verkehrsverbund Rhein-Ruhr (VRR)-20260621-19:00 Uhr-nicht öffentliche Sitzung der </guid>
     </item>
     <item>
       <title>nicht öffentliche Sitzung der CDU-Fraktion in der Verbandsversammlung des Zweckverbandes VRR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
@@ -659,6 +680,13 @@
       <guid isPermaLink="false">Datteln-20260623-17:00 Uhr-2. Sitzung des Ausschusses für</guid>
     </item>
     <item>
+      <title>Sitzung der Ratskommission Nachhaltige Mobilität – Dorsten</title>
+      <link>https://dorsten.gremien.info/meeting?id=2026-RKNAMO-8</link>
+      <description>Di, 23.06.2026, 17:00 Uhr Uhr | Rathaus, Kleiner Sitzungssaal, Raum 214</description>
+      <pubDate>Tue, 23 Jun 2026 17:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Dorsten-20260623-17:00 Uhr-Sitzung der Ratskommission Nac</guid>
+    </item>
+    <item>
       <title>2. Sitzung des Ausschusses für Stadtentwicklung und Wirtschaft – Waltrop</title>
       <link>https://waltrop.gremien.info/meeting?id=2026-29-95</link>
       <description>Di, 23.06.2026, 17:00 Uhr Uhr | Großer Sitzungssaal, Rathaus</description>
@@ -687,13 +715,6 @@
       <guid isPermaLink="false">Bottrop-20260624-14:00 Uhr-Bau- und Verkehrsausschuss</guid>
     </item>
     <item>
-      <title>Sitzung des Ausschusses für Verkehr, Mobilität und Tiefbau – Recklinghausen</title>
-      <link>https://stadt-recklinghausen.gremien.info/meeting?id=2026-VMT-2</link>
-      <description>Mi, 24.06.2026, 16:00 Uhr Uhr | Raum 103 (Großer Sitzungssaal des Rathauses)</description>
-      <pubDate>Wed, 24 Jun 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Recklinghausen-20260624-16:00 Uhr-Sitzung des Ausschusses für Ve</guid>
-    </item>
-    <item>
       <title>Sitzung des Ausschusses für Kultur und urbane Szene – Gelsenkirchen</title>
       <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000391&amp;refresh=false</link>
       <description>Mi, 24.06.2026, 16:00 Uhr Uhr | Heilig Kreuz Kirche</description>
@@ -701,11 +722,25 @@
       <guid isPermaLink="false">Gelsenkirchen-20260624-16:00 Uhr-Sitzung des Ausschusses für Ku</guid>
     </item>
     <item>
+      <title>Sitzung des Ausschusses für Verkehr, Mobilität und Tiefbau – Recklinghausen</title>
+      <link>https://stadt-recklinghausen.gremien.info/meeting?id=2026-VMT-2</link>
+      <description>Mi, 24.06.2026, 16:00 Uhr Uhr | Raum 103 (Großer Sitzungssaal des Rathauses)</description>
+      <pubDate>Wed, 24 Jun 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Recklinghausen-20260624-16:00 Uhr-Sitzung des Ausschusses für Ve</guid>
+    </item>
+    <item>
       <title>5. Sitzung des Rates – Datteln</title>
       <link>https://datteln.gremien.info/meeting?id=2026-Rat-129</link>
       <description>Mi, 24.06.2026, 17:00 Uhr Uhr | Stadthalle</description>
       <pubDate>Wed, 24 Jun 2026 17:00:00 +0200</pubDate>
       <guid isPermaLink="false">Datteln-20260624-17:00 Uhr-5. Sitzung des Rates</guid>
+    </item>
+    <item>
+      <title>7. Sitzung des Rates – Herten</title>
+      <link>https://herten.gremien.info/meeting?id=2026-Rat-173</link>
+      <description>Mi, 24.06.2026, 17:00 Uhr Uhr | Großer Sitzungssaal</description>
+      <pubDate>Wed, 24 Jun 2026 17:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Herten-20260624-17:00 Uhr-7. Sitzung des Rates</guid>
     </item>
     <item>
       <title>2. Sitzung des Betriebsausschusses Eigenbetrieb Seestadthalle Haltern am See – Haltern am See</title>
@@ -736,20 +771,6 @@
       <guid isPermaLink="false">Gladbeck-20260625-16:00 Uhr-Sitzung des Sportausschusses</guid>
     </item>
     <item>
-      <title>4. Sitzung des Umwelt- und Nachhaltigkeitsausschusses (Umwelt, Grünflächen, Klima und Mobilität) – Marl</title>
-      <link>https://marl.gremien.info/meeting?id=2026-92-39</link>
-      <description>Do, 25.06.2026, 16:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
-      <pubDate>Thu, 25 Jun 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Marl-20260625-16:00 Uhr-4. Sitzung des Umwelt- und Nac</guid>
-    </item>
-    <item>
-      <title>3. Sitzung des Betriebsausschusses ZBH – Marl</title>
-      <link>https://marl.gremien.info/meeting?id=2026-94-39</link>
-      <description>Do, 25.06.2026, 16:00 Uhr Uhr | Aufenthaltsraum des Zentralen Betriebshofes</description>
-      <pubDate>Thu, 25 Jun 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Marl-20260625-16:00 Uhr-3. Sitzung des Betriebsausschu</guid>
-    </item>
-    <item>
       <title>Sitzung des Ausschusses für Bildung/des Ausschusses für Kinder, Jugend und Familien - Teil A – Gelsenkirchen</title>
       <link>https://ratsinformation.gelsenkirchen.de/si010</link>
       <description>Do, 25.06.2026, 16:00 Uhr Uhr | Hans-Sachs-Haus, Ratssaal</description>
@@ -771,9 +792,23 @@
       <guid isPermaLink="false">Gelsenkirchen-20260625-16:00 Uhr-Sitzung des Ausschusses für Bi</guid>
     </item>
     <item>
+      <title>4. Sitzung des Umwelt- und Nachhaltigkeitsausschusses (Umwelt, Grünflächen, Klima und Mobilität) – Marl</title>
+      <link>https://marl.gremien.info/meeting?id=2026-92-39</link>
+      <description>Do, 25.06.2026, 16:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
+      <pubDate>Thu, 25 Jun 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Marl-20260625-16:00 Uhr-4. Sitzung des Umwelt- und Nac</guid>
+    </item>
+    <item>
+      <title>3. Sitzung des Betriebsausschusses ZBH – Marl</title>
+      <link>https://marl.gremien.info/meeting?id=2026-94-39</link>
+      <description>Do, 25.06.2026, 16:00 Uhr Uhr | Aufenthaltsraum des Zentralen Betriebshofes</description>
+      <pubDate>Thu, 25 Jun 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Marl-20260625-16:00 Uhr-3. Sitzung des Betriebsausschu</guid>
+    </item>
+    <item>
       <title>Sitzung des Jugendhilfeausschusses – Castrop-Rauxel</title>
       <link>https://castroprauxel.gremien.info/meeting?id=2026-JHA-109</link>
-      <description>Do, 25.06.2026, 17:00 Uhr Uhr | Sitzungsort wird noch bekanntgegeben</description>
+      <description>Do, 25.06.2026, 17:00 Uhr Uhr | Sitzungsraum Erinstraße 6</description>
       <pubDate>Thu, 25 Jun 2026 17:00:00 +0200</pubDate>
       <guid isPermaLink="false">Castrop-Rauxel-20260625-17:00 Uhr-Sitzung des Jugendhilfeausschu</guid>
     </item>
@@ -848,13 +883,6 @@
       <guid isPermaLink="false">Gladbeck-20260630-16:00 Uhr-Sitzung des Ausschusses für Ch</guid>
     </item>
     <item>
-      <title>5. Sitzung des Haupt- und Finanzausschusses – Marl</title>
-      <link>https://marl.gremien.info/meeting?id=2026-2-156</link>
-      <description>Di, 30.06.2026, 16:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
-      <pubDate>Tue, 30 Jun 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Marl-20260630-16:00 Uhr-5. Sitzung des Haupt- und Fina</guid>
-    </item>
-    <item>
       <title>Sitzung des Ausschusses für Kinder, Jugend und Familien – Gelsenkirchen</title>
       <link>https://ratsinformation.gelsenkirchen.de/si010</link>
       <description>Di, 30.06.2026, 16:00 Uhr Uhr | Hans-Sachs-Haus, Ratssaal</description>
@@ -867,6 +895,13 @@
       <description>Di, 30.06.2026, 16:00 Uhr Uhr | Sitzungszimmer 1 - Zenica</description>
       <pubDate>Tue, 30 Jun 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Gelsenkirchen-20260630-16:00 Uhr-Sitzung des Ausschusses für Wi</guid>
+    </item>
+    <item>
+      <title>5. Sitzung des Haupt- und Finanzausschusses – Marl</title>
+      <link>https://marl.gremien.info/meeting?id=2026-2-156</link>
+      <description>Di, 30.06.2026, 16:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
+      <pubDate>Tue, 30 Jun 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Marl-20260630-16:00 Uhr-5. Sitzung des Haupt- und Fina</guid>
     </item>
     <item>
       <title>Sitzung des Ausschusses für Wirtschaftsentwicklung und Digitalisierung – Castrop-Rauxel</title>
