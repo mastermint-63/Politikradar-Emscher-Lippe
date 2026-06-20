@@ -5,7 +5,7 @@
     <link>https://el-raete.reporter.ruhr/termine_2026_06.html</link>
     <description>Sitzungstermine aus Ratsinformationssystemen im Emscher-Lippe-Raum</description>
     <language>de-de</language>
-    <lastBuildDate>Fri, 19 Jun 2026 06:30:03 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 06:30:09 +0200</lastBuildDate>
     <atom:link href="https://el-raete.reporter.ruhr/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Sitzung des Ausschusses für Stadtentwicklung, Umwelt, Klima und Artenschutz – Recklinghausen</title>
@@ -176,18 +176,18 @@
       <guid isPermaLink="false">Herten-20260609-17:00 Uhr-2. Sitzung des Ausschusses für</guid>
     </item>
     <item>
-      <title>Sitzung des Beirates für Menschen mit Behinderungen – Gelsenkirchen</title>
-      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000376&amp;refresh=false</link>
-      <description>Mi, 10.06.2026, 14:00 Uhr Uhr | Sitzungszimmer 1 - Zenica</description>
-      <pubDate>Wed, 10 Jun 2026 14:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Gelsenkirchen-20260610-14:00 Uhr-Sitzung des Beirates für Mensc</guid>
-    </item>
-    <item>
       <title>Schulausschuss – Bottrop</title>
       <link>https://ratsinfo-bottrop.de/tops/?__=UGhVM0hpd2NXNFdFcExjZXzCqRpityHNd-Z3lS2kWZQ</link>
       <description>Mi, 10.06.2026, 14:00 Uhr Uhr | Rathaus, 46236 Bottrop, großer Sitzungssaal</description>
       <pubDate>Wed, 10 Jun 2026 14:00:00 +0200</pubDate>
       <guid isPermaLink="false">Bottrop-20260610-14:00 Uhr-Schulausschuss</guid>
+    </item>
+    <item>
+      <title>Sitzung des Beirates für Menschen mit Behinderungen – Gelsenkirchen</title>
+      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000376&amp;refresh=false</link>
+      <description>Mi, 10.06.2026, 14:00 Uhr Uhr | Sitzungszimmer 1 - Zenica</description>
+      <pubDate>Wed, 10 Jun 2026 14:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Gelsenkirchen-20260610-14:00 Uhr-Sitzung des Beirates für Mensc</guid>
     </item>
     <item>
       <title>Sitzung der Bezirksvertretung Gelsenkirchen-Mitte – Gelsenkirchen</title>
@@ -324,7 +324,7 @@
     </item>
     <item>
       <title>4. Sitzung des Kreistags – Kreis Recklinghausen</title>
-      <link>https://kvrecklinghausen.gremien.info/meeting?id=2026-KT-234</link>
+      <link>https://kvrecklinghausen.gremien.info/meeting?id=ni_2026-KT-234</link>
       <description>Mo, 15.06.2026, 09:00 Uhr Uhr | Stadthalle Oer-Erkenschwick</description>
       <pubDate>Mon, 15 Jun 2026 09:00:00 +0200</pubDate>
       <guid isPermaLink="false">Kreis Recklinghausen-20260615-09:00 Uhr-4. Sitzung des Kreistags</guid>
@@ -535,9 +535,9 @@
     <item>
       <title>Sitzung des Ausschusses für Gesundheit – Gelsenkirchen</title>
       <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000388&amp;refresh=false</link>
-      <description>Do, 18.06.2026, 16:00 Uhr Uhr | Hans-Sachs-Haus, Ratssaal</description>
-      <pubDate>Thu, 18 Jun 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Gelsenkirchen-20260618-16:00 Uhr-Sitzung des Ausschusses für Ge</guid>
+      <description>Do, 18.06.2026, 16:03 Uhr Uhr | Hans-Sachs-Haus, Ratssaal</description>
+      <pubDate>Thu, 18 Jun 2026 16:03:00 +0200</pubDate>
+      <guid isPermaLink="false">Gelsenkirchen-20260618-16:03 Uhr-Sitzung des Ausschusses für Ge</guid>
     </item>
     <item>
       <title>3. Sitzung des Bildungs-, Sport- und Kulturausschusses – Datteln</title>
