@@ -5,7 +5,7 @@
     <link>https://el-raete.reporter.ruhr/termine_2026_06.html</link>
     <description>Sitzungstermine aus Ratsinformationssystemen im Emscher-Lippe-Raum</description>
     <language>de-de</language>
-    <lastBuildDate>Mon, 22 Jun 2026 06:30:09 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 06:30:02 +0200</lastBuildDate>
     <atom:link href="https://el-raete.reporter.ruhr/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Sitzung des Ausschusses für Stadtentwicklung, Umwelt, Klima und Artenschutz – Recklinghausen</title>
@@ -20,13 +20,6 @@
       <description>Di, 02.06.2026, 15:00 Uhr Uhr | Bürgerhaus Herten</description>
       <pubDate>Tue, 02 Jun 2026 15:00:00 +0200</pubDate>
       <guid isPermaLink="false">Herten-20260602-15:00 Uhr-2. Sitzung Seniorenbeirat</guid>
-    </item>
-    <item>
-      <title>Sitzung der SPD-Bezirksfraktion West – Gelsenkirchen</title>
-      <link>https://ratsinformation.gelsenkirchen.de/si010</link>
-      <description>Di, 02.06.2026, 16:00 Uhr Uhr</description>
-      <pubDate>Tue, 02 Jun 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Gelsenkirchen-20260602-16:00 Uhr-Sitzung der SPD-Bezirksfraktio</guid>
     </item>
     <item>
       <title>1. Sitzung des Rechnungsprüfungsausschusses – Dorsten</title>
@@ -155,18 +148,18 @@
       <guid isPermaLink="false">Gelsenkirchen-20260609-16:04 Uhr-Sitzung des Beirates für Senio</guid>
     </item>
     <item>
-      <title>3. Sitzung des Ausschusses für Kinder, Jugend und Familie – Datteln</title>
-      <link>https://datteln.gremien.info/meeting?id=ni_2026-KJFA-25</link>
-      <description>Di, 09.06.2026, 17:00 Uhr Uhr | Sitzungssaal Rathaus</description>
-      <pubDate>Tue, 09 Jun 2026 17:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Datteln-20260609-17:00 Uhr-3. Sitzung des Ausschusses für</guid>
-    </item>
-    <item>
       <title>5. Sitzung des Bauausschusses – Dorsten</title>
       <link>https://dorsten.gremien.info/meeting?id=2026-Bau-167</link>
       <description>Di, 09.06.2026, 17:00 Uhr Uhr | Rathaus, Großer Sitzungssaal</description>
       <pubDate>Tue, 09 Jun 2026 17:00:00 +0200</pubDate>
       <guid isPermaLink="false">Dorsten-20260609-17:00 Uhr-5. Sitzung des Bauausschusses</guid>
+    </item>
+    <item>
+      <title>3. Sitzung des Ausschusses für Kinder, Jugend und Familie – Datteln</title>
+      <link>https://datteln.gremien.info/meeting?id=ni_2026-KJFA-25</link>
+      <description>Di, 09.06.2026, 17:00 Uhr Uhr | Sitzungssaal Rathaus</description>
+      <pubDate>Tue, 09 Jun 2026 17:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Datteln-20260609-17:00 Uhr-3. Sitzung des Ausschusses für</guid>
     </item>
     <item>
       <title>2. Sitzung des Ausschusses für Sicherheit, Feuerschutz und Ordnungswesen – Herten</title>
@@ -211,18 +204,18 @@
       <guid isPermaLink="false">Marl-20260610-16:00 Uhr-4. Sitzung des Sozial- und Ges</guid>
     </item>
     <item>
-      <title>3. Sitzung des Ausschusses für Stadtentwicklung, Wirtschaft und Kommunales – Datteln</title>
-      <link>https://datteln.gremien.info/meeting?id=2026-ASWK-2</link>
-      <description>Mi, 10.06.2026, 17:00 Uhr Uhr | Sitzungssaal Rathaus</description>
-      <pubDate>Wed, 10 Jun 2026 17:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Datteln-20260610-17:00 Uhr-3. Sitzung des Ausschusses für</guid>
-    </item>
-    <item>
       <title>6. Sitzung des Haupt- und Finanzausschusses – Dorsten</title>
       <link>https://dorsten.gremien.info/meeting?id=2026-HFA-209</link>
       <description>Mi, 10.06.2026, 17:00 Uhr Uhr | Rathaus, Großer Sitzungssaal</description>
       <pubDate>Wed, 10 Jun 2026 17:00:00 +0200</pubDate>
       <guid isPermaLink="false">Dorsten-20260610-17:00 Uhr-6. Sitzung des Haupt- und Fina</guid>
+    </item>
+    <item>
+      <title>3. Sitzung des Ausschusses für Stadtentwicklung, Wirtschaft und Kommunales – Datteln</title>
+      <link>https://datteln.gremien.info/meeting?id=2026-ASWK-2</link>
+      <description>Mi, 10.06.2026, 17:00 Uhr Uhr | Sitzungssaal Rathaus</description>
+      <pubDate>Wed, 10 Jun 2026 17:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Datteln-20260610-17:00 Uhr-3. Sitzung des Ausschusses für</guid>
     </item>
     <item>
       <title>Sitzung des Sportausschusses - Entfällt!!! – Recklinghausen</title>
@@ -393,18 +386,18 @@
       <guid isPermaLink="false">Gelsenkirchen-20260616-16:03 Uhr-Sitzung des Ausschusses für Ba</guid>
     </item>
     <item>
-      <title>3. Sitzung des Klima-, Umwelt- und Nachhaltigkeitsausschusses – Datteln</title>
-      <link>https://datteln.gremien.info/meeting?id=2026-KUNA-2</link>
-      <description>Di, 16.06.2026, 17:00 Uhr Uhr | Sitzungssaal Rathaus</description>
-      <pubDate>Tue, 16 Jun 2026 17:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Datteln-20260616-17:00 Uhr-3. Sitzung des Klima-, Umwelt-</guid>
-    </item>
-    <item>
       <title>6. Sitzung des Umwelt- und Planungsausschusses – Dorsten</title>
       <link>https://dorsten.gremien.info/meeting?id=2026-UPA-192</link>
       <description>Di, 16.06.2026, 17:00 Uhr Uhr | Rathaus, Großer Sitzungssaal</description>
       <pubDate>Tue, 16 Jun 2026 17:00:00 +0200</pubDate>
       <guid isPermaLink="false">Dorsten-20260616-17:00 Uhr-6. Sitzung des Umwelt- und Pla</guid>
+    </item>
+    <item>
+      <title>3. Sitzung des Klima-, Umwelt- und Nachhaltigkeitsausschusses – Datteln</title>
+      <link>https://datteln.gremien.info/meeting?id=2026-KUNA-2</link>
+      <description>Di, 16.06.2026, 17:00 Uhr Uhr | Sitzungssaal Rathaus</description>
+      <pubDate>Tue, 16 Jun 2026 17:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Datteln-20260616-17:00 Uhr-3. Sitzung des Klima-, Umwelt-</guid>
     </item>
     <item>
       <title>2. Sitzung des Ausschusses für Bildung, Kultur und Sport – Herten</title>
@@ -464,17 +457,10 @@
     </item>
     <item>
       <title>74. Sitzung des Verwaltungsrates Ver- und Entsorgungsbetrieb AöR – Waltrop</title>
-      <link>https://waltrop.gremien.info/meeting?id=2026-VuEAoeR-28</link>
+      <link>https://waltrop.gremien.info/meeting?id=ni_2026-VuEAoeR-28</link>
       <description>Mi, 17.06.2026, 16:30 Uhr Uhr | Sitzungsraum Verwaltungsgebäude V+E Waltrop</description>
       <pubDate>Wed, 17 Jun 2026 16:30:00 +0200</pubDate>
       <guid isPermaLink="false">Waltrop-20260617-16:30 Uhr-74. Sitzung des Verwaltungsrat</guid>
-    </item>
-    <item>
-      <title>3. Sitzung des Haupt-, Digitalisierungs- und Finanzausschusses – Datteln</title>
-      <link>https://datteln.gremien.info/meeting?id=ni_2026-HDFA-2</link>
-      <description>Mi, 17.06.2026, 17:00 Uhr Uhr | Sitzungssaal Rathaus</description>
-      <pubDate>Wed, 17 Jun 2026 17:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Datteln-20260617-17:00 Uhr-3. Sitzung des Haupt-, Digital</guid>
     </item>
     <item>
       <title>9. Sitzung des Rates – Dorsten</title>
@@ -482,6 +468,13 @@
       <description>Mi, 17.06.2026, 17:00 Uhr Uhr | Rathaus, Großer Sitzungssaal</description>
       <pubDate>Wed, 17 Jun 2026 17:00:00 +0200</pubDate>
       <guid isPermaLink="false">Dorsten-20260617-17:00 Uhr-9. Sitzung des Rates</guid>
+    </item>
+    <item>
+      <title>3. Sitzung des Haupt-, Digitalisierungs- und Finanzausschusses – Datteln</title>
+      <link>https://datteln.gremien.info/meeting?id=ni_2026-HDFA-2</link>
+      <description>Mi, 17.06.2026, 17:00 Uhr Uhr | Sitzungssaal Rathaus</description>
+      <pubDate>Wed, 17 Jun 2026 17:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Datteln-20260617-17:00 Uhr-3. Sitzung des Haupt-, Digital</guid>
     </item>
     <item>
       <title>3. Sitzung des Betriebsausschusses – Herten</title>
@@ -610,18 +603,18 @@
       <guid isPermaLink="false">Bottrop-20260622-08:00 Uhr-Seniorenbeirat</guid>
     </item>
     <item>
-      <title>2. Sitzung des Betriebsausschusses – Dorsten</title>
-      <link>https://dorsten.gremien.info/meeting?id=2026-Betr-73</link>
-      <description>Mo, 22.06.2026, 16:00 Uhr Uhr | Besprechungsraum Kommunaler Servicebetrieb Dorsten</description>
-      <pubDate>Mon, 22 Jun 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Dorsten-20260622-16:00 Uhr-2. Sitzung des Betriebsausschu</guid>
-    </item>
-    <item>
       <title>Sitzung des Schulausschusses – Gladbeck</title>
       <link>https://gladbeck.gremien.info/meeting?id=2026-9-140</link>
       <description>Mo, 22.06.2026, 16:00 Uhr Uhr | Ratssaal</description>
       <pubDate>Mon, 22 Jun 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Gladbeck-20260622-16:00 Uhr-Sitzung des Schulausschusses</guid>
+    </item>
+    <item>
+      <title>2. Sitzung des Betriebsausschusses – Dorsten</title>
+      <link>https://dorsten.gremien.info/meeting?id=2026-Betr-73</link>
+      <description>Mo, 22.06.2026, 16:00 Uhr Uhr | Besprechungsraum Kommunaler Servicebetrieb Dorsten</description>
+      <pubDate>Mon, 22 Jun 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Dorsten-20260622-16:00 Uhr-2. Sitzung des Betriebsausschu</guid>
     </item>
     <item>
       <title>Sitzung des Haupt- und Finanzausschusses – Recklinghausen</title>
@@ -666,18 +659,18 @@
       <guid isPermaLink="false">Gelsenkirchen-20260623-16:00 Uhr-Sitzung des Ausschusses für Or</guid>
     </item>
     <item>
-      <title>2. Sitzung des Ausschusses für Soziales, Quartier und Integration – Datteln</title>
-      <link>https://datteln.gremien.info/meeting?id=2026-SQI-28</link>
-      <description>Di, 23.06.2026, 17:00 Uhr Uhr | Sitzungssaal Rathaus</description>
-      <pubDate>Tue, 23 Jun 2026 17:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Datteln-20260623-17:00 Uhr-2. Sitzung des Ausschusses für</guid>
-    </item>
-    <item>
       <title>Sitzung der Ratskommission Nachhaltige Mobilität – Dorsten</title>
       <link>https://dorsten.gremien.info/meeting?id=2026-RKNAMO-8</link>
       <description>Di, 23.06.2026, 17:00 Uhr Uhr | Rathaus, Kleiner Sitzungssaal, Raum 214</description>
       <pubDate>Tue, 23 Jun 2026 17:00:00 +0200</pubDate>
       <guid isPermaLink="false">Dorsten-20260623-17:00 Uhr-Sitzung der Ratskommission Nac</guid>
+    </item>
+    <item>
+      <title>2. Sitzung des Ausschusses für Soziales, Quartier und Integration – Datteln</title>
+      <link>https://datteln.gremien.info/meeting?id=2026-SQI-28</link>
+      <description>Di, 23.06.2026, 17:00 Uhr Uhr | Sitzungssaal Rathaus</description>
+      <pubDate>Tue, 23 Jun 2026 17:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Datteln-20260623-17:00 Uhr-2. Sitzung des Ausschusses für</guid>
     </item>
     <item>
       <title>2. Sitzung des Ausschusses für Stadtentwicklung und Wirtschaft – Waltrop</title>
