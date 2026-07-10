@@ -435,7 +435,7 @@
 <tr><td class="kal-leer">3</td><td class="kal-leer">4</td><td class="kal-leer">5</td><td class="kal-leer">6</td><td class="kal-leer">7</td><td class="kal-leer">8</td><td class="kal-leer">9</td></tr>
 <tr><td class="kal-leer">10</td><td class="kal-leer">11</td><td class="kal-leer">12</td><td class="kal-leer">13</td><td class="kal-leer">14</td><td class="kal-leer">15</td><td class="kal-leer">16</td></tr>
 <tr><td class="kal-leer">17</td><td class="kal-leer">18</td><td class="kal-leer">19</td><td class="kal-leer">20</td><td class="kal-leer">21</td><td class="kal-leer">22</td><td class="kal-leer">23</td></tr>
-<tr><td class="kal-leer">24</td><td class="kal-leer">25</td><td class="kal-leer">26</td><td class="kal-leer">27</td><td class="kal-leer">28</td><td class="kal-leer">29</td><td class="kal-leer">30</td></tr>
+<tr><td class="kal-leer">24</td><td><a href="#datum-2026-08-25" class="kal-link">25</a></td><td class="kal-leer">26</td><td class="kal-leer">27</td><td class="kal-leer">28</td><td class="kal-leer">29</td><td class="kal-leer">30</td></tr>
 <tr><td><a href="#datum-2026-08-31" class="kal-link">31</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 </table>
 
@@ -458,6 +458,12 @@
             <div class="filter-dropdowns">
                 
             <div class="filter-group">
+                <label class="filter-label">Überregional</label>
+                <select class="kreis-filter" id="filter-ueberregional" onchange="filterTermine()">
+                    <option value="">Überregional</option><option value="Verkehrsverbund Rhein-Ruhr (VRR)">Verkehrsverbund Rhein-Ruhr (VRR)</option>
+                </select>
+            </div>
+            <div class="filter-group">
                 <label class="filter-label">Emscher-Lippe-Städte</label>
                 <select class="kreis-filter" id="filter-emscherlippe" onchange="filterTermine()">
                     <option value="">Emscher-Lippe-Städte</option><option value="Bottrop">Bottrop</option><option value="Gladbeck">Gladbeck</option>
@@ -467,13 +473,33 @@
             <div class="filter-stats">
                 <div class="active-filters" id="active-filters"></div>
                 <div class="stats">
-                    <span id="termine-count">3</span> von 3 Terminen
+                    <span id="termine-count">4</span> von 4 Terminen
                 </div>
             </div>
         </div>
 
         <main id="termine-container">
             
+        <div class="datum-gruppe" id="datum-2026-08-25">
+            <div class="datum-header">Di, 25.08.2026</div>
+            <div class="termine-liste">
+        
+                <div class="termin" data-stadt="Verkehrsverbund Rhein-Ruhr (VRR)">
+                    <div class="termin-zeit">11:00 Uhr</div>
+                    <div class="termin-info">
+                        <div class="termin-gremium">
+                            <a href="https://zvis.vrr.de/bi/si0046.asp?__cjahr=2026&amp;__cmonat=8" target="_blank">nicht öffentliche Sitzung der SPDplus-Fraktion in der Verbandsversammlung des Zweckverbandes VRR</a>
+                            
+                        </div>
+                        <div class="termin-stadt">Verkehrsverbund Rhein-Ruhr (VRR)</div>
+                        
+                    </div>
+                </div>
+            
+            </div>
+            <div class="zurueck-link"><a href="#kalender">↑ Kalender</a></div>
+        </div>
+        
         <div class="datum-gruppe" id="datum-2026-08-31">
             <div class="datum-header">Mo, 31.08.2026</div>
             <div class="termine-liste">
@@ -521,8 +547,8 @@
         </main>
 
         <footer>
-            Generiert am 09.07.2026 um 06:30 Uhr<br>
-            Daten aus 2 Ratsinformationssystemen<br>
+            Generiert am 10.07.2026 um 06:30 Uhr<br>
+            Daten aus 3 Ratsinformationssystemen<br>
             <a href="feed.xml" style="color: var(--accent); text-decoration: none;">&#x25CF; RSS-Feed</a>
         </footer>
     </div>
