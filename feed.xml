@@ -5,7 +5,7 @@
     <link>https://el-raete.reporter.ruhr/termine_2026_07.html</link>
     <description>Sitzungstermine aus Ratsinformationssystemen im Emscher-Lippe-Raum</description>
     <language>de-de</language>
-    <lastBuildDate>Thu, 23 Jul 2026 06:30:06 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 06:30:08 +0200</lastBuildDate>
     <atom:link href="https://el-raete.reporter.ruhr/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>nicht öffentliche Sitzung der CDU-Gruppe im Ausschuss für Tarif und Marketing der VRR AöR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
@@ -86,7 +86,7 @@
     </item>
     <item>
       <title>1. Sitzung des Seniorenbeirates – Oer-Erkenschwick</title>
-      <link>https://oer-erkenschwick.gremien.info/meeting?id=2026-SB-31</link>
+      <link>https://oer-erkenschwick.gremien.info/meeting?id=ni_2026-SB-31</link>
       <description>Do, 02.07.2026, 10:30 Uhr Uhr | Besprechungszimmer I</description>
       <pubDate>Thu, 02 Jul 2026 10:30:00 +0200</pubDate>
       <guid isPermaLink="false">Oer-Erkenschwick-20260702-10:30 Uhr-1. Sitzung des Seniorenbeirate</guid>
@@ -106,13 +106,6 @@
       <guid isPermaLink="false">Gladbeck-20260702-16:00 Uhr-Sitzung des Rates</guid>
     </item>
     <item>
-      <title>7. Sitzung des Rates – Marl</title>
-      <link>https://marl.gremien.info/meeting?id=2026-1-184</link>
-      <description>Do, 02.07.2026, 16:00 Uhr Uhr | Auswärtiger Tagungsort (siehe pdf-Einladung)</description>
-      <pubDate>Thu, 02 Jul 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Marl-20260702-16:00 Uhr-7. Sitzung des Rates</guid>
-    </item>
-    <item>
       <title>Sitzung des Seniorenbeirates der Stadt Recklinghausen – Recklinghausen</title>
       <link>https://stadt-recklinghausen.gremien.info/meeting?id=2026-SENBEI-76</link>
       <description>Do, 02.07.2026, 16:00 Uhr Uhr | Raum 103 (Großer Sitzungssaal des Rathauses)</description>
@@ -127,18 +120,18 @@
       <guid isPermaLink="false">Gelsenkirchen-20260702-16:00 Uhr-Sitzung des Haupt-, Finanz-, B</guid>
     </item>
     <item>
-      <title>Sitzung des Ausschuss für Generationen, Inklusion und Diversität – Castrop-Rauxel</title>
-      <link>https://castroprauxel.gremien.info/meeting?id=2026-AGID-11</link>
-      <description>Do, 02.07.2026, 17:00 Uhr Uhr | Ratssaal, Europaplatz 1, 44575 Castrop-Rauxel</description>
-      <pubDate>Thu, 02 Jul 2026 17:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Castrop-Rauxel-20260702-17:00 Uhr-Sitzung des Ausschuss für Gene</guid>
-    </item>
-    <item>
       <title>6. Sitzung des Rates – Waltrop</title>
       <link>https://waltrop.gremien.info/meeting?id=2026-1-155</link>
       <description>Do, 02.07.2026, 17:00 Uhr Uhr | Großer Sitzungssaal, Rathaus</description>
       <pubDate>Thu, 02 Jul 2026 17:00:00 +0200</pubDate>
       <guid isPermaLink="false">Waltrop-20260702-17:00 Uhr-6. Sitzung des Rates</guid>
+    </item>
+    <item>
+      <title>Sitzung des Ausschuss für Generationen, Inklusion und Diversität – Castrop-Rauxel</title>
+      <link>https://castroprauxel.gremien.info/meeting?id=2026-AGID-11</link>
+      <description>Do, 02.07.2026, 17:00 Uhr Uhr | Ratssaal, Europaplatz 1, 44575 Castrop-Rauxel</description>
+      <pubDate>Thu, 02 Jul 2026 17:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Castrop-Rauxel-20260702-17:00 Uhr-Sitzung des Ausschuss für Gene</guid>
     </item>
     <item>
       <title>3. Sitzung des Stadtentwicklungsausschusses – Haltern am See</title>
@@ -195,13 +188,6 @@
       <description>Di, 07.07.2026, 15:00 Uhr Uhr | Rathaus, 46236 Bottrop, großer Sitzungssaal</description>
       <pubDate>Tue, 07 Jul 2026 15:00:00 +0200</pubDate>
       <guid isPermaLink="false">Bottrop-20260707-15:00 Uhr-Rat der Stadt</guid>
-    </item>
-    <item>
-      <title>2. Sitzung des Inklusionsbeirates – Marl</title>
-      <link>https://marl.gremien.info/meeting?id=2026-Inklusion-6</link>
-      <description>Di, 07.07.2026, 16:00 Uhr Uhr | Auswärtiger Tagungsort (siehe pdf-Einladung)</description>
-      <pubDate>Tue, 07 Jul 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Marl-20260707-16:00 Uhr-2. Sitzung des Inklusionsbeira</guid>
     </item>
     <item>
       <title>Sitzung des Betriebsausschusses Gelsenkirchener Kindertagesbetreuung - fällt aus – Gelsenkirchen</title>
@@ -337,13 +323,6 @@
       <guid isPermaLink="false">Castrop-Rauxel-20260709-17:00 Uhr-Sitzung des Betriebsausschusse</guid>
     </item>
     <item>
-      <title>3. Sitzung des Unterausschusses Sicherheit, Ordnung, Sauberkeit und Bevölkerungsschutz – Marl</title>
-      <link>https://marl.gremien.info/meeting?id=2026-SOS-4</link>
-      <description>Do, 09.07.2026, 17:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
-      <pubDate>Thu, 09 Jul 2026 17:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Marl-20260709-17:00 Uhr-3. Sitzung des Unterausschusse</guid>
-    </item>
-    <item>
       <title>4. Sitzung des Rates der Stadt Haltern am See – Haltern am See</title>
       <link>https://haltern.gremien.info/meeting?id=ni_2026-RAT-115</link>
       <description>Do, 09.07.2026, 17:30 Uhr Uhr | Ratssaal</description>
@@ -373,7 +352,7 @@
     </item>
     <item>
       <title>5. Sitzung des Ausschusses für Stadtentwicklung und Wirtschaftsförderung – Oer-Erkenschwick</title>
-      <link>https://oer-erkenschwick.gremien.info/meeting?id=2026-SteWi-92</link>
+      <link>https://oer-erkenschwick.gremien.info/meeting?id=ni_2026-SteWi-92</link>
       <description>Mo, 13.07.2026, 17:00 Uhr Uhr | Stadthalle OE</description>
       <pubDate>Mon, 13 Jul 2026 17:00:00 +0200</pubDate>
       <guid isPermaLink="false">Oer-Erkenschwick-20260713-17:00 Uhr-5. Sitzung des Ausschusses für</guid>
@@ -415,7 +394,7 @@
     </item>
     <item>
       <title>3. Sitzung des Ausschusses für Schule, Kultur, Sport und Soziales – Oer-Erkenschwick</title>
-      <link>https://oer-erkenschwick.gremien.info/meeting?id=2026-SKSS-86</link>
+      <link>https://oer-erkenschwick.gremien.info/meeting?id=ni_2026-SKSS-86</link>
       <description>Di, 14.07.2026, 16:00 Uhr Uhr | Stadthalle OE</description>
       <pubDate>Tue, 14 Jul 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Oer-Erkenschwick-20260714-16:00 Uhr-3. Sitzung des Ausschusses für</guid>
@@ -436,7 +415,7 @@
     </item>
     <item>
       <title>8. Sitzung des Rates – Herten</title>
-      <link>https://herten.gremien.info/meeting?id=2026-Rat-179</link>
+      <link>https://herten.gremien.info/meeting?id=ni_2026-Rat-179</link>
       <description>Mi, 15.07.2026, 17:00 Uhr Uhr | Großer Sitzungssaal</description>
       <pubDate>Wed, 15 Jul 2026 17:00:00 +0200</pubDate>
       <guid isPermaLink="false">Herten-20260715-17:00 Uhr-8. Sitzung des Rates</guid>
@@ -454,13 +433,6 @@
       <description>Do, 16.07.2026, 19:00 Uhr Uhr</description>
       <pubDate>Thu, 16 Jul 2026 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">Verkehrsverbund Rhein-Ruhr (VRR)-20260716-19:00 Uhr-nicht öffentliche Sitzung der </guid>
-    </item>
-    <item>
-      <title>5. Sitzung des Seniorenbeirates – Marl</title>
-      <link>https://marl.gremien.info/meeting?id=2026-16-148</link>
-      <description>Do, 16.07.2026, 10:00 Uhr Uhr | Auswärtiger Tagungsort (siehe pdf-Einladung)</description>
-      <pubDate>Thu, 16 Jul 2026 10:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Marl-20260716-10:00 Uhr-5. Sitzung des Seniorenbeirate</guid>
     </item>
     <item>
       <title>6. Sitzung des Rates – Oer-Erkenschwick</title>
@@ -484,18 +456,18 @@
       <guid isPermaLink="false">Bottrop-20260716-16:00 Uhr-Betriebsausschuss Bottroper Sp</guid>
     </item>
     <item>
-      <title>Jugendparlament – Bottrop</title>
-      <link>https://ratsinfo-bottrop.de/tops/?__=UGhVM0hpd2NXNFdFcExjZRe0BXZIH5og5UZ5FQX29I0</link>
-      <description>Do, 16.07.2026, 17:00 Uhr Uhr | Rathaus, 46236 Bottrop, Sitzungszimmer 111</description>
-      <pubDate>Thu, 16 Jul 2026 17:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Bottrop-20260716-17:00 Uhr-Jugendparlament</guid>
-    </item>
-    <item>
       <title>Sitzung des Lenkungskreises Masterplan Wohnen – Dorsten</title>
       <link>https://dorsten.gremien.info/meeting?id=2026-AKQuartier-3</link>
       <description>Do, 16.07.2026, 17:00 Uhr Uhr | Rathaus, Kleiner Sitzungssaal, Raum 214</description>
       <pubDate>Thu, 16 Jul 2026 17:00:00 +0200</pubDate>
       <guid isPermaLink="false">Dorsten-20260716-17:00 Uhr-Sitzung des Lenkungskreises Ma</guid>
+    </item>
+    <item>
+      <title>Jugendparlament – Bottrop</title>
+      <link>https://ratsinfo-bottrop.de/tops/?__=UGhVM0hpd2NXNFdFcExjZRe0BXZIH5og5UZ5FQX29I0</link>
+      <description>Do, 16.07.2026, 17:00 Uhr Uhr | Rathaus, 46236 Bottrop, Sitzungszimmer 111</description>
+      <pubDate>Thu, 16 Jul 2026 17:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Bottrop-20260716-17:00 Uhr-Jugendparlament</guid>
     </item>
     <item>
       <title>Sitzung des Rates der Stadt – Castrop-Rauxel</title>
