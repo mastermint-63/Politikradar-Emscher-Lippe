@@ -5,7 +5,7 @@
     <link>https://el-raete.reporter.ruhr/termine_2026_07.html</link>
     <description>Sitzungstermine aus Ratsinformationssystemen im Emscher-Lippe-Raum</description>
     <language>de-de</language>
-    <lastBuildDate>Mon, 27 Jul 2026 06:30:07 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 06:30:05 +0200</lastBuildDate>
     <atom:link href="https://el-raete.reporter.ruhr/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>nicht öffentliche Sitzung der CDU-Gruppe im Ausschuss für Tarif und Marketing der VRR AöR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
@@ -435,6 +435,13 @@
       <guid isPermaLink="false">Verkehrsverbund Rhein-Ruhr (VRR)-20260716-19:00 Uhr-nicht öffentliche Sitzung der </guid>
     </item>
     <item>
+      <title>5. Sitzung des Seniorenbeirates – Marl</title>
+      <link>https://marl.gremien.info/meeting?id=ni_2026-16-148</link>
+      <description>Do, 16.07.2026, 10:00 Uhr Uhr | Auswärtiger Tagungsort (siehe pdf-Einladung)</description>
+      <pubDate>Thu, 16 Jul 2026 10:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Marl-20260716-10:00 Uhr-5. Sitzung des Seniorenbeirate</guid>
+    </item>
+    <item>
       <title>Sitzung des Haupt- und Finanzausschusses – Castrop-Rauxel</title>
       <link>https://castroprauxel.gremien.info/meeting?id=2026-HFA-138</link>
       <description>Do, 16.07.2026, 15:00 Uhr Uhr | Ratssaal, Europaplatz 1, 44575 Castrop-Rauxel</description>
@@ -457,7 +464,7 @@
     </item>
     <item>
       <title>Sitzung des Lenkungskreises Masterplan Wohnen – Dorsten</title>
-      <link>https://dorsten.gremien.info/meeting?id=2026-AKQuartier-3</link>
+      <link>https://dorsten.gremien.info/meeting?id=ni_2026-AKQuartier-3</link>
       <description>Do, 16.07.2026, 17:00 Uhr Uhr | Rathaus, Kleiner Sitzungssaal, Raum 214</description>
       <pubDate>Thu, 16 Jul 2026 17:00:00 +0200</pubDate>
       <guid isPermaLink="false">Dorsten-20260716-17:00 Uhr-Sitzung des Lenkungskreises Ma</guid>
