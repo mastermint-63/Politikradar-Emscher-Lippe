@@ -5,7 +5,7 @@
     <link>https://el-raete.reporter.ruhr/termine_2026_08.html</link>
     <description>Sitzungstermine aus Ratsinformationssystemen im Emscher-Lippe-Raum</description>
     <language>de-de</language>
-    <lastBuildDate>Wed, 19 Aug 2026 06:30:08 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 06:30:05 +0200</lastBuildDate>
     <atom:link href="https://el-raete.reporter.ruhr/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>nicht öffentliche Sitzung der AfD-Fraktion in der Verbandsversammlung des Zweckverbandes VRR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
@@ -113,18 +113,18 @@
       <guid isPermaLink="false">Verkehrsverbund Rhein-Ruhr (VRR)-20260827-10:00 Uhr-nicht öffentliche Sitzung der </guid>
     </item>
     <item>
-      <title>Sitzung des Ausschusses für Sicherheit, Ordnung und Feuerwehr – Gladbeck</title>
-      <link>https://gladbeck.gremien.info/meeting?id=2026-SichOFwA-32</link>
-      <description>Mo, 31.08.2026, 16:00 Uhr Uhr | Ratssaal</description>
-      <pubDate>Mon, 31 Aug 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Gladbeck-20260831-16:00 Uhr-Sitzung des Ausschusses für Si</guid>
-    </item>
-    <item>
       <title>Sitzung des Betriebsausschusses – Gladbeck</title>
       <link>https://gladbeck.gremien.info/meeting?id=2026-18-124</link>
-      <description>Mo, 31.08.2026, 17:00 Uhr Uhr | Ratssaal</description>
+      <description>Mo, 31.08.2026, 16:00 Uhr Uhr | Feuerwehr Gladbeck, Lehrsaal</description>
+      <pubDate>Mon, 31 Aug 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Gladbeck-20260831-16:00 Uhr-Sitzung des Betriebsausschusse</guid>
+    </item>
+    <item>
+      <title>Sitzung des Ausschusses für Sicherheit, Ordnung und Feuerwehr – Gladbeck</title>
+      <link>https://gladbeck.gremien.info/meeting?id=2026-SichOFwA-32</link>
+      <description>Mo, 31.08.2026, 17:00 Uhr Uhr | Feuerwehr Gladbeck, Lehrsaal</description>
       <pubDate>Mon, 31 Aug 2026 17:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Gladbeck-20260831-17:00 Uhr-Sitzung des Betriebsausschusse</guid>
+      <guid isPermaLink="false">Gladbeck-20260831-17:00 Uhr-Sitzung des Ausschusses für Si</guid>
     </item>
   </channel>
 </rss>
