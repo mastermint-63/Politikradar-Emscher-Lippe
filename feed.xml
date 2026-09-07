@@ -5,7 +5,7 @@
     <link>https://el-raete.reporter.ruhr/termine_2026_09.html</link>
     <description>Sitzungstermine aus Ratsinformationssystemen im Emscher-Lippe-Raum</description>
     <language>de-de</language>
-    <lastBuildDate>Sun, 06 Sep 2026 06:30:04 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 06:30:04 +0200</lastBuildDate>
     <atom:link href="https://el-raete.reporter.ruhr/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>nicht öffentliche Sitzung der AfD-Fraktion in der Verbandsversammlung des Zweckverbandes VRR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
@@ -155,18 +155,18 @@
       <guid isPermaLink="false">Herten-20260908-15:00 Uhr-3. Sitzung Seniorenbeirat</guid>
     </item>
     <item>
-      <title>Sitzung des Ausschusses für Umwelt, Klimaschutz und Energie – Gladbeck</title>
-      <link>https://gladbeck.gremien.info/meeting?id=2026-UKEA-4</link>
-      <description>Di, 08.09.2026, 16:00 Uhr Uhr | Ratssaal</description>
-      <pubDate>Tue, 08 Sep 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Gladbeck-20260908-16:00 Uhr-Sitzung des Ausschusses für Um</guid>
-    </item>
-    <item>
       <title>Jugendhilfeausschuss – Bottrop</title>
       <link>https://ratsinfo-bottrop.de/tops/?__=UGhVM0hpd2NXNFdFcExjZV-cl_KXPEsse3YcL5s9AVM</link>
       <description>Di, 08.09.2026, 16:00 Uhr Uhr | Rathaus, 46236 Bottrop, großer Sitzungssaal</description>
       <pubDate>Tue, 08 Sep 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Bottrop-20260908-16:00 Uhr-Jugendhilfeausschuss</guid>
+    </item>
+    <item>
+      <title>Sitzung des Ausschusses für Umwelt, Klimaschutz und Energie – Gladbeck</title>
+      <link>https://gladbeck.gremien.info/meeting?id=2026-UKEA-4</link>
+      <description>Di, 08.09.2026, 16:00 Uhr Uhr | Ratssaal</description>
+      <pubDate>Tue, 08 Sep 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Gladbeck-20260908-16:00 Uhr-Sitzung des Ausschusses für Um</guid>
     </item>
     <item>
       <title>2. Sitzung des Rechnungsprüfungsausschusses – Marl</title>
@@ -421,13 +421,6 @@
       <guid isPermaLink="false">Regionalverband Ruhr (RVR)-20260915-10:00 Uhr-3. Sitzung des Ausschusses für</guid>
     </item>
     <item>
-      <title>Sitzung des Jugendhilfeausschusses – Gladbeck</title>
-      <link>https://gladbeck.gremien.info/meeting?id=2026-7-141</link>
-      <description>Di, 15.09.2026, 16:00 Uhr Uhr | Ratssaal</description>
-      <pubDate>Tue, 15 Sep 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Gladbeck-20260915-16:00 Uhr-Sitzung des Jugendhilfeausschu</guid>
-    </item>
-    <item>
       <title>Haupt-, Finanz- und Beschwerdeausschuss – Bottrop</title>
       <link>https://ratsinfo-bottrop.de/tops/?__=UGhVM0hpd2NXNFdFcExjZa6AgnSnsvxEoHE_1RlFlAE</link>
       <description>Di, 15.09.2026, 16:00 Uhr Uhr | Rathaus, 46236 Bottrop, Sitzungszimmer 111</description>
@@ -435,11 +428,11 @@
       <guid isPermaLink="false">Bottrop-20260915-16:00 Uhr-Haupt-, Finanz- und Beschwerde</guid>
     </item>
     <item>
-      <title>5. Sitzung des Ausschusses für Kultur, Weiterbildung und Stadtmarketing – Marl</title>
-      <link>https://marl.gremien.info/meeting?id=2026-99-4</link>
-      <description>Di, 15.09.2026, 16:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
+      <title>Sitzung des Jugendhilfeausschusses – Gladbeck</title>
+      <link>https://gladbeck.gremien.info/meeting?id=2026-7-141</link>
+      <description>Di, 15.09.2026, 16:00 Uhr Uhr | Ratssaal</description>
       <pubDate>Tue, 15 Sep 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Marl-20260915-16:00 Uhr-5. Sitzung des Ausschusses für</guid>
+      <guid isPermaLink="false">Gladbeck-20260915-16:00 Uhr-Sitzung des Jugendhilfeausschu</guid>
     </item>
     <item>
       <title>4. Sitzung des Ausschusses für Schule, Kultur, Sport und Soziales – Oer-Erkenschwick</title>
@@ -447,6 +440,13 @@
       <description>Di, 15.09.2026, 16:00 Uhr Uhr | Stadthalle OE</description>
       <pubDate>Tue, 15 Sep 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Oer-Erkenschwick-20260915-16:00 Uhr-4. Sitzung des Ausschusses für</guid>
+    </item>
+    <item>
+      <title>5. Sitzung des Ausschusses für Kultur, Weiterbildung und Stadtmarketing – Marl</title>
+      <link>https://marl.gremien.info/meeting?id=2026-99-4</link>
+      <description>Di, 15.09.2026, 16:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
+      <pubDate>Tue, 15 Sep 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Marl-20260915-16:00 Uhr-5. Sitzung des Ausschusses für</guid>
     </item>
     <item>
       <title>Sitzung des Rechnungsprüfungsausschusses – Gelsenkirchen</title>
@@ -519,18 +519,18 @@
       <guid isPermaLink="false">Gladbeck-20260916-16:00 Uhr-Gemeinsame Sitzung des Schul- </guid>
     </item>
     <item>
-      <title>5. Sitzung des Ausschusses für Schule und Sport – Marl</title>
-      <link>https://marl.gremien.info/meeting?id=2026-77-120</link>
-      <description>Mi, 16.09.2026, 16:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
-      <pubDate>Wed, 16 Sep 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Marl-20260916-16:00 Uhr-5. Sitzung des Ausschusses für</guid>
-    </item>
-    <item>
       <title>4. Sitzung des Jugendhilfeausschusses – Oer-Erkenschwick</title>
       <link>https://oer-erkenschwick.gremien.info/meeting?id=2026-JHA-89</link>
       <description>Mi, 16.09.2026, 16:00 Uhr Uhr | Besprechungszimmer I</description>
       <pubDate>Wed, 16 Sep 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Oer-Erkenschwick-20260916-16:00 Uhr-4. Sitzung des Jugendhilfeauss</guid>
+    </item>
+    <item>
+      <title>5. Sitzung des Ausschusses für Schule und Sport – Marl</title>
+      <link>https://marl.gremien.info/meeting?id=2026-77-120</link>
+      <description>Mi, 16.09.2026, 16:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
+      <pubDate>Wed, 16 Sep 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Marl-20260916-16:00 Uhr-5. Sitzung des Ausschusses für</guid>
     </item>
     <item>
       <title>Sitzung des Ausschusses für Soziales und Arbeit – Gelsenkirchen</title>
@@ -918,11 +918,11 @@
       <guid isPermaLink="false">Gelsenkirchen-20260924-15:00 Uhr-Sitzung der Bezirksvertretung </guid>
     </item>
     <item>
-      <title>Sitzung des Haupt- und Finanzausschusses – Castrop-Rauxel</title>
-      <link>https://castroprauxel.gremien.info/meeting?id=2026-HFA-139</link>
-      <description>Do, 24.09.2026, 16:00 Uhr Uhr | Ratssaal, Europaplatz 1, 44575 Castrop-Rauxel</description>
+      <title>Beirat für Menschen mit Behinderung – Bottrop</title>
+      <link>https://ratsinfo-bottrop.de/tops/?__=UGhVM0hpd2NXNFdFcExjZbc3dBnLVw4VtXPscp6iMok</link>
+      <description>Do, 24.09.2026, 16:00 Uhr Uhr | Rathaus, 46236 Bottrop, Sitzungszimmer 111</description>
       <pubDate>Thu, 24 Sep 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Castrop-Rauxel-20260924-16:00 Uhr-Sitzung des Haupt- und Finanza</guid>
+      <guid isPermaLink="false">Bottrop-20260924-16:00 Uhr-Beirat für Menschen mit Behind</guid>
     </item>
     <item>
       <title>Sitzung des Rates – Gladbeck</title>
@@ -932,11 +932,11 @@
       <guid isPermaLink="false">Gladbeck-20260924-16:00 Uhr-Sitzung des Rates</guid>
     </item>
     <item>
-      <title>Beirat für Menschen mit Behinderung – Bottrop</title>
-      <link>https://ratsinfo-bottrop.de/tops/?__=UGhVM0hpd2NXNFdFcExjZbc3dBnLVw4VtXPscp6iMok</link>
-      <description>Do, 24.09.2026, 16:00 Uhr Uhr | Rathaus, 46236 Bottrop, Sitzungszimmer 111</description>
+      <title>Sitzung des Haupt- und Finanzausschusses – Castrop-Rauxel</title>
+      <link>https://castroprauxel.gremien.info/meeting?id=2026-HFA-139</link>
+      <description>Do, 24.09.2026, 16:00 Uhr Uhr | Ratssaal, Europaplatz 1, 44575 Castrop-Rauxel</description>
       <pubDate>Thu, 24 Sep 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Bottrop-20260924-16:00 Uhr-Beirat für Menschen mit Behind</guid>
+      <guid isPermaLink="false">Castrop-Rauxel-20260924-16:00 Uhr-Sitzung des Haupt- und Finanza</guid>
     </item>
     <item>
       <title>Sitzung der Ratskommission für Gleichstellungs- u. Frauenfragen – Recklinghausen</title>
@@ -981,18 +981,18 @@
       <guid isPermaLink="false">Herten-20260924-17:00 Uhr-4. Sitzung des Haupt- und Fina</guid>
     </item>
     <item>
-      <title>4. Sitzung des Betriebsausschusses ZBH – Marl</title>
-      <link>https://marl.gremien.info/meeting?id=2026-94-40</link>
-      <description>Do, 24.09.2026, 17:00 Uhr Uhr | Aufenthaltsraum des Zentralen Betriebshofes</description>
-      <pubDate>Thu, 24 Sep 2026 17:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Marl-20260924-17:00 Uhr-4. Sitzung des Betriebsausschu</guid>
-    </item>
-    <item>
       <title>2. Sitzung des Betriebsausschusses für die optimierten Regiebetriebe der Stadt Waltrop – Waltrop</title>
       <link>https://waltrop.gremien.info/meeting?id=2026-BetrAORBs-14</link>
       <description>Do, 24.09.2026, 17:00 Uhr Uhr | Großer Sitzungssaal, Rathaus</description>
       <pubDate>Thu, 24 Sep 2026 17:00:00 +0200</pubDate>
       <guid isPermaLink="false">Waltrop-20260924-17:00 Uhr-2. Sitzung des Betriebsausschu</guid>
+    </item>
+    <item>
+      <title>4. Sitzung des Betriebsausschusses ZBH – Marl</title>
+      <link>https://marl.gremien.info/meeting?id=2026-94-40</link>
+      <description>Do, 24.09.2026, 17:00 Uhr Uhr | Aufenthaltsraum des Zentralen Betriebshofes</description>
+      <pubDate>Thu, 24 Sep 2026 17:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Marl-20260924-17:00 Uhr-4. Sitzung des Betriebsausschu</guid>
     </item>
     <item>
       <title>Sitzung des Ausschusses für Gastronomie, Tourismus und urbane Entwicklung – Gelsenkirchen</title>
