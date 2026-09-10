@@ -5,7 +5,7 @@
     <link>https://el-raete.reporter.ruhr/termine_2026_09.html</link>
     <description>Sitzungstermine aus Ratsinformationssystemen im Emscher-Lippe-Raum</description>
     <language>de-de</language>
-    <lastBuildDate>Wed, 09 Sep 2026 06:30:04 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 06:30:04 +0200</lastBuildDate>
     <atom:link href="https://el-raete.reporter.ruhr/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>nicht öffentliche Sitzung der AfD-Fraktion in der Verbandsversammlung des Zweckverbandes VRR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
@@ -190,11 +190,11 @@
       <guid isPermaLink="false">Bottrop-20260908-16:00 Uhr-Jugendhilfeausschuss</guid>
     </item>
     <item>
-      <title>Sitzung der Bezirksvertretung Gelsenkirchen-West – Gelsenkirchen</title>
-      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000588&amp;refresh=false</link>
-      <description>Di, 08.09.2026, 16:00 Uhr Uhr | Rittersaal Schloss Horst</description>
+      <title>Sitzung des Beirates für Senioren – Gelsenkirchen</title>
+      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000590&amp;refresh=false</link>
+      <description>Di, 08.09.2026, 16:00 Uhr Uhr | Sitzungszimmer 1 - Zenica</description>
       <pubDate>Tue, 08 Sep 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Gelsenkirchen-20260908-16:00 Uhr-Sitzung der Bezirksvertretung </guid>
+      <guid isPermaLink="false">Gelsenkirchen-20260908-16:00 Uhr-Sitzung des Beirates für Senio</guid>
     </item>
     <item>
       <title>Sitzung der Bezirksvertretung Gelsenkirchen-Süd – Gelsenkirchen</title>
@@ -204,11 +204,11 @@
       <guid isPermaLink="false">Gelsenkirchen-20260908-16:00 Uhr-Sitzung der Bezirksvertretung </guid>
     </item>
     <item>
-      <title>Sitzung des Beirates für Senioren – Gelsenkirchen</title>
-      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000590&amp;refresh=false</link>
-      <description>Di, 08.09.2026, 16:00 Uhr Uhr | Sitzungszimmer 1 - Zenica</description>
+      <title>Sitzung der Bezirksvertretung Gelsenkirchen-West – Gelsenkirchen</title>
+      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000588&amp;refresh=false</link>
+      <description>Di, 08.09.2026, 16:00 Uhr Uhr | Rittersaal Schloss Horst</description>
       <pubDate>Tue, 08 Sep 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Gelsenkirchen-20260908-16:00 Uhr-Sitzung des Beirates für Senio</guid>
+      <guid isPermaLink="false">Gelsenkirchen-20260908-16:00 Uhr-Sitzung der Bezirksvertretung </guid>
     </item>
     <item>
       <title>5. Sitzung des Jugendhilfeausschusses – Dorsten</title>
@@ -226,7 +226,7 @@
     </item>
     <item>
       <title>3. Sitzung des Ausschusses für Landwirtschaft, Bauen und Mobilität – Kreis Recklinghausen</title>
-      <link>https://kvrecklinghausen.gremien.info/meeting?id=2026-ALBM-3</link>
+      <link>https://kvrecklinghausen.gremien.info/meeting?id=ni_2026-ALBM-3</link>
       <description>Mi, 09.09.2026, 09:00 Uhr Uhr | Stadthalle Oer-Erkenschwick</description>
       <pubDate>Wed, 09 Sep 2026 09:00:00 +0200</pubDate>
       <guid isPermaLink="false">Kreis Recklinghausen-20260909-09:00 Uhr-3. Sitzung des Ausschusses für</guid>
@@ -234,9 +234,9 @@
     <item>
       <title>Sitzung des Beirates für Menschen mit Behinderungen – Gelsenkirchen</title>
       <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000593&amp;refresh=false</link>
-      <description>Mi, 09.09.2026, 14:00 Uhr Uhr | Sitzungszimmer 1 - Zenica</description>
-      <pubDate>Wed, 09 Sep 2026 14:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Gelsenkirchen-20260909-14:00 Uhr-Sitzung des Beirates für Mensc</guid>
+      <description>Mi, 09.09.2026, 14:03 Uhr Uhr | Sitzungszimmer 1 - Zenica</description>
+      <pubDate>Wed, 09 Sep 2026 14:03:00 +0200</pubDate>
+      <guid isPermaLink="false">Gelsenkirchen-20260909-14:03 Uhr-Sitzung des Beirates für Mensc</guid>
     </item>
     <item>
       <title>Bezirksvertretung Bottrop-Mitte – Bottrop</title>
@@ -449,18 +449,18 @@
       <guid isPermaLink="false">Gladbeck-20260915-16:00 Uhr-Sitzung des Jugendhilfeausschu</guid>
     </item>
     <item>
-      <title>5. Sitzung des Ausschusses für Kultur, Weiterbildung und Stadtmarketing – Marl</title>
-      <link>https://marl.gremien.info/meeting?id=2026-99-4</link>
-      <description>Di, 15.09.2026, 16:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
-      <pubDate>Tue, 15 Sep 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Marl-20260915-16:00 Uhr-5. Sitzung des Ausschusses für</guid>
-    </item>
-    <item>
       <title>4. Sitzung des Ausschusses für Schule, Kultur, Sport und Soziales – Oer-Erkenschwick</title>
       <link>https://oer-erkenschwick.gremien.info/meeting?id=2026-SKSS-87</link>
       <description>Di, 15.09.2026, 16:00 Uhr Uhr | Stadthalle OE</description>
       <pubDate>Tue, 15 Sep 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Oer-Erkenschwick-20260915-16:00 Uhr-4. Sitzung des Ausschusses für</guid>
+    </item>
+    <item>
+      <title>5. Sitzung des Ausschusses für Kultur, Weiterbildung und Stadtmarketing – Marl</title>
+      <link>https://marl.gremien.info/meeting?id=2026-99-4</link>
+      <description>Di, 15.09.2026, 16:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
+      <pubDate>Tue, 15 Sep 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Marl-20260915-16:00 Uhr-5. Sitzung des Ausschusses für</guid>
     </item>
     <item>
       <title>Haupt-, Finanz- und Beschwerdeausschuss – Bottrop</title>
@@ -547,13 +547,6 @@
       <guid isPermaLink="false">Gladbeck-20260916-16:00 Uhr-Gemeinsame Sitzung des Schul- </guid>
     </item>
     <item>
-      <title>5. Sitzung des Ausschusses für Schule und Sport – Marl</title>
-      <link>https://marl.gremien.info/meeting?id=2026-77-120</link>
-      <description>Mi, 16.09.2026, 16:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
-      <pubDate>Wed, 16 Sep 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Marl-20260916-16:00 Uhr-5. Sitzung des Ausschusses für</guid>
-    </item>
-    <item>
       <title>4. Sitzung des Jugendhilfeausschusses – Oer-Erkenschwick</title>
       <link>https://oer-erkenschwick.gremien.info/meeting?id=2026-JHA-89</link>
       <description>Mi, 16.09.2026, 16:00 Uhr Uhr | Besprechungszimmer I</description>
@@ -573,6 +566,13 @@
       <description>Mi, 16.09.2026, 16:00 Uhr Uhr | Sitzungszimmer Cottbus</description>
       <pubDate>Wed, 16 Sep 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Gelsenkirchen-20260916-16:00 Uhr-Sitzung des Stadtentwicklungs-</guid>
+    </item>
+    <item>
+      <title>5. Sitzung des Ausschusses für Schule und Sport – Marl</title>
+      <link>https://marl.gremien.info/meeting?id=2026-77-120</link>
+      <description>Mi, 16.09.2026, 16:30 Uhr Uhr | Auswärtiger Tagungsort (siehe pdf-Einladung)</description>
+      <pubDate>Wed, 16 Sep 2026 16:30:00 +0200</pubDate>
+      <guid isPermaLink="false">Marl-20260916-16:30 Uhr-5. Sitzung des Ausschusses für</guid>
     </item>
     <item>
       <title>2. Sitzung Ratskommission zur Förderung der Gleichstellung und der besseren Vereinbarkeit von Famili – Dorsten</title>
@@ -1025,16 +1025,9 @@
     <item>
       <title>Sitzung des Ausschusses für Gastronomie, Tourismus und urbane Entwicklung – Gelsenkirchen</title>
       <link>https://ratsinformation.gelsenkirchen.de/si010</link>
-      <description>Do, 24.09.2026, 17:00 Uhr Uhr | Sitzungszimmer 1 - Zenica</description>
+      <description>Do, 24.09.2026, 17:00 Uhr Uhr | Hans-Sachs-Haus, Ratssaal</description>
       <pubDate>Thu, 24 Sep 2026 17:00:00 +0200</pubDate>
       <guid isPermaLink="false">Gelsenkirchen-20260924-17:00 Uhr-Sitzung des Ausschusses für Ga</guid>
-    </item>
-    <item>
-      <title>3. Sitzung des Aufsichtsrates der Wirtschaftsförderung in Dorsten GmbH – Dorsten</title>
-      <link>https://dorsten.gremien.info/meeting?id=2026-AufSRWINDO-2</link>
-      <description>Do, 24.09.2026, 17:30 Uhr Uhr | Besprechungsraum, WinDor EG</description>
-      <pubDate>Thu, 24 Sep 2026 17:30:00 +0200</pubDate>
-      <guid isPermaLink="false">Dorsten-20260924-17:30 Uhr-3. Sitzung des Aufsichtsrates </guid>
     </item>
     <item>
       <title>4. Sitzung des Stadtentwicklungsausschusses – Haltern am See</title>
@@ -1042,6 +1035,13 @@
       <description>Do, 24.09.2026, 17:30 Uhr Uhr | Ratssaal</description>
       <pubDate>Thu, 24 Sep 2026 17:30:00 +0200</pubDate>
       <guid isPermaLink="false">Haltern am See-20260924-17:30 Uhr-4. Sitzung des Stadtentwicklun</guid>
+    </item>
+    <item>
+      <title>3. Sitzung des Aufsichtsrates der Wirtschaftsförderung in Dorsten GmbH – Dorsten</title>
+      <link>https://dorsten.gremien.info/meeting?id=2026-AufSRWINDO-2</link>
+      <description>Do, 24.09.2026, 17:30 Uhr Uhr | Besprechungsraum, WinDor EG</description>
+      <pubDate>Thu, 24 Sep 2026 17:30:00 +0200</pubDate>
+      <guid isPermaLink="false">Dorsten-20260924-17:30 Uhr-3. Sitzung des Aufsichtsrates </guid>
     </item>
     <item>
       <title>7. Sitzung des Haupt- und Finanzausschusses – Waltrop</title>
