@@ -5,7 +5,7 @@
     <link>https://el-raete.reporter.ruhr/termine_2026_09.html</link>
     <description>Sitzungstermine aus Ratsinformationssystemen im Emscher-Lippe-Raum</description>
     <language>de-de</language>
-    <lastBuildDate>Fri, 11 Sep 2026 06:30:04 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 06:30:03 +0200</lastBuildDate>
     <atom:link href="https://el-raete.reporter.ruhr/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>nicht öffentliche Sitzung der AfD-Fraktion in der Verbandsversammlung des Zweckverbandes VRR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
@@ -108,9 +108,9 @@
     <item>
       <title>nicht öffentliche Sitzung der AfD-Fraktion in der Verbandsversammlung des Zweckverbandes VRR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
       <link>https://zvis.vrr.de/bi/si0046.asp?__cjahr=2026&amp;__cmonat=9</link>
-      <description>So, 06.09.2026, 19:30 Uhr Uhr</description>
-      <pubDate>Sun, 06 Sep 2026 00:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Verkehrsverbund Rhein-Ruhr (VRR)-20260906-19:30 Uhr-nicht öffentliche Sitzung der </guid>
+      <description>Sa, 05.09.2026, 18:30 Uhr Uhr</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Verkehrsverbund Rhein-Ruhr (VRR)-20260905-18:30 Uhr-nicht öffentliche Sitzung der </guid>
     </item>
     <item>
       <title>3. Sitzung des Ausschusses für Personal und Digitalisierung – Kreis Recklinghausen</title>
@@ -373,7 +373,7 @@
     </item>
     <item>
       <title>3. Sitzung des Ausschusses für Klima, Nachhaltigkeit und Umwelt – Kreis Recklinghausen</title>
-      <link>https://kvrecklinghausen.gremien.info/meeting?id=2026-AKNU-20</link>
+      <link>https://kvrecklinghausen.gremien.info/meeting?id=ni_2026-AKNU-20</link>
       <description>Fr, 11.09.2026, 09:00 Uhr Uhr | Stadthalle Oer-Erkenschwick</description>
       <pubDate>Fri, 11 Sep 2026 09:00:00 +0200</pubDate>
       <guid isPermaLink="false">Kreis Recklinghausen-20260911-09:00 Uhr-3. Sitzung des Ausschusses für</guid>
@@ -428,13 +428,6 @@
       <guid isPermaLink="false">Oer-Erkenschwick-20260914-17:00 Uhr-6. Sitzung des Ausschusses für</guid>
     </item>
     <item>
-      <title>nicht öffentliche Sitzung der AfD-Fraktion in der Verbandsversammlung des Zweckverbandes VRR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
-      <link>https://zvis.vrr.de/bi/si0046.asp?__cjahr=2026&amp;__cmonat=9</link>
-      <description>Di, 15.09.2026, 09:00 Uhr Uhr</description>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Verkehrsverbund Rhein-Ruhr (VRR)-20260915-09:00 Uhr-nicht öffentliche Sitzung der </guid>
-    </item>
-    <item>
       <title>3. Sitzung des Ausschusses für Finanzen und Beteiligungen (Regionalverband Ruhr) – Regionalverband Ruhr (RVR)</title>
       <link>https://rvr-online.gremien.info/meeting?id=2026-AFB-2</link>
       <description>Di, 15.09.2026, 10:00 Uhr Uhr | Plenarsaal</description>
@@ -449,18 +442,18 @@
       <guid isPermaLink="false">Gladbeck-20260915-16:00 Uhr-Sitzung des Jugendhilfeausschu</guid>
     </item>
     <item>
-      <title>4. Sitzung des Ausschusses für Schule, Kultur, Sport und Soziales – Oer-Erkenschwick</title>
-      <link>https://oer-erkenschwick.gremien.info/meeting?id=2026-SKSS-87</link>
-      <description>Di, 15.09.2026, 16:00 Uhr Uhr | Stadthalle OE</description>
-      <pubDate>Tue, 15 Sep 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Oer-Erkenschwick-20260915-16:00 Uhr-4. Sitzung des Ausschusses für</guid>
-    </item>
-    <item>
       <title>5. Sitzung des Ausschusses für Kultur, Weiterbildung und Stadtmarketing – Marl</title>
       <link>https://marl.gremien.info/meeting?id=2026-99-4</link>
       <description>Di, 15.09.2026, 16:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
       <pubDate>Tue, 15 Sep 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Marl-20260915-16:00 Uhr-5. Sitzung des Ausschusses für</guid>
+    </item>
+    <item>
+      <title>4. Sitzung des Ausschusses für Schule, Kultur, Sport und Soziales – Oer-Erkenschwick</title>
+      <link>https://oer-erkenschwick.gremien.info/meeting?id=2026-SKSS-87</link>
+      <description>Di, 15.09.2026, 16:00 Uhr Uhr | Stadthalle OE</description>
+      <pubDate>Tue, 15 Sep 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Oer-Erkenschwick-20260915-16:00 Uhr-4. Sitzung des Ausschusses für</guid>
     </item>
     <item>
       <title>Haupt-, Finanz- und Beschwerdeausschuss – Bottrop</title>
@@ -891,7 +884,7 @@
     </item>
     <item>
       <title>Sitzung des Ausschusses für Kultur und urbane Szene – Gelsenkirchen</title>
-      <link>https://ratsinformation.gelsenkirchen.de/si010</link>
+      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000605&amp;refresh=false</link>
       <description>Mi, 23.09.2026, 16:00 Uhr Uhr | Hans-Sachs-Haus, Ratssaal</description>
       <pubDate>Wed, 23 Sep 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Gelsenkirchen-20260923-16:00 Uhr-Sitzung des Ausschusses für Ku</guid>
@@ -940,7 +933,7 @@
     </item>
     <item>
       <title>Sitzung der Bezirksvertretung Gelsenkirchen-Nord – Gelsenkirchen</title>
-      <link>https://ratsinformation.gelsenkirchen.de/si010</link>
+      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1001229&amp;refresh=false</link>
       <description>Do, 24.09.2026, 15:00 Uhr Uhr | Hans-Sachs-Haus, Ratssaal</description>
       <pubDate>Thu, 24 Sep 2026 15:00:00 +0200</pubDate>
       <guid isPermaLink="false">Gelsenkirchen-20260924-15:00 Uhr-Sitzung der Bezirksvertretung </guid>
@@ -975,7 +968,7 @@
     </item>
     <item>
       <title>Sitzung des Ausschusses für Bildung – Gelsenkirchen</title>
-      <link>https://ratsinformation.gelsenkirchen.de/si010</link>
+      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000606&amp;refresh=false</link>
       <description>Do, 24.09.2026, 16:00 Uhr Uhr | Aula der Gesamtschule Buer-Mitte Gymnasiale Oberstufe</description>
       <pubDate>Thu, 24 Sep 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Gelsenkirchen-20260924-16:00 Uhr-Sitzung des Ausschusses für Bi</guid>
@@ -1024,7 +1017,7 @@
     </item>
     <item>
       <title>Sitzung des Ausschusses für Gastronomie, Tourismus und urbane Entwicklung – Gelsenkirchen</title>
-      <link>https://ratsinformation.gelsenkirchen.de/si010</link>
+      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000607&amp;refresh=false</link>
       <description>Do, 24.09.2026, 17:00 Uhr Uhr | Hans-Sachs-Haus, Ratssaal</description>
       <pubDate>Thu, 24 Sep 2026 17:00:00 +0200</pubDate>
       <guid isPermaLink="false">Gelsenkirchen-20260924-17:00 Uhr-Sitzung des Ausschusses für Ga</guid>
