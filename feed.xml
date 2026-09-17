@@ -5,7 +5,7 @@
     <link>https://el-raete.reporter.ruhr/termine_2026_09.html</link>
     <description>Sitzungstermine aus Ratsinformationssystemen im Emscher-Lippe-Raum</description>
     <language>de-de</language>
-    <lastBuildDate>Wed, 16 Sep 2026 06:30:06 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 06:30:06 +0200</lastBuildDate>
     <atom:link href="https://el-raete.reporter.ruhr/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>nicht öffentliche Sitzung der AfD-Fraktion in der Verbandsversammlung des Zweckverbandes VRR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
@@ -408,7 +408,7 @@
     </item>
     <item>
       <title>Sitzung des Haupt- und Finanzausschusses – Recklinghausen</title>
-      <link>https://stadt-recklinghausen.gremien.info/meeting?id=2026-HFA-106</link>
+      <link>https://stadt-recklinghausen.gremien.info/meeting?id=ni_2026-HFA-106</link>
       <description>Mo, 14.09.2026, 16:00 Uhr Uhr | Raum 103 (Großer Sitzungssaal des Rathauses)</description>
       <pubDate>Mon, 14 Sep 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Recklinghausen-20260914-16:00 Uhr-Sitzung des Haupt- und Finanza</guid>
@@ -442,18 +442,18 @@
       <guid isPermaLink="false">Gladbeck-20260915-16:00 Uhr-Sitzung des Jugendhilfeausschu</guid>
     </item>
     <item>
-      <title>4. Sitzung des Ausschusses für Schule, Kultur, Sport und Soziales – Oer-Erkenschwick</title>
-      <link>https://oer-erkenschwick.gremien.info/meeting?id=2026-SKSS-87</link>
-      <description>Di, 15.09.2026, 16:00 Uhr Uhr | Stadthalle OE</description>
-      <pubDate>Tue, 15 Sep 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Oer-Erkenschwick-20260915-16:00 Uhr-4. Sitzung des Ausschusses für</guid>
-    </item>
-    <item>
       <title>5. Sitzung des Ausschusses für Kultur, Weiterbildung und Stadtmarketing – Marl</title>
       <link>https://marl.gremien.info/meeting?id=2026-99-4</link>
       <description>Di, 15.09.2026, 16:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
       <pubDate>Tue, 15 Sep 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Marl-20260915-16:00 Uhr-5. Sitzung des Ausschusses für</guid>
+    </item>
+    <item>
+      <title>4. Sitzung des Ausschusses für Schule, Kultur, Sport und Soziales – Oer-Erkenschwick</title>
+      <link>https://oer-erkenschwick.gremien.info/meeting?id=2026-SKSS-87</link>
+      <description>Di, 15.09.2026, 16:00 Uhr Uhr | Stadthalle OE</description>
+      <pubDate>Tue, 15 Sep 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Oer-Erkenschwick-20260915-16:00 Uhr-4. Sitzung des Ausschusses für</guid>
     </item>
     <item>
       <title>Haupt-, Finanz- und Beschwerdeausschuss – Bottrop</title>
@@ -463,18 +463,18 @@
       <guid isPermaLink="false">Bottrop-20260915-16:00 Uhr-Haupt-, Finanz- und Beschwerde</guid>
     </item>
     <item>
-      <title>Sitzung des Rechnungsprüfungsausschusses – Gelsenkirchen</title>
-      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000597&amp;refresh=false</link>
-      <description>Di, 15.09.2026, 16:00 Uhr Uhr | Hans-Sachs-Haus, Ratssaal</description>
-      <pubDate>Tue, 15 Sep 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Gelsenkirchen-20260915-16:00 Uhr-Sitzung des Rechnungsprüfungsa</guid>
-    </item>
-    <item>
       <title>Sitzung des Ausschusses für Bau und Liegenschaften – Gelsenkirchen</title>
       <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000598&amp;refresh=false</link>
       <description>Di, 15.09.2026, 16:00 Uhr Uhr | Sitzungszimmer Cottbus</description>
       <pubDate>Tue, 15 Sep 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Gelsenkirchen-20260915-16:00 Uhr-Sitzung des Ausschusses für Ba</guid>
+    </item>
+    <item>
+      <title>Sitzung des Rechnungsprüfungsausschusses – Gelsenkirchen</title>
+      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000597&amp;refresh=false</link>
+      <description>Di, 15.09.2026, 16:03 Uhr Uhr | Hans-Sachs-Haus, Ratssaal</description>
+      <pubDate>Tue, 15 Sep 2026 16:03:00 +0200</pubDate>
+      <guid isPermaLink="false">Gelsenkirchen-20260915-16:03 Uhr-Sitzung des Rechnungsprüfungsa</guid>
     </item>
     <item>
       <title>4. Sitzung des Klima-, Umwelt- und Nachhaltigkeitsausschusses – Datteln</title>
@@ -540,18 +540,18 @@
       <guid isPermaLink="false">Oer-Erkenschwick-20260916-16:00 Uhr-4. Sitzung des Jugendhilfeauss</guid>
     </item>
     <item>
-      <title>Sitzung des Ausschusses für Soziales und Arbeit – Gelsenkirchen</title>
-      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000599&amp;refresh=false</link>
-      <description>Mi, 16.09.2026, 16:00 Uhr Uhr | Hans-Sachs-Haus, Ratssaal</description>
-      <pubDate>Wed, 16 Sep 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Gelsenkirchen-20260916-16:00 Uhr-Sitzung des Ausschusses für So</guid>
-    </item>
-    <item>
       <title>Sitzung des Stadtentwicklungs- und Planungsausschusses – Gelsenkirchen</title>
       <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000600&amp;refresh=false</link>
       <description>Mi, 16.09.2026, 16:00 Uhr Uhr | Sitzungszimmer Cottbus</description>
       <pubDate>Wed, 16 Sep 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Gelsenkirchen-20260916-16:00 Uhr-Sitzung des Stadtentwicklungs-</guid>
+    </item>
+    <item>
+      <title>Sitzung des Ausschusses für Soziales und Arbeit – Gelsenkirchen</title>
+      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000599&amp;refresh=false</link>
+      <description>Mi, 16.09.2026, 16:00 Uhr Uhr | Hans-Sachs-Haus, Ratssaal</description>
+      <pubDate>Wed, 16 Sep 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Gelsenkirchen-20260916-16:00 Uhr-Sitzung des Ausschusses für So</guid>
     </item>
     <item>
       <title>5. Sitzung des Ausschusses für Schule und Sport – Marl</title>
@@ -946,6 +946,13 @@
       <guid isPermaLink="false">Castrop-Rauxel-20260924-16:00 Uhr-Sitzung des Haupt- und Finanza</guid>
     </item>
     <item>
+      <title>4. Sitzung des Betriebsausschusses ZBH – Marl</title>
+      <link>https://marl.gremien.info/meeting?id=2026-94-40</link>
+      <description>Do, 24.09.2026, 16:00 Uhr Uhr | Aufenthaltsraum des Zentralen Betriebshofes</description>
+      <pubDate>Thu, 24 Sep 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Marl-20260924-16:00 Uhr-4. Sitzung des Betriebsausschu</guid>
+    </item>
+    <item>
       <title>Sitzung der Ratskommission für Gleichstellungs- u. Frauenfragen – Recklinghausen</title>
       <link>https://stadt-recklinghausen.gremien.info/meeting?id=2026-RATFRAUEN-86</link>
       <description>Do, 24.09.2026, 16:00 Uhr Uhr | Raum 103 (Großer Sitzungssaal des Rathauses)</description>
@@ -993,13 +1000,6 @@
       <description>Do, 24.09.2026, 17:00 Uhr Uhr | Großer Sitzungssaal</description>
       <pubDate>Thu, 24 Sep 2026 17:00:00 +0200</pubDate>
       <guid isPermaLink="false">Herten-20260924-17:00 Uhr-4. Sitzung des Haupt- und Fina</guid>
-    </item>
-    <item>
-      <title>4. Sitzung des Betriebsausschusses ZBH – Marl</title>
-      <link>https://marl.gremien.info/meeting?id=2026-94-40</link>
-      <description>Do, 24.09.2026, 17:00 Uhr Uhr | Aufenthaltsraum des Zentralen Betriebshofes</description>
-      <pubDate>Thu, 24 Sep 2026 17:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Marl-20260924-17:00 Uhr-4. Sitzung des Betriebsausschu</guid>
     </item>
     <item>
       <title>2. Sitzung des Betriebsausschusses für die optimierten Regiebetriebe der Stadt Waltrop – Waltrop</title>
