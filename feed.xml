@@ -5,7 +5,7 @@
     <link>https://el-raete.reporter.ruhr/termine_2026_09.html</link>
     <description>Sitzungstermine aus Ratsinformationssystemen im Emscher-Lippe-Raum</description>
     <language>de-de</language>
-    <lastBuildDate>Fri, 18 Sep 2026 06:30:06 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 06:30:08 +0200</lastBuildDate>
     <atom:link href="https://el-raete.reporter.ruhr/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>nicht öffentliche Sitzung der AfD-Fraktion in der Verbandsversammlung des Zweckverbandes VRR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
@@ -23,7 +23,7 @@
     </item>
     <item>
       <title>Sitzung des Kulturausschusses – Gladbeck</title>
-      <link>https://gladbeck.gremien.info/meeting?id=2026-6-140</link>
+      <link>https://gladbeck.gremien.info/meeting?id=ni_2026-6-140</link>
       <description>Di, 01.09.2026, 16:00 Uhr Uhr | Ratssaal</description>
       <pubDate>Tue, 01 Sep 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Gladbeck-20260901-16:00 Uhr-Sitzung des Kulturausschusses</guid>
@@ -162,13 +162,6 @@
       <guid isPermaLink="false">Herten-20260908-15:00 Uhr-3. Sitzung Seniorenbeirat</guid>
     </item>
     <item>
-      <title>Sitzung des Ausschusses für Umwelt, Klimaschutz und Energie – Gladbeck</title>
-      <link>https://gladbeck.gremien.info/meeting?id=2026-UKEA-4</link>
-      <description>Di, 08.09.2026, 16:00 Uhr Uhr | Ratssaal</description>
-      <pubDate>Tue, 08 Sep 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Gladbeck-20260908-16:00 Uhr-Sitzung des Ausschusses für Um</guid>
-    </item>
-    <item>
       <title>2. Sitzung des Rechnungsprüfungsausschusses – Marl</title>
       <link>https://marl.gremien.info/meeting?id=2026-3-63</link>
       <description>Di, 08.09.2026, 16:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
@@ -209,6 +202,13 @@
       <description>Di, 08.09.2026, 16:00 Uhr Uhr | Rittersaal Schloss Horst</description>
       <pubDate>Tue, 08 Sep 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Gelsenkirchen-20260908-16:00 Uhr-Sitzung der Bezirksvertretung </guid>
+    </item>
+    <item>
+      <title>Sitzung des Ausschusses für Umwelt, Klimaschutz und Energie – Gladbeck</title>
+      <link>https://gladbeck.gremien.info/meeting?id=ni_2026-UKEA-4</link>
+      <description>Di, 08.09.2026, 16:02 Uhr Uhr | Ratssaal</description>
+      <pubDate>Tue, 08 Sep 2026 16:02:00 +0200</pubDate>
+      <guid isPermaLink="false">Gladbeck-20260908-16:02 Uhr-Sitzung des Ausschusses für Um</guid>
     </item>
     <item>
       <title>5. Sitzung des Jugendhilfeausschusses – Dorsten</title>
@@ -624,18 +624,18 @@
       <guid isPermaLink="false">Marl-20260917-16:00 Uhr-5. Sitzung des Stadtplanungsau</guid>
     </item>
     <item>
-      <title>Sitzung des Ausschusses für Verkehr und Mobilitätsentwicklung – Gelsenkirchen</title>
-      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000601&amp;refresh=false</link>
-      <description>Do, 17.09.2026, 16:00 Uhr Uhr | Sitzungszimmer Cottbus</description>
-      <pubDate>Thu, 17 Sep 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Gelsenkirchen-20260917-16:00 Uhr-Sitzung des Ausschusses für Ve</guid>
-    </item>
-    <item>
       <title>Sitzung des Ausschusses für Gesundheit – Gelsenkirchen</title>
       <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000602&amp;refresh=false</link>
       <description>Do, 17.09.2026, 16:00 Uhr Uhr | Hans-Sachs-Haus, Ratssaal</description>
       <pubDate>Thu, 17 Sep 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Gelsenkirchen-20260917-16:00 Uhr-Sitzung des Ausschusses für Ge</guid>
+    </item>
+    <item>
+      <title>Sitzung des Ausschusses für Verkehr und Mobilitätsentwicklung – Gelsenkirchen</title>
+      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000601&amp;refresh=false</link>
+      <description>Do, 17.09.2026, 16:02 Uhr Uhr | Sitzungszimmer Cottbus</description>
+      <pubDate>Thu, 17 Sep 2026 16:02:00 +0200</pubDate>
+      <guid isPermaLink="false">Gelsenkirchen-20260917-16:02 Uhr-Sitzung des Ausschusses für Ve</guid>
     </item>
     <item>
       <title>3. Sitzung des Ausschusses für Soziales, Quartier und Integration – Datteln</title>
@@ -727,6 +727,13 @@
       <description>Mo, 21.09.2026, 16:00 Uhr Uhr | Ratssaal</description>
       <pubDate>Mon, 21 Sep 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Gladbeck-20260921-16:00 Uhr-Sitzung des Haupt-, Finanz- un</guid>
+    </item>
+    <item>
+      <title>Sitzung der Fraktionsvorsitzenden – Dorsten</title>
+      <link>https://dorsten.gremien.info/meeting?id=2026-FVBESPR-145</link>
+      <description>Mo, 21.09.2026, 16:00 Uhr Uhr | Rathaus, Besprechungsraum 1. OG</description>
+      <pubDate>Mon, 21 Sep 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Dorsten-20260921-16:00 Uhr-Sitzung der Fraktionsvorsitzen</guid>
     </item>
     <item>
       <title>Sitzung des Sportausschusses – Recklinghausen</title>
@@ -1065,6 +1072,13 @@
       <guid isPermaLink="false">Verkehrsverbund Rhein-Ruhr (VRR)-20260928-09:00 Uhr-nicht öffentliche Sitzung der </guid>
     </item>
     <item>
+      <title>öffentliche Sitzung des Ausschusses für Tarif und Marketing der VRR AöR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
+      <link>https://zvis.vrr.de/bi/si0057.asp?__ksinr=13826</link>
+      <description>Mo, 28.09.2026, 10:00 Uhr Uhr</description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Verkehrsverbund Rhein-Ruhr (VRR)-20260928-10:00 Uhr-öffentliche Sitzung des Aussch</guid>
+    </item>
+    <item>
       <title>5. Sitzung des Kreistags – Kreis Recklinghausen</title>
       <link>https://kvrecklinghausen.gremien.info/meeting?id=2026-KT-235</link>
       <description>Mo, 28.09.2026, 09:00 Uhr Uhr | Stadthalle Oer-Erkenschwick</description>
@@ -1150,14 +1164,14 @@
     </item>
     <item>
       <title>Sitzung des Betriebsausschusses GELSENDIENSTE – Gelsenkirchen</title>
-      <link>https://ratsinformation.gelsenkirchen.de/si010</link>
+      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000611&amp;refresh=false</link>
       <description>Mi, 30.09.2026, 16:00 Uhr Uhr | Konferenzraum im Betriebsgebäude GELSENDIENSTE</description>
       <pubDate>Wed, 30 Sep 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Gelsenkirchen-20260930-16:00 Uhr-Sitzung des Betriebsausschusse</guid>
     </item>
     <item>
       <title>Sitzung des Ausschusses für Sportentwicklung – Gelsenkirchen</title>
-      <link>https://ratsinformation.gelsenkirchen.de/si010</link>
+      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000610&amp;refresh=false</link>
       <description>Mi, 30.09.2026, 16:00 Uhr Uhr | Sitzungszimmer 1 - Zenica</description>
       <pubDate>Wed, 30 Sep 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Gelsenkirchen-20260930-16:00 Uhr-Sitzung des Ausschusses für Sp</guid>
