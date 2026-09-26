@@ -5,7 +5,7 @@
     <link>https://el-raete.reporter.ruhr/termine_2026_09.html</link>
     <description>Sitzungstermine aus Ratsinformationssystemen im Emscher-Lippe-Raum</description>
     <language>de-de</language>
-    <lastBuildDate>Fri, 25 Sep 2026 06:30:03 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 06:30:08 +0200</lastBuildDate>
     <atom:link href="https://el-raete.reporter.ruhr/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>nicht öffentliche Sitzung der AfD-Fraktion in der Verbandsversammlung des Zweckverbandes VRR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
@@ -527,7 +527,7 @@
     </item>
     <item>
       <title>4. Sitzung des Schul-, Sport- und Kulturausschusses – Haltern am See</title>
-      <link>https://haltern.gremien.info/meeting?id=2026-SSK-70</link>
+      <link>https://haltern.gremien.info/meeting?id=ni_2026-SSK-70</link>
       <description>Di, 15.09.2026, 17:30 Uhr Uhr | Ratssaal</description>
       <pubDate>Tue, 15 Sep 2026 17:30:00 +0200</pubDate>
       <guid isPermaLink="false">Haltern am See-20260915-17:30 Uhr-4. Sitzung des Schul-, Sport- </guid>
@@ -807,7 +807,7 @@
     </item>
     <item>
       <title>4. Sitzung des Bildungs-, Sport- und Kulturausschusses – Datteln</title>
-      <link>https://datteln.gremien.info/meeting?id=2026-BSK-33</link>
+      <link>https://datteln.gremien.info/meeting?id=ni_2026-BSK-33</link>
       <description>Di, 22.09.2026, 17:00 Uhr Uhr | Sitzungssaal Rathaus</description>
       <pubDate>Tue, 22 Sep 2026 17:00:00 +0200</pubDate>
       <guid isPermaLink="false">Datteln-20260922-17:00 Uhr-4. Sitzung des Bildungs-, Spor</guid>
@@ -912,7 +912,7 @@
     </item>
     <item>
       <title>6. Sitzung des Rates – Datteln</title>
-      <link>https://datteln.gremien.info/meeting?id=2026-Rat-130</link>
+      <link>https://datteln.gremien.info/meeting?id=ni_2026-Rat-130</link>
       <description>Mi, 23.09.2026, 17:00 Uhr Uhr | Stadthalle</description>
       <pubDate>Wed, 23 Sep 2026 17:00:00 +0200</pubDate>
       <guid isPermaLink="false">Datteln-20260923-17:00 Uhr-6. Sitzung des Rates</guid>
@@ -1002,18 +1002,18 @@
       <guid isPermaLink="false">Bottrop-20260924-16:00 Uhr-Beirat für Menschen mit Behind</guid>
     </item>
     <item>
-      <title>Sitzung des Ausschusses für Bildung – Gelsenkirchen</title>
-      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000606&amp;refresh=false</link>
-      <description>Do, 24.09.2026, 16:00 Uhr Uhr | Aula der Gesamtschule Buer-Mitte Gymnasiale Oberstufe</description>
-      <pubDate>Thu, 24 Sep 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Gelsenkirchen-20260924-16:00 Uhr-Sitzung des Ausschusses für Bi</guid>
-    </item>
-    <item>
       <title>Sitzung des Ausschusses für Bau und Liegenschaften/des Ausschusses für Gastronomie, Tourismus und ur – Gelsenkirchen</title>
       <link>https://ratsinformation.gelsenkirchen.de/si010</link>
       <description>Do, 24.09.2026, 16:00 Uhr Uhr | Hans-Sachs-Haus, Ratssaal</description>
       <pubDate>Thu, 24 Sep 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Gelsenkirchen-20260924-16:00 Uhr-Sitzung des Ausschusses für Ba</guid>
+    </item>
+    <item>
+      <title>Sitzung des Ausschusses für Bildung – Gelsenkirchen</title>
+      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000606&amp;refresh=false</link>
+      <description>Do, 24.09.2026, 16:08 Uhr Uhr | Aula der Gesamtschule Buer-Mitte Gymnasiale Oberstufe</description>
+      <pubDate>Thu, 24 Sep 2026 16:08:00 +0200</pubDate>
+      <guid isPermaLink="false">Gelsenkirchen-20260924-16:08 Uhr-Sitzung des Ausschusses für Bi</guid>
     </item>
     <item>
       <title>4. Sitzung des Wirtschaftsausschusses – Dorsten</title>
@@ -1046,9 +1046,9 @@
     <item>
       <title>Sitzung des Ausschusses für Gastronomie, Tourismus und urbane Entwicklung – Gelsenkirchen</title>
       <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000607&amp;refresh=false</link>
-      <description>Do, 24.09.2026, 17:00 Uhr Uhr | Hans-Sachs-Haus, Ratssaal</description>
-      <pubDate>Thu, 24 Sep 2026 17:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Gelsenkirchen-20260924-17:00 Uhr-Sitzung des Ausschusses für Ga</guid>
+      <description>Do, 24.09.2026, 17:04 Uhr Uhr | Hans-Sachs-Haus, Ratssaal</description>
+      <pubDate>Thu, 24 Sep 2026 17:04:00 +0200</pubDate>
+      <guid isPermaLink="false">Gelsenkirchen-20260924-17:04 Uhr-Sitzung des Ausschusses für Ga</guid>
     </item>
     <item>
       <title>4. Sitzung des Stadtentwicklungsausschusses – Haltern am See</title>
