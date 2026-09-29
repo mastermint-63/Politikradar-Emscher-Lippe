@@ -5,7 +5,7 @@
     <link>https://el-raete.reporter.ruhr/termine_2026_09.html</link>
     <description>Sitzungstermine aus Ratsinformationssystemen im Emscher-Lippe-Raum</description>
     <language>de-de</language>
-    <lastBuildDate>Mon, 28 Sep 2026 06:30:08 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 06:30:06 +0200</lastBuildDate>
     <atom:link href="https://el-raete.reporter.ruhr/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>nicht öffentliche Sitzung der AfD-Fraktion in der Verbandsversammlung des Zweckverbandes VRR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
@@ -400,18 +400,18 @@
       <guid isPermaLink="false">Verkehrsverbund Rhein-Ruhr (VRR)-20260914-10:00 Uhr-nicht öffentliche Sitzung der </guid>
     </item>
     <item>
-      <title>Sitzung des Schulausschusses – Gladbeck</title>
-      <link>https://gladbeck.gremien.info/meeting?id=2026-9-139</link>
-      <description>Mo, 14.09.2026, 16:00 Uhr Uhr | Wilhelmschule</description>
-      <pubDate>Mon, 14 Sep 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Gladbeck-20260914-16:00 Uhr-Sitzung des Schulausschusses</guid>
-    </item>
-    <item>
       <title>Sitzung des Haupt- und Finanzausschusses – Recklinghausen</title>
       <link>https://stadt-recklinghausen.gremien.info/meeting?id=ni_2026-HFA-106</link>
       <description>Mo, 14.09.2026, 16:00 Uhr Uhr | Raum 103 (Großer Sitzungssaal des Rathauses)</description>
       <pubDate>Mon, 14 Sep 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Recklinghausen-20260914-16:00 Uhr-Sitzung des Haupt- und Finanza</guid>
+    </item>
+    <item>
+      <title>Sitzung des Schulausschusses – Gladbeck</title>
+      <link>https://gladbeck.gremien.info/meeting?id=ni_2026-9-139</link>
+      <description>Mo, 14.09.2026, 16:05 Uhr Uhr | Wilhelmschule</description>
+      <pubDate>Mon, 14 Sep 2026 16:05:00 +0200</pubDate>
+      <guid isPermaLink="false">Gladbeck-20260914-16:05 Uhr-Sitzung des Schulausschusses</guid>
     </item>
     <item>
       <title>3. Sitzung des Betriebsausschusses – Dorsten</title>
@@ -442,18 +442,18 @@
       <guid isPermaLink="false">Regionalverband Ruhr (RVR)-20260915-10:00 Uhr-3. Sitzung des Ausschusses für</guid>
     </item>
     <item>
-      <title>4. Sitzung des Ausschusses für Schule, Kultur, Sport und Soziales – Oer-Erkenschwick</title>
-      <link>https://oer-erkenschwick.gremien.info/meeting?id=ni_2026-SKSS-87</link>
-      <description>Di, 15.09.2026, 16:00 Uhr Uhr | Stadthalle OE</description>
-      <pubDate>Tue, 15 Sep 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Oer-Erkenschwick-20260915-16:00 Uhr-4. Sitzung des Ausschusses für</guid>
-    </item>
-    <item>
       <title>5. Sitzung des Ausschusses für Kultur, Weiterbildung und Stadtmarketing – Marl</title>
       <link>https://marl.gremien.info/meeting?id=ni_2026-99-4</link>
       <description>Di, 15.09.2026, 16:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
       <pubDate>Tue, 15 Sep 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Marl-20260915-16:00 Uhr-5. Sitzung des Ausschusses für</guid>
+    </item>
+    <item>
+      <title>4. Sitzung des Ausschusses für Schule, Kultur, Sport und Soziales – Oer-Erkenschwick</title>
+      <link>https://oer-erkenschwick.gremien.info/meeting?id=ni_2026-SKSS-87</link>
+      <description>Di, 15.09.2026, 16:00 Uhr Uhr | Stadthalle OE</description>
+      <pubDate>Tue, 15 Sep 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Oer-Erkenschwick-20260915-16:00 Uhr-4. Sitzung des Ausschusses für</guid>
     </item>
     <item>
       <title>Haupt-, Finanz- und Beschwerdeausschuss – Bottrop</title>
@@ -751,7 +751,7 @@
     </item>
     <item>
       <title>Sitzung des Sportausschusses – Recklinghausen</title>
-      <link>https://stadt-recklinghausen.gremien.info/meeting?id=2026-SPORT-92</link>
+      <link>https://stadt-recklinghausen.gremien.info/meeting?id=ni_2026-SPORT-92</link>
       <description>Mo, 21.09.2026, 16:00 Uhr Uhr | Raum 103 (Großer Sitzungssaal des Rathauses)</description>
       <pubDate>Mon, 21 Sep 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Recklinghausen-20260921-16:00 Uhr-Sitzung des Sportausschusses</guid>
@@ -1051,18 +1051,18 @@
       <guid isPermaLink="false">Gelsenkirchen-20260924-17:04 Uhr-Sitzung des Ausschusses für Ga</guid>
     </item>
     <item>
-      <title>3. Sitzung des Aufsichtsrates der Wirtschaftsförderung in Dorsten GmbH – Dorsten</title>
-      <link>https://dorsten.gremien.info/meeting?id=2026-AufSRWINDO-2</link>
-      <description>Do, 24.09.2026, 17:30 Uhr Uhr | Besprechungsraum, WinDor EG</description>
-      <pubDate>Thu, 24 Sep 2026 17:30:00 +0200</pubDate>
-      <guid isPermaLink="false">Dorsten-20260924-17:30 Uhr-3. Sitzung des Aufsichtsrates </guid>
-    </item>
-    <item>
       <title>4. Sitzung des Stadtentwicklungsausschusses – Haltern am See</title>
       <link>https://haltern.gremien.info/meeting?id=2026-STEUA-58</link>
       <description>Do, 24.09.2026, 17:30 Uhr Uhr | Ratssaal</description>
       <pubDate>Thu, 24 Sep 2026 17:30:00 +0200</pubDate>
       <guid isPermaLink="false">Haltern am See-20260924-17:30 Uhr-4. Sitzung des Stadtentwicklun</guid>
+    </item>
+    <item>
+      <title>3. Sitzung des Aufsichtsrates der Wirtschaftsförderung in Dorsten GmbH – Dorsten</title>
+      <link>https://dorsten.gremien.info/meeting?id=2026-AufSRWINDO-2</link>
+      <description>Do, 24.09.2026, 17:30 Uhr Uhr | Besprechungsraum, WinDor EG</description>
+      <pubDate>Thu, 24 Sep 2026 17:30:00 +0200</pubDate>
+      <guid isPermaLink="false">Dorsten-20260924-17:30 Uhr-3. Sitzung des Aufsichtsrates </guid>
     </item>
     <item>
       <title>7. Sitzung des Haupt- und Finanzausschusses – Waltrop</title>
