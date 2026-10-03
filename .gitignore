@@ -5,3 +5,4 @@ launchd.log
 staedte_ohne_termine.txt
 .env
 .env.local
+venv/

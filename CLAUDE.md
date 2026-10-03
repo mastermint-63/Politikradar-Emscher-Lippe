@@ -23,13 +23,14 @@ tail -20 launchd.log              # Letzte Aktualisierungen anzeigen
 
 ## Automatische Aktualisierung
 
-- **launchd-Job:** `de.politikradar.el.update` – täglich 06:30 Uhr
-- **Plist:** `~/Library/LaunchAgents/de.politikradar.el.update.plist`
-- **Python:** `/Library/Frameworks/Python.framework/Versions/3.14/bin/python3`
+- **launchd-Job:** `de.fs.prod.politikradar.el` (`politikradar-el`) – täglich 06:30 Uhr, aus dem Manifest `~/ki/infra/launchd/jobs.toml` (seit Mac-mini-Neuaufbau 03.10.2026; vorher `de.politikradar.el.update`)
+- **Ablage:** Entwicklung `~/ki/dev/politikradar/el`, Produktion `~/ki/prod/politikradar/el` (Clone, committet und pusht selbst). Code-Änderungen: dev → Push → `~/ki/infra/bin/deploy politikradar-el`
+- **Python:** `venv/` im Checkout, gebaut aus `requirements.lock` (gepinnt; vorher globales python.org-Python ohne venv)
+- **Log:** `~/Library/Logs/ki/politikradar/el.log`
 
 ```bash
-launchctl start de.politikradar.el.update   # Manuell auslösen
-launchctl list | grep politikradar          # Status prüfen
+~/ki/infra/bin/jobs kick politikradar-el     # Manuell über launchd auslösen
+~/ki/infra/bin/jobs status politikradar-el   # Status prüfen
 ```
 
 ## Gremien (config.py)

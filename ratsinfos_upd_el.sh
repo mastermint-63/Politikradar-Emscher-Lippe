@@ -2,7 +2,7 @@
 # Politikradar Emscher-Lippe - Automatische Aktualisierung mit GitHub Push
 
 cd "$(dirname "$0")"
-LOGFILE="$(pwd)/launchd.log"
+LOGFILE="${LOGFILE:-$HOME/Library/Logs/ki/politikradar/el.log}"
 DATUM=$(date +%Y-%m-%d)
 
 echo "=========================================="
@@ -10,7 +10,8 @@ echo "Aktualisierung gestartet: $(date)"
 echo "=========================================="
 
 # Termine abrufen
-OUTPUT=$(/Library/Frameworks/Python.framework/Versions/3.14/bin/python3 app.py --no-browser 2>&1)
+# Python aus der venv (infra/bin/run-job setzt PYTHON), sonst venv/ im Checkout
+OUTPUT=$("${PYTHON:-venv/bin/python}" app.py --no-browser 2>&1)
 echo "$OUTPUT"
 
 # Anzahl Termine aus Output extrahieren
@@ -24,6 +25,8 @@ else
     echo "Änderungen gefunden - pushe zu GitHub..."
     git add termine_*.html index.html feed.xml 2>/dev/null
     git commit -m "Termine aktualisiert $DATUM" 2>&1
+    # Code-Commits aus dev (Push, dann infra/bin/deploy) nicht überholen: vor dem Push rebasen.
+    git pull --rebase --autostash 2>&1
 
     if git push 2>&1; then
         echo "Push erfolgreich!"
