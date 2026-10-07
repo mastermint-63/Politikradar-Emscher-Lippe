@@ -5,7 +5,7 @@
     <link>https://el-raete.reporter.ruhr/termine_2026_10.html</link>
     <description>Sitzungstermine aus Ratsinformationssystemen im Emscher-Lippe-Raum</description>
     <language>de-de</language>
-    <lastBuildDate>Tue, 06 Oct 2026 06:30:08 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 06:30:06 +0200</lastBuildDate>
     <atom:link href="https://el-raete.reporter.ruhr/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>nicht öffentliche Sitzung der CDU-Gruppe im Ausschuss für Verkehr und Planung der VRR AöR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
@@ -58,7 +58,7 @@
     </item>
     <item>
       <title>5. Sitzung des Rates der Stadt Haltern am See – Haltern am See</title>
-      <link>https://haltern.gremien.info/meeting?id=2026-RAT-116</link>
+      <link>https://haltern.gremien.info/meeting?id=ni_2026-RAT-116</link>
       <description>Do, 01.10.2026, 17:30 Uhr Uhr | Ratssaal</description>
       <pubDate>Thu, 01 Oct 2026 17:30:00 +0200</pubDate>
       <guid isPermaLink="false">Haltern am See-20261001-17:30 Uhr-5. Sitzung des Rates der Stadt</guid>
@@ -106,13 +106,6 @@
       <guid isPermaLink="false">Verkehrsverbund Rhein-Ruhr (VRR)-20261006-17:00 Uhr-nicht öffentliche Sitzung der </guid>
     </item>
     <item>
-      <title>Sitzung des Betriebsausschusses Gelsenkirchener Kindertagesbetreuung – Gelsenkirchen</title>
-      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000614&amp;refresh=false</link>
-      <description>Di, 06.10.2026, 16:00 Uhr Uhr | Städt. Tageseinrichtung für Kinder Irmgardstr. 12</description>
-      <pubDate>Tue, 06 Oct 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Gelsenkirchen-20261006-16:00 Uhr-Sitzung des Betriebsausschusse</guid>
-    </item>
-    <item>
       <title>Schulausschuss – Bottrop</title>
       <link>https://ratsinfo-bottrop.de/tops/?__=UGhVM0hpd2NXNFdFcExjZQC7ckawK_s3NcVHxVi2z_g</link>
       <description>Di, 06.10.2026, 16:00 Uhr Uhr | Rathaus, 46236 Bottrop, großer Sitzungssaal</description>
@@ -120,11 +113,25 @@
       <guid isPermaLink="false">Bottrop-20261006-16:00 Uhr-Schulausschuss</guid>
     </item>
     <item>
+      <title>Sitzung des Betriebsausschusses Gelsenkirchener Kindertagesbetreuung – Gelsenkirchen</title>
+      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000614&amp;refresh=false</link>
+      <description>Di, 06.10.2026, 16:00 Uhr Uhr | Städt. Tageseinrichtung für Kinder Irmgardstr. 12</description>
+      <pubDate>Tue, 06 Oct 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Gelsenkirchen-20261006-16:00 Uhr-Sitzung des Betriebsausschusse</guid>
+    </item>
+    <item>
       <title>5. Sitzung des Ausschusses für Chancengerechtigkeit und Integration – Marl</title>
       <link>https://marl.gremien.info/meeting?id=2026-ACI-5</link>
       <description>Di, 06.10.2026, 17:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
       <pubDate>Tue, 06 Oct 2026 17:00:00 +0200</pubDate>
       <guid isPermaLink="false">Marl-20261006-17:00 Uhr-5. Sitzung des Ausschusses für</guid>
+    </item>
+    <item>
+      <title>Ausschuss für Chancengerechtigkeit und Integration – Bottrop</title>
+      <link>https://ratsinfo-bottrop.de/tops/?__=UGhVM0hpd2NXNFdFcExjZQO6-K27gcekIpUXvQig9AM</link>
+      <description>Mi, 07.10.2026, 16:00 Uhr Uhr | Rathaus, 46236 Bottrop, großer Sitzungssaal</description>
+      <pubDate>Wed, 07 Oct 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Bottrop-20261007-16:00 Uhr-Ausschuss für Chancengerechtig</guid>
     </item>
     <item>
       <title>Sitzung des Betriebsausschusses Seniorenhäuser – Gelsenkirchen</title>
@@ -139,13 +146,6 @@
       <description>Mi, 07.10.2026, 16:00 Uhr Uhr | GELSENKANAL, Willy-Brandt-Allee 26 (rundes Gebäude) 3. Etage</description>
       <pubDate>Wed, 07 Oct 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Gelsenkirchen-20261007-16:00 Uhr-Sitzung des Betriebsausschusse</guid>
-    </item>
-    <item>
-      <title>Ausschuss für Chancengerechtigkeit und Integration – Bottrop</title>
-      <link>https://ratsinfo-bottrop.de/tops/?__=UGhVM0hpd2NXNFdFcExjZQO6-K27gcekIpUXvQig9AM</link>
-      <description>Mi, 07.10.2026, 16:00 Uhr Uhr | Rathaus, 46236 Bottrop, großer Sitzungssaal</description>
-      <pubDate>Wed, 07 Oct 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Bottrop-20261007-16:00 Uhr-Ausschuss für Chancengerechtig</guid>
     </item>
     <item>
       <title>9. Sitzung des Haupt- und Finanzausschusses - abgesagt - – Dorsten</title>
@@ -281,18 +281,18 @@
       <guid isPermaLink="false">Marl-20261014-16:00 Uhr-6. Sitzung des Ausschusses für</guid>
     </item>
     <item>
-      <title>Sitzung des Betriebsausschusses KSR – Recklinghausen</title>
-      <link>https://stadt-recklinghausen.gremien.info/meeting?id=2026-BAKSR-25</link>
-      <description>Mi, 14.10.2026, 16:00 Uhr Uhr | Zentraler Betriebshof, EG, Raum Remise 33</description>
-      <pubDate>Wed, 14 Oct 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Recklinghausen-20261014-16:00 Uhr-Sitzung des Betriebsausschusse</guid>
-    </item>
-    <item>
       <title>Kulturausschuss – Bottrop</title>
       <link>https://ratsinfo-bottrop.de/tops/?__=UGhVM0hpd2NXNFdFcExjZSTH_0z6degzIMMVGed5K7s</link>
       <description>Mi, 14.10.2026, 16:00 Uhr Uhr | Rathaus, 46236 Bottrop, Sitzungszimmer 111</description>
       <pubDate>Wed, 14 Oct 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Bottrop-20261014-16:00 Uhr-Kulturausschuss</guid>
+    </item>
+    <item>
+      <title>Sitzung des Betriebsausschusses KSR – Recklinghausen</title>
+      <link>https://stadt-recklinghausen.gremien.info/meeting?id=2026-BAKSR-25</link>
+      <description>Mi, 14.10.2026, 16:00 Uhr Uhr | Zentraler Betriebshof, EG, Raum Remise 33</description>
+      <pubDate>Wed, 14 Oct 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Recklinghausen-20261014-16:00 Uhr-Sitzung des Betriebsausschusse</guid>
     </item>
     <item>
       <title>12. Sitzung des Rates (HH) – Dorsten</title>
@@ -323,18 +323,18 @@
       <guid isPermaLink="false">Marl-20261015-16:00 Uhr-6. Sitzung des Sozial- und Ges</guid>
     </item>
     <item>
-      <title>Sitzung des Ausschusses für Kinder, Jugend und Familie – Recklinghausen</title>
-      <link>https://stadt-recklinghausen.gremien.info/meeting?id=2026-JHA-95</link>
-      <description>Do, 15.10.2026, 16:00 Uhr Uhr | Raum 103 (Großer Sitzungssaal des Rathauses)</description>
-      <pubDate>Thu, 15 Oct 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Recklinghausen-20261015-16:00 Uhr-Sitzung des Ausschusses für Ki</guid>
-    </item>
-    <item>
       <title>Betriebsausschuss Bottroper Sport- und Bäderbetrieb – Bottrop</title>
       <link>https://ratsinfo-bottrop.de/tops/?__=UGhVM0hpd2NXNFdFcExjZbti_5F8ZD2il55g2LJ-XJQ</link>
       <description>Do, 15.10.2026, 16:00 Uhr Uhr | Jahnstadion, 46236 Bottrop, Multifunktionsraum</description>
       <pubDate>Thu, 15 Oct 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Bottrop-20261015-16:00 Uhr-Betriebsausschuss Bottroper Sp</guid>
+    </item>
+    <item>
+      <title>Sitzung des Ausschusses für Kinder, Jugend und Familie – Recklinghausen</title>
+      <link>https://stadt-recklinghausen.gremien.info/meeting?id=2026-JHA-95</link>
+      <description>Do, 15.10.2026, 16:00 Uhr Uhr | Raum 103 (Großer Sitzungssaal des Rathauses)</description>
+      <pubDate>Thu, 15 Oct 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Recklinghausen-20261015-16:00 Uhr-Sitzung des Ausschusses für Ki</guid>
     </item>
     <item>
       <title>Sondersitzung des Rates der Stadt – Castrop-Rauxel</title>
