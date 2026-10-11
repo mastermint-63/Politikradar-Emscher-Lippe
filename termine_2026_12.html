@@ -1458,7 +1458,7 @@
         </main>
 
         <footer>
-            Generiert am 10.10.2026 um 06:30 Uhr<br>
+            Generiert am 11.10.2026 um 06:30 Uhr<br>
             Daten aus 14 Ratsinformationssystemen<br>
             <a href="feed.xml" style="color: var(--accent); text-decoration: none;">&#x25CF; RSS-Feed</a>
         </footer>
@@ -1505,9 +1505,22 @@
                 container.innerHTML = '';
                 return;
             }
-            container.innerHTML = staedte.map(stadt =>
-                `<span class="filter-tag">${stadt}<button onclick="removeFilter('${stadt}')">&times;</button></span>`
-            ).join('');
+            container.replaceChildren(...staedte.map(stadt =>
+                filterTag(stadt, () => removeFilter(stadt))
+            ));
+        }
+
+        // Filter-Tag per DOM statt innerHTML: Stadt und Suchbegriff landen nur
+        // als Text im Dokument (Audit 10.10.2026, Befund #12).
+        function filterTag(text, onRemove) {
+            const tag = document.createElement('span');
+            tag.className = 'filter-tag';
+            tag.textContent = text;
+            const button = document.createElement('button');
+            button.textContent = '×';
+            button.addEventListener('click', onRemove);
+            tag.appendChild(button);
+            return tag;
         }
 
         function removeFilter(stadt) {
@@ -1574,7 +1587,10 @@
             // Active Filter anzeigen (Suchbegriff als Tag)
             const container = document.getElementById('active-filters');
             if (searchTerm) {
-                container.innerHTML = `<span class="filter-tag">Suche: ${searchTerm}<button onclick="document.getElementById('search-input').value=''; filterTermine();">&times;</button></span>`;
+                container.replaceChildren(filterTag('Suche: ' + searchTerm, () => {
+                    document.getElementById('search-input').value = '';
+                    filterTermine();
+                }));
             } else {
                 container.innerHTML = '';
             }
