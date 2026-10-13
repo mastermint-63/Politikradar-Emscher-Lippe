@@ -5,7 +5,7 @@
     <link>https://el-raete.reporter.ruhr/termine_2026_10.html</link>
     <description>Sitzungstermine aus Ratsinformationssystemen im Emscher-Lippe-Raum</description>
     <language>de-de</language>
-    <lastBuildDate>Mon, 12 Oct 2026 06:30:08 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 06:30:07 +0200</lastBuildDate>
     <atom:link href="https://el-raete.reporter.ruhr/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>nicht öffentliche Sitzung der CDU-Gruppe im Ausschuss für Verkehr und Planung der VRR AöR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
@@ -176,18 +176,18 @@
       <guid isPermaLink="false">Gelsenkirchen-20261008-15:00 Uhr-Sitzung des Rates der Stadt</guid>
     </item>
     <item>
-      <title>7. Sitzung des Kinder- und Jugendhilfeausschusses – Marl</title>
-      <link>https://marl.gremien.info/meeting?id=2026-74-130</link>
-      <description>Do, 08.10.2026, 16:00 Uhr Uhr | Auswärtiger Tagungsort (siehe pdf-Einladung)</description>
-      <pubDate>Thu, 08 Oct 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Marl-20261008-16:00 Uhr-7. Sitzung des Kinder- und Jug</guid>
-    </item>
-    <item>
       <title>Sitzung des Betriebsausschusses VCC – Recklinghausen</title>
       <link>https://stadt-recklinghausen.gremien.info/meeting?id=2026-BetriebVCC-33</link>
       <description>Do, 08.10.2026, 16:00 Uhr Uhr | Ruhrfestspielhaus, Otto-Burrmeister-Allee 1</description>
       <pubDate>Thu, 08 Oct 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Recklinghausen-20261008-16:00 Uhr-Sitzung des Betriebsausschusse</guid>
+    </item>
+    <item>
+      <title>7. Sitzung des Kinder- und Jugendhilfeausschusses – Marl</title>
+      <link>https://marl.gremien.info/meeting?id=2026-74-130</link>
+      <description>Do, 08.10.2026, 16:00 Uhr Uhr | Auswärtiger Tagungsort (siehe pdf-Einladung)</description>
+      <pubDate>Thu, 08 Oct 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Marl-20261008-16:00 Uhr-7. Sitzung des Kinder- und Jug</guid>
     </item>
     <item>
       <title>nicht öffentliche Sitzung der CDU-Gruppe im Vergabeausschuss der VRR AöR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
@@ -232,6 +232,13 @@
       <guid isPermaLink="false">Dorsten-20261012-17:00 Uhr-2. Sitzung Ratskommission zur </guid>
     </item>
     <item>
+      <title>nicht öffentliche Sitzung der AfD-Fraktion in der Verbandsversammlung des Zweckverbandes VRR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
+      <link>https://zvis.vrr.de/bi/si0046.asp?__cjahr=2026&amp;__cmonat=10</link>
+      <description>Di, 13.10.2026, 11:00 Uhr Uhr</description>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Verkehrsverbund Rhein-Ruhr (VRR)-20261013-11:00 Uhr-nicht öffentliche Sitzung der </guid>
+    </item>
+    <item>
       <title>5. Sitzung des Ausschusses für Schule, Kultur, Sport und Soziales – Oer-Erkenschwick</title>
       <link>https://oer-erkenschwick.gremien.info/meeting?id=2026-SKSS-88</link>
       <description>Di, 13.10.2026, 16:00 Uhr Uhr | Stadthalle OE</description>
@@ -239,18 +246,18 @@
       <guid isPermaLink="false">Oer-Erkenschwick-20261013-16:00 Uhr-5. Sitzung des Ausschusses für</guid>
     </item>
     <item>
-      <title>6. Sitzung des Ausschusses für Kultur, Weiterbildung und Stadtmarketing – Marl</title>
-      <link>https://marl.gremien.info/meeting?id=2026-99-5</link>
-      <description>Di, 13.10.2026, 16:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
-      <pubDate>Tue, 13 Oct 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Marl-20261013-16:00 Uhr-6. Sitzung des Ausschusses für</guid>
-    </item>
-    <item>
       <title>Ausschuss für Soziales, Gesundheit und Familie – Bottrop</title>
       <link>https://ratsinfo-bottrop.de/tops/?__=UGhVM0hpd2NXNFdFcExjZVWB2MoVO8-N11g1NXtdE2s</link>
       <description>Di, 13.10.2026, 16:00 Uhr Uhr | Rathaus, 46236 Bottrop, großer Sitzungssaal</description>
       <pubDate>Tue, 13 Oct 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Bottrop-20261013-16:00 Uhr-Ausschuss für Soziales, Gesund</guid>
+    </item>
+    <item>
+      <title>6. Sitzung des Ausschusses für Kultur, Weiterbildung und Stadtmarketing – Marl</title>
+      <link>https://marl.gremien.info/meeting?id=2026-99-5</link>
+      <description>Di, 13.10.2026, 16:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
+      <pubDate>Tue, 13 Oct 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Marl-20261013-16:00 Uhr-6. Sitzung des Ausschusses für</guid>
     </item>
     <item>
       <title>9. Sitzung des Umwelt- und Planungsausschusses - abgesagt - – Dorsten</title>
@@ -265,6 +272,13 @@
       <description>Di, 13.10.2026, 17:00 Uhr Uhr | Raum 103 (Großer Sitzungssaal des Rathauses)</description>
       <pubDate>Tue, 13 Oct 2026 17:00:00 +0200</pubDate>
       <guid isPermaLink="false">Recklinghausen-20261013-17:00 Uhr-Sitzung des Ausschusses für Or</guid>
+    </item>
+    <item>
+      <title>(14.10.2026 bis 16.10.2026)Informationsfahrt der SPD-Fraktion in der Verbandsversammlung des Zweckve – Verkehrsverbund Rhein-Ruhr (VRR)</title>
+      <link>https://zvis.vrr.de/bi/si0046.asp?__cjahr=2026&amp;__cmonat=10</link>
+      <description>Mi, 14.10.2026, 07:50 Uhr Uhr</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Verkehrsverbund Rhein-Ruhr (VRR)-20261014-07:50 Uhr-(14.10.2026 bis 16.10.2026)Inf</guid>
     </item>
     <item>
       <title>2. Sitzung des Seniorenbeirates – Datteln</title>
@@ -302,6 +316,13 @@
       <guid isPermaLink="false">Dorsten-20261014-17:00 Uhr-12. Sitzung des Rates (HH)</guid>
     </item>
     <item>
+      <title>nicht öffentliche Sitzung der AfD-Fraktion in der Verbandsversammlung des Zweckverbandes VRR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
+      <link>https://zvis.vrr.de/bi/si0046.asp?__cjahr=2026&amp;__cmonat=10</link>
+      <description>Do, 15.10.2026, 11:00 Uhr Uhr</description>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Verkehrsverbund Rhein-Ruhr (VRR)-20261015-11:00 Uhr-nicht öffentliche Sitzung der </guid>
+    </item>
+    <item>
       <title>8. Sitzung des Rates – Oer-Erkenschwick</title>
       <link>https://oer-erkenschwick.gremien.info/meeting?id=2026-RAT-111</link>
       <description>Do, 15.10.2026, 14:00 Uhr Uhr | Stadthalle OE</description>
@@ -316,13 +337,6 @@
       <guid isPermaLink="false">Gladbeck-20261015-16:00 Uhr-Sitzung des Rates</guid>
     </item>
     <item>
-      <title>6. Sitzung des Sozial- und Gesundheitsausschusses – Marl</title>
-      <link>https://marl.gremien.info/meeting?id=2026-75-125</link>
-      <description>Do, 15.10.2026, 16:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
-      <pubDate>Thu, 15 Oct 2026 16:00:00 +0200</pubDate>
-      <guid isPermaLink="false">Marl-20261015-16:00 Uhr-6. Sitzung des Sozial- und Ges</guid>
-    </item>
-    <item>
       <title>Sitzung des Ausschusses für Kinder, Jugend und Familie – Recklinghausen</title>
       <link>https://stadt-recklinghausen.gremien.info/meeting?id=2026-JHA-95</link>
       <description>Do, 15.10.2026, 16:00 Uhr Uhr | Raum 103 (Großer Sitzungssaal des Rathauses)</description>
@@ -335,6 +349,13 @@
       <description>Do, 15.10.2026, 16:00 Uhr Uhr | Jahnstadion, 46236 Bottrop, Multifunktionsraum</description>
       <pubDate>Thu, 15 Oct 2026 16:00:00 +0200</pubDate>
       <guid isPermaLink="false">Bottrop-20261015-16:00 Uhr-Betriebsausschuss Bottroper Sp</guid>
+    </item>
+    <item>
+      <title>6. Sitzung des Sozial- und Gesundheitsausschusses – Marl</title>
+      <link>https://marl.gremien.info/meeting?id=2026-75-125</link>
+      <description>Do, 15.10.2026, 16:00 Uhr Uhr | Sitzungsraum IV, ehem. insel-Café, Riegelhaus</description>
+      <pubDate>Thu, 15 Oct 2026 16:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Marl-20261015-16:00 Uhr-6. Sitzung des Sozial- und Ges</guid>
     </item>
     <item>
       <title>Sondersitzung des Rates der Stadt – Castrop-Rauxel</title>
@@ -356,6 +377,13 @@
       <description>Fr, 16.10.2026, 15:00 Uhr Uhr | Rathaus, 46236 Bottrop, Sitzungszimmer 111</description>
       <pubDate>Fri, 16 Oct 2026 15:00:00 +0200</pubDate>
       <guid isPermaLink="false">Bottrop-20261016-15:00 Uhr-Bezirksvertretung Bottrop-Mitt</guid>
+    </item>
+    <item>
+      <title>nicht öffentliche Sitzung der AfD-Fraktion in der Verbandsversammlung des Zweckverbandes VRR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
+      <link>https://zvis.vrr.de/bi/si0046.asp?__cjahr=2026&amp;__cmonat=10</link>
+      <description>So, 18.10.2026, 19:00 Uhr Uhr</description>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">Verkehrsverbund Rhein-Ruhr (VRR)-20261018-19:00 Uhr-nicht öffentliche Sitzung der </guid>
     </item>
     <item>
       <title>nicht öffentliche Sitzung der CDU-Fraktion in der Verbandsversammlung des Zweckverbandes VRR - Video – Verkehrsverbund Rhein-Ruhr (VRR)</title>
