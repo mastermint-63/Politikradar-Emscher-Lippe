@@ -5,7 +5,7 @@
     <link>https://el-raete.reporter.ruhr/termine_2026_11.html</link>
     <description>Sitzungstermine aus Ratsinformationssystemen im Emscher-Lippe-Raum</description>
     <language>de-de</language>
-    <lastBuildDate>Tue, 03 Nov 2026 06:30:04 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 06:30:08 +0100</lastBuildDate>
     <atom:link href="https://el-raete.reporter.ruhr/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>nicht öffentliche Sitzung des Präsidiums des Verwaltungsrates der VRR AöR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
@@ -71,13 +71,6 @@
       <guid isPermaLink="false">Marl-20261103-16:00 Uhr-6. Sitzung des Umwelt- und Nac</guid>
     </item>
     <item>
-      <title>Sitzung der Bezirksvertretung Gelsenkirchen-Süd – Gelsenkirchen</title>
-      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000622&amp;refresh=false</link>
-      <description>Di, 03.11.2026, 16:00 Uhr Uhr | Wissenschaftspark</description>
-      <pubDate>Tue, 03 Nov 2026 16:00:00 +0100</pubDate>
-      <guid isPermaLink="false">Gelsenkirchen-20261103-16:00 Uhr-Sitzung der Bezirksvertretung </guid>
-    </item>
-    <item>
       <title>Sitzung der Bezirksvertretung Gelsenkirchen-West – Gelsenkirchen</title>
       <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000623&amp;refresh=false</link>
       <description>Di, 03.11.2026, 16:00 Uhr Uhr | Rittersaal Schloss Horst</description>
@@ -92,11 +85,11 @@
       <guid isPermaLink="false">Gelsenkirchen-20261103-16:00 Uhr-Sitzung des Beirates für Senio</guid>
     </item>
     <item>
-      <title>10. Sitzung des Umwelt- und Planungsausschusses (HH) – Dorsten</title>
-      <link>https://dorsten.gremien.info/meeting?id=2026-UPA-196</link>
-      <description>Di, 03.11.2026, 17:00 Uhr Uhr | Rathaus, Großer Sitzungssaal</description>
-      <pubDate>Tue, 03 Nov 2026 17:00:00 +0100</pubDate>
-      <guid isPermaLink="false">Dorsten-20261103-17:00 Uhr-10. Sitzung des Umwelt- und Pl</guid>
+      <title>Sitzung der Bezirksvertretung Gelsenkirchen-Süd – Gelsenkirchen</title>
+      <link>https://ratsinformation.gelsenkirchen.de/to010?SILFDNR=1000622&amp;refresh=false</link>
+      <description>Di, 03.11.2026, 16:00 Uhr Uhr | Wissenschaftspark</description>
+      <pubDate>Tue, 03 Nov 2026 16:00:00 +0100</pubDate>
+      <guid isPermaLink="false">Gelsenkirchen-20261103-16:00 Uhr-Sitzung der Bezirksvertretung </guid>
     </item>
     <item>
       <title>5. Sitzung des Ausschusses für Kinder, Jugend und Familie – Datteln</title>
@@ -104,6 +97,20 @@
       <description>Di, 03.11.2026, 17:00 Uhr Uhr | Sitzungssaal Rathaus</description>
       <pubDate>Tue, 03 Nov 2026 17:00:00 +0100</pubDate>
       <guid isPermaLink="false">Datteln-20261103-17:00 Uhr-5. Sitzung des Ausschusses für</guid>
+    </item>
+    <item>
+      <title>10. Sitzung des Umwelt- und Planungsausschusses (HH) – Dorsten</title>
+      <link>https://dorsten.gremien.info/meeting?id=2026-UPA-196</link>
+      <description>Di, 03.11.2026, 17:00 Uhr Uhr | Rathaus, Großer Sitzungssaal</description>
+      <pubDate>Tue, 03 Nov 2026 17:00:00 +0100</pubDate>
+      <guid isPermaLink="false">Dorsten-20261103-17:00 Uhr-10. Sitzung des Umwelt- und Pl</guid>
+    </item>
+    <item>
+      <title>nicht öffentliche Sitzung der AfD-Fraktion in der Verbandsversammlung des Zweckverbandes VRR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
+      <link>https://zvis.vrr.de/bi/si0046.asp?__cjahr=2026&amp;__cmonat=11</link>
+      <description>Mi, 04.11.2026, 17:30 Uhr Uhr</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0100</pubDate>
+      <guid isPermaLink="false">Verkehrsverbund Rhein-Ruhr (VRR)-20261104-17:30 Uhr-nicht öffentliche Sitzung der </guid>
     </item>
     <item>
       <title>Sitzung des Beirates für Menschen mit Behinderungen - fällt aus – Gelsenkirchen</title>
@@ -148,18 +155,18 @@
       <guid isPermaLink="false">Bottrop-20261104-16:00 Uhr-Ausschuss für Stadtplanung und</guid>
     </item>
     <item>
-      <title>5. Sitzung des Ausschusses für Schule und Weiterbildung – Dorsten</title>
-      <link>https://dorsten.gremien.info/meeting?id=2026-ASW-33</link>
-      <description>Mi, 04.11.2026, 17:00 Uhr Uhr | Rathaus, Großer Sitzungssaal</description>
-      <pubDate>Wed, 04 Nov 2026 17:00:00 +0100</pubDate>
-      <guid isPermaLink="false">Dorsten-20261104-17:00 Uhr-5. Sitzung des Ausschusses für</guid>
-    </item>
-    <item>
       <title>2. Sitzung des Unterausschusses Kommunales, Feuerwehr und Ordnung – Datteln</title>
       <link>https://datteln.gremien.info/meeting?id=2026-UAKFO-1</link>
       <description>Mi, 04.11.2026, 17:00 Uhr Uhr | Sitzungssaal Rathaus</description>
       <pubDate>Wed, 04 Nov 2026 17:00:00 +0100</pubDate>
       <guid isPermaLink="false">Datteln-20261104-17:00 Uhr-2. Sitzung des Unterausschusse</guid>
+    </item>
+    <item>
+      <title>5. Sitzung des Ausschusses für Schule und Weiterbildung – Dorsten</title>
+      <link>https://dorsten.gremien.info/meeting?id=2026-ASW-33</link>
+      <description>Mi, 04.11.2026, 17:00 Uhr Uhr | Rathaus, Großer Sitzungssaal</description>
+      <pubDate>Wed, 04 Nov 2026 17:00:00 +0100</pubDate>
+      <guid isPermaLink="false">Dorsten-20261104-17:00 Uhr-5. Sitzung des Ausschusses für</guid>
     </item>
     <item>
       <title>2. Sitzung des Rechnungsprüfungsausschusses – Haltern am See</title>
@@ -218,18 +225,18 @@
       <guid isPermaLink="false">Gelsenkirchen-20261105-16:00 Uhr-Sitzung des Ausschusses für Ch</guid>
     </item>
     <item>
-      <title>4. Sitzung Ausschuss für Chancengerechtigkeit und Integration – Dorsten</title>
-      <link>https://dorsten.gremien.info/meeting?id=2026-ACI-3</link>
-      <description>Do, 05.11.2026, 17:00 Uhr Uhr | Rathaus, Großer Sitzungssaal</description>
-      <pubDate>Thu, 05 Nov 2026 17:00:00 +0100</pubDate>
-      <guid isPermaLink="false">Dorsten-20261105-17:00 Uhr-4. Sitzung Ausschuss für Chanc</guid>
-    </item>
-    <item>
       <title>4. Sitzung des Ausschusses für Soziales, Quartier und Integration – Datteln</title>
       <link>https://datteln.gremien.info/meeting?id=2026-SQI-30</link>
       <description>Do, 05.11.2026, 17:00 Uhr Uhr | Sitzungssaal Rathaus</description>
       <pubDate>Thu, 05 Nov 2026 17:00:00 +0100</pubDate>
       <guid isPermaLink="false">Datteln-20261105-17:00 Uhr-4. Sitzung des Ausschusses für</guid>
+    </item>
+    <item>
+      <title>4. Sitzung Ausschuss für Chancengerechtigkeit und Integration – Dorsten</title>
+      <link>https://dorsten.gremien.info/meeting?id=2026-ACI-3</link>
+      <description>Do, 05.11.2026, 17:00 Uhr Uhr | Rathaus, Großer Sitzungssaal</description>
+      <pubDate>Thu, 05 Nov 2026 17:00:00 +0100</pubDate>
+      <guid isPermaLink="false">Dorsten-20261105-17:00 Uhr-4. Sitzung Ausschuss für Chanc</guid>
     </item>
     <item>
       <title>5. Sitzung des Bau- und Mobilitätsausschusses – Haltern am See</title>
@@ -244,6 +251,13 @@
       <description>Fr, 06.11.2026, 16:00 Uhr Uhr | Rathaus, 46236 Bottrop, großer Sitzungssaal</description>
       <pubDate>Fri, 06 Nov 2026 16:00:00 +0100</pubDate>
       <guid isPermaLink="false">Bottrop-20261106-16:00 Uhr-Jugendhilfeausschuss</guid>
+    </item>
+    <item>
+      <title>nicht öffentliche Sitzung der AfD-Fraktion in der Verbandsversammlung des Zweckverbandes VRR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
+      <link>https://zvis.vrr.de/bi/si0046.asp?__cjahr=2026&amp;__cmonat=11</link>
+      <description>So, 08.11.2026, 19:00 Uhr Uhr</description>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 +0100</pubDate>
+      <guid isPermaLink="false">Verkehrsverbund Rhein-Ruhr (VRR)-20261108-19:00 Uhr-nicht öffentliche Sitzung der </guid>
     </item>
     <item>
       <title>4. Sitzung des Ausschusses für Finanzen und Beteiligungen (Regionalverband Ruhr) – Regionalverband Ruhr (RVR)</title>
@@ -346,7 +360,7 @@
     <item>
       <title>Sitzung des Ausschusses für Schule und Bildung – Recklinghausen</title>
       <link>https://stadt-recklinghausen.gremien.info/meeting?id=2026-ASB-55</link>
-      <description>Mi, 11.11.2026, 16:00 Uhr Uhr</description>
+      <description>Mi, 11.11.2026, 16:00 Uhr Uhr | Foyer/Forum</description>
       <pubDate>Wed, 11 Nov 2026 16:00:00 +0100</pubDate>
       <guid isPermaLink="false">Recklinghausen-20261111-16:00 Uhr-Sitzung des Ausschusses für Sc</guid>
     </item>
@@ -365,18 +379,18 @@
       <guid isPermaLink="false">Gelsenkirchen-20261111-16:00 Uhr-Sitzung des Stadtentwicklungs-</guid>
     </item>
     <item>
-      <title>5. Sitzung des Sozialausschusses (HH) – Dorsten</title>
-      <link>https://dorsten.gremien.info/meeting?id=2026-SOZA-65</link>
-      <description>Mi, 11.11.2026, 17:00 Uhr Uhr | Rathaus, Großer Sitzungssaal</description>
-      <pubDate>Wed, 11 Nov 2026 17:00:00 +0100</pubDate>
-      <guid isPermaLink="false">Dorsten-20261111-17:00 Uhr-5. Sitzung des Sozialausschuss</guid>
-    </item>
-    <item>
       <title>5. Sitzung des Ausschusses für Stadtentwicklung, Wirtschaft und Kommunales – Datteln</title>
       <link>https://datteln.gremien.info/meeting?id=2026-ASWK-4</link>
       <description>Mi, 11.11.2026, 17:00 Uhr Uhr | Sitzungssaal Rathaus</description>
       <pubDate>Wed, 11 Nov 2026 17:00:00 +0100</pubDate>
       <guid isPermaLink="false">Datteln-20261111-17:00 Uhr-5. Sitzung des Ausschusses für</guid>
+    </item>
+    <item>
+      <title>5. Sitzung des Sozialausschusses (HH) – Dorsten</title>
+      <link>https://dorsten.gremien.info/meeting?id=2026-SOZA-65</link>
+      <description>Mi, 11.11.2026, 17:00 Uhr Uhr | Rathaus, Großer Sitzungssaal</description>
+      <pubDate>Wed, 11 Nov 2026 17:00:00 +0100</pubDate>
+      <guid isPermaLink="false">Dorsten-20261111-17:00 Uhr-5. Sitzung des Sozialausschuss</guid>
     </item>
     <item>
       <title>10. Sitzung des Rates – Herten</title>
@@ -442,18 +456,18 @@
       <guid isPermaLink="false">Gelsenkirchen-20261112-16:00 Uhr-Sitzung des Ausschusses für Ge</guid>
     </item>
     <item>
-      <title>5. Sitzung des Wirtschaftsausschusses (HH) - abgesagt - – Dorsten</title>
-      <link>https://dorsten.gremien.info/meeting?id=2026-WIRTSA-92</link>
-      <description>Do, 12.11.2026, 17:00 Uhr Uhr | Rathaus, Großer Sitzungssaal</description>
-      <pubDate>Thu, 12 Nov 2026 17:00:00 +0100</pubDate>
-      <guid isPermaLink="false">Dorsten-20261112-17:00 Uhr-5. Sitzung des Wirtschaftsauss</guid>
-    </item>
-    <item>
       <title>3. Sitzung des Betriebsausschusses – Datteln</title>
       <link>https://datteln.gremien.info/meeting?id=2026-BetriebsA-29</link>
       <description>Do, 12.11.2026, 17:00 Uhr Uhr | Aufenthaltsraum des KSD</description>
       <pubDate>Thu, 12 Nov 2026 17:00:00 +0100</pubDate>
       <guid isPermaLink="false">Datteln-20261112-17:00 Uhr-3. Sitzung des Betriebsausschu</guid>
+    </item>
+    <item>
+      <title>5. Sitzung des Wirtschaftsausschusses (HH) - abgesagt - – Dorsten</title>
+      <link>https://dorsten.gremien.info/meeting?id=2026-WIRTSA-92</link>
+      <description>Do, 12.11.2026, 17:00 Uhr Uhr | Rathaus, Großer Sitzungssaal</description>
+      <pubDate>Thu, 12 Nov 2026 17:00:00 +0100</pubDate>
+      <guid isPermaLink="false">Dorsten-20261112-17:00 Uhr-5. Sitzung des Wirtschaftsauss</guid>
     </item>
     <item>
       <title>Sitzung des Jugendhilfeausschusses – Castrop-Rauxel</title>
@@ -547,18 +561,18 @@
       <guid isPermaLink="false">Gladbeck-20261117-17:00 Uhr-Sitzung des Betriebsausschusse</guid>
     </item>
     <item>
-      <title>6. Sitzung des Jugendhilfeausschusses (HH) – Dorsten</title>
-      <link>https://dorsten.gremien.info/meeting?id=2026-JHA-93</link>
-      <description>Di, 17.11.2026, 17:00 Uhr Uhr | DAS LEO Soziokulturelles Zentrum</description>
-      <pubDate>Tue, 17 Nov 2026 17:00:00 +0100</pubDate>
-      <guid isPermaLink="false">Dorsten-20261117-17:00 Uhr-6. Sitzung des Jugendhilfeauss</guid>
-    </item>
-    <item>
       <title>5. Sitzung des Klima-, Umwelt- und Nachhaltigkeitsausschusses – Datteln</title>
       <link>https://datteln.gremien.info/meeting?id=2026-KUNA-4</link>
       <description>Di, 17.11.2026, 17:00 Uhr Uhr | Sitzungssaal Rathaus</description>
       <pubDate>Tue, 17 Nov 2026 17:00:00 +0100</pubDate>
       <guid isPermaLink="false">Datteln-20261117-17:00 Uhr-5. Sitzung des Klima-, Umwelt-</guid>
+    </item>
+    <item>
+      <title>6. Sitzung des Jugendhilfeausschusses (HH) – Dorsten</title>
+      <link>https://dorsten.gremien.info/meeting?id=2026-JHA-93</link>
+      <description>Di, 17.11.2026, 17:00 Uhr Uhr | DAS LEO Soziokulturelles Zentrum</description>
+      <pubDate>Tue, 17 Nov 2026 17:00:00 +0100</pubDate>
+      <guid isPermaLink="false">Dorsten-20261117-17:00 Uhr-6. Sitzung des Jugendhilfeauss</guid>
     </item>
     <item>
       <title>6. Sitzung des Ausschusses für Chancengerechtigkeit und Integration – Marl</title>
@@ -589,18 +603,18 @@
       <guid isPermaLink="false">Gladbeck-20261117-18:00 Uhr-Sitzung des Ausschusses für Si</guid>
     </item>
     <item>
-      <title>2. Sitzung des Rechnungsprüfungsausschusses – Kreis Recklinghausen</title>
-      <link>https://kvrecklinghausen.gremien.info/meeting?id=2026-RPA-43</link>
-      <description>Mi, 18.11.2026, 10:00 Uhr Uhr | Stadthalle Oer-Erkenschwick</description>
-      <pubDate>Wed, 18 Nov 2026 10:00:00 +0100</pubDate>
-      <guid isPermaLink="false">Kreis Recklinghausen-20261118-10:00 Uhr-2. Sitzung des Rechnungsprüfun</guid>
-    </item>
-    <item>
       <title>4. Sitzung des Ausschusses für Planung und Mobilität – Regionalverband Ruhr (RVR)</title>
       <link>https://rvr-online.gremien.info/meeting?id=2026-APM-3</link>
       <description>Mi, 18.11.2026, 10:00 Uhr Uhr | Plenarsaal</description>
       <pubDate>Wed, 18 Nov 2026 10:00:00 +0100</pubDate>
       <guid isPermaLink="false">Regionalverband Ruhr (RVR)-20261118-10:00 Uhr-4. Sitzung des Ausschusses für</guid>
+    </item>
+    <item>
+      <title>2. Sitzung des Rechnungsprüfungsausschusses – Kreis Recklinghausen</title>
+      <link>https://kvrecklinghausen.gremien.info/meeting?id=2026-RPA-43</link>
+      <description>Mi, 18.11.2026, 10:00 Uhr Uhr | Stadthalle Oer-Erkenschwick</description>
+      <pubDate>Wed, 18 Nov 2026 10:00:00 +0100</pubDate>
+      <guid isPermaLink="false">Kreis Recklinghausen-20261118-10:00 Uhr-2. Sitzung des Rechnungsprüfun</guid>
     </item>
     <item>
       <title>7. Sitzung des Sozial- und Gesundheitsausschusses – Marl</title>
@@ -631,18 +645,18 @@
       <guid isPermaLink="false">Gelsenkirchen-20261118-16:00 Uhr-Sitzung des Ausschusses für Ku</guid>
     </item>
     <item>
-      <title>10. Sitzung des Haupt- und Finanzausschusses – Dorsten</title>
-      <link>https://dorsten.gremien.info/meeting?id=2026-HFA-213</link>
-      <description>Mi, 18.11.2026, 17:00 Uhr Uhr | Rathaus, Großer Sitzungssaal</description>
-      <pubDate>Wed, 18 Nov 2026 17:00:00 +0100</pubDate>
-      <guid isPermaLink="false">Dorsten-20261118-17:00 Uhr-10. Sitzung des Haupt- und Fin</guid>
-    </item>
-    <item>
       <title>5. Sitzung des Haupt-, Digitalisierungs- und Finanzausschusses – Datteln</title>
       <link>https://datteln.gremien.info/meeting?id=2026-HDFA-4</link>
       <description>Mi, 18.11.2026, 17:00 Uhr Uhr | Sitzungssaal Rathaus</description>
       <pubDate>Wed, 18 Nov 2026 17:00:00 +0100</pubDate>
       <guid isPermaLink="false">Datteln-20261118-17:00 Uhr-5. Sitzung des Haupt-, Digital</guid>
+    </item>
+    <item>
+      <title>10. Sitzung des Haupt- und Finanzausschusses – Dorsten</title>
+      <link>https://dorsten.gremien.info/meeting?id=2026-HFA-213</link>
+      <description>Mi, 18.11.2026, 17:00 Uhr Uhr | Rathaus, Großer Sitzungssaal</description>
+      <pubDate>Wed, 18 Nov 2026 17:00:00 +0100</pubDate>
+      <guid isPermaLink="false">Dorsten-20261118-17:00 Uhr-10. Sitzung des Haupt- und Fin</guid>
     </item>
     <item>
       <title>Sitzung des Ausschusses für Chancengerechtigkeit und Integration – Castrop-Rauxel</title>
@@ -883,18 +897,18 @@
       <guid isPermaLink="false">Gelsenkirchen-20261125-16:00 Uhr-Sitzung des Betriebsausschusse</guid>
     </item>
     <item>
-      <title>13. Sitzung des Rates – Dorsten</title>
-      <link>https://dorsten.gremien.info/meeting?id=2026-RAT-218</link>
-      <description>Mi, 25.11.2026, 17:00 Uhr Uhr | Rathaus, Großer Sitzungssaal</description>
-      <pubDate>Wed, 25 Nov 2026 17:00:00 +0100</pubDate>
-      <guid isPermaLink="false">Dorsten-20261125-17:00 Uhr-13. Sitzung des Rates</guid>
-    </item>
-    <item>
       <title>7. Sitzung des Rates – Datteln</title>
       <link>https://datteln.gremien.info/meeting?id=2026-Rat-131</link>
       <description>Mi, 25.11.2026, 17:00 Uhr Uhr | Stadthalle</description>
       <pubDate>Wed, 25 Nov 2026 17:00:00 +0100</pubDate>
       <guid isPermaLink="false">Datteln-20261125-17:00 Uhr-7. Sitzung des Rates</guid>
+    </item>
+    <item>
+      <title>13. Sitzung des Rates – Dorsten</title>
+      <link>https://dorsten.gremien.info/meeting?id=2026-RAT-218</link>
+      <description>Mi, 25.11.2026, 17:00 Uhr Uhr | Rathaus, Großer Sitzungssaal</description>
+      <pubDate>Wed, 25 Nov 2026 17:00:00 +0100</pubDate>
+      <guid isPermaLink="false">Dorsten-20261125-17:00 Uhr-13. Sitzung des Rates</guid>
     </item>
     <item>
       <title>Sitzung des Betriebsausschusses 1 (Kultur, Ordnung, Ausländerwesen und Feuerwehr) – Castrop-Rauxel</title>
