@@ -5,7 +5,7 @@
     <link>https://el-raete.reporter.ruhr/termine_2026_11.html</link>
     <description>Sitzungstermine aus Ratsinformationssystemen im Emscher-Lippe-Raum</description>
     <language>de-de</language>
-    <lastBuildDate>Tue, 10 Nov 2026 06:30:08 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 06:30:07 +0100</lastBuildDate>
     <atom:link href="https://el-raete.reporter.ruhr/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>nicht öffentliche Sitzung des Präsidiums des Verwaltungsrates der VRR AöR – Verkehrsverbund Rhein-Ruhr (VRR)</title>
@@ -275,7 +275,7 @@
     </item>
     <item>
       <title>4. Sitzung des Ausschusses für Arbeit, Bildung, Gesundheit und Soziales – Kreis Recklinghausen</title>
-      <link>https://kvrecklinghausen.gremien.info/meeting?id=2026-ABGS-5</link>
+      <link>https://kvrecklinghausen.gremien.info/meeting?id=ni_2026-ABGS-5</link>
       <description>Mo, 09.11.2026, 16:00 Uhr Uhr | Forum des Berufskollegs Gladbeck</description>
       <pubDate>Mon, 09 Nov 2026 16:00:00 +0100</pubDate>
       <guid isPermaLink="false">Kreis Recklinghausen-20261109-16:00 Uhr-4. Sitzung des Ausschusses für</guid>
@@ -290,9 +290,9 @@
     <item>
       <title>4. Sitzung des Ausschusses für Wirtschaft – Kreis Recklinghausen</title>
       <link>https://kvrecklinghausen.gremien.info/meeting?id=2026-AW-4</link>
-      <description>Di, 10.11.2026, 09:00 Uhr Uhr | Stadthalle Oer-Erkenschwick</description>
-      <pubDate>Tue, 10 Nov 2026 09:00:00 +0100</pubDate>
-      <guid isPermaLink="false">Kreis Recklinghausen-20261110-09:00 Uhr-4. Sitzung des Ausschusses für</guid>
+      <description>Di, 10.11.2026, 09:02 Uhr Uhr | Stadthalle Oer-Erkenschwick</description>
+      <pubDate>Tue, 10 Nov 2026 09:02:00 +0100</pubDate>
+      <guid isPermaLink="false">Kreis Recklinghausen-20261110-09:02 Uhr-4. Sitzung des Ausschusses für</guid>
     </item>
     <item>
       <title>7. Sitzung des Haupt- und Finanzausschusses – Marl</title>
@@ -895,6 +895,13 @@
       <description>Mi, 25.11.2026, 10:00 Uhr Uhr | Plenarsaal</description>
       <pubDate>Wed, 25 Nov 2026 10:00:00 +0100</pubDate>
       <guid isPermaLink="false">Regionalverband Ruhr (RVR)-20261125-10:00 Uhr-2. Sitzung des Rechnungsprüfun</guid>
+    </item>
+    <item>
+      <title>4. Sitzung des Sportausschusses (außerordentlich) – Dorsten</title>
+      <link>https://dorsten.gremien.info/meeting?id=2026-SPORTA-64</link>
+      <description>Mi, 25.11.2026, 16:00 Uhr Uhr | Rathaus, Großer Sitzungssaal</description>
+      <pubDate>Wed, 25 Nov 2026 16:00:00 +0100</pubDate>
+      <guid isPermaLink="false">Dorsten-20261125-16:00 Uhr-4. Sitzung des Sportausschusse</guid>
     </item>
     <item>
       <title>7. Sitzung des Ausschusses für Schule und Sport – Marl</title>
